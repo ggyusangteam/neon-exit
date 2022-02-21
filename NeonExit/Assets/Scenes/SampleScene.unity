@@ -202,13 +202,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 492154931}
-  camera: {fileID: 963194227}
   canMove: 1
   playerSpeed: 15
   sideSpeed: 7
   jumpSpeed: 5
   downSpeed: 7
   anim: {fileID: 1510689031}
+  sensitivity: 5
 --- !u!65 &492154933
 BoxCollider:
   m_ObjectHideFlags: 0

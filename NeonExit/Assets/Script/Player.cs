@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
 
     public GameObject player;
-    public Camera camera;
+  
     // 플레이어 게임 오브젝트
     public bool canMove = true;
     //이동 종료 여부
@@ -32,9 +32,14 @@ public class Player : MonoBehaviour
     // 애니메이션 속도 
 
 
+    [SerializeField] float sensitivity;
+    // 드래그 민감도
 
-
-
+  
+    Vector3 firstTouch; 
+    // 첫번째 터치 
+    Vector3 endTouch;
+   //두번째 터치
     void Start()
     {
 
@@ -43,17 +48,90 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-    if(anim.GetBool("Dead")==false)
+
+        if (anim.GetBool("Dead") == false)
         {
-       
-        player.transform.position += new Vector3(0, 0, playerSpeed) * Time.deltaTime; 
+
+            player.transform.position += new Vector3(0, 0, playerSpeed) * Time.deltaTime;
         }
-       
+
+
+
+
+
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+           if (touch.phase == TouchPhase.Began)
+            {
+           
+                firstTouch = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x,touch.position.y,10));
+                Debug.Log("first" + firstTouch+touch.position);
+
+            }
+
+            if (touch.phase == TouchPhase.Ended)
+
+            {
+                Debug.Log("ended" + touch.position);
+                endTouch = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, 10));
+
+                float xMoved = endTouch.x - firstTouch.x;
+                float yMoved = endTouch.y - firstTouch.y;
+                if (Mathf.Abs(xMoved) > Mathf.Abs(yMoved))
+                {
+                    if (xMoved > 0)
+                    {
+                        StartCoroutine(RightMoveCo(player.transform, 1));
+                    }
+                    else
+                    {
+                        StartCoroutine(LeftMoveCo(player.transform, -1));
+                    }
+                }
+                else
+                {
+                    if (yMoved > 0)
+                    {
+                        StartCoroutine(JumpCo(player.transform, 1));
+                    }
+                    else
+                    {
+                        anim.SetBool("Slide", true);
+                    }
+                }
+            } 
+            }
+        
+
+
+
+
+
+
+        /*
+        if(Input.touchCount>=1)
+        {
+                var touch = Input.GetTouch(0);
+                Vector2 touchposition = Camera.main.ScreenToWorldPoint(touch.position);
+
+
+
+        }
+        */
+
+
+
+
+
+
+
 
 
         anim.SetBool("Left", false);
         anim.SetBool("Jump", false);
         anim.SetBool("Right", false);
+        anim.SetBool("Slide", false);
         if (Input.GetKeyDown(KeyCode.A)&& canMove == true) //좌로 이동 나중에 슬라이드로 변경
         {                     
                          StartCoroutine(LeftMoveCo(player.transform, -1));       
@@ -93,26 +171,26 @@ public class Player : MonoBehaviour
         destinationPos = transform_param.position.y + dir;
         anim.SetBool("Jump", true);
         Vector3 currentPos = transform_param.position;
-        float cameraPosY = camera.transform.position.y;
+   
         canMove = false;
 
         while (transform_param.position.y - destinationPos >= 0.0001f || destinationPos - transform_param.position.y >= 0.0001f)
         {
-            camera.transform.position = new Vector3(camera.transform.position.x, cameraPosY, camera.transform.position.z);
+     
             transform_param.position = Vector3.MoveTowards(transform_param.position, new Vector3(transform.position.x, destinationPos, transform.position.z), jumpSpeed * Time.deltaTime);
             yield return null;
         }
         transform_param.position = new Vector3(transform.position.x, destinationPos, transform.position.z);
-        camera.transform.position = new Vector3(camera.transform.position.x, cameraPosY, camera.transform.position.z);
+
         while (transform_param.position.y - currentPos.y >= 0.0001f || currentPos.y - transform_param.position.y >= 0.0001f)
         {
-            camera.transform.position = new Vector3(camera.transform.position.x, cameraPosY, camera.transform.position.z);
+     
             transform_param.position = Vector3.MoveTowards(transform_param.position, new Vector3(transform.position.x, currentPos.y, transform.position.z), downSpeed * Time.deltaTime);
             yield return null;
 
         }
         transform_param.position = new Vector3(transform.position.x, currentPos.y, transform.position.z);
-        camera.transform.position = new Vector3(camera.transform.position.x, cameraPosY, camera.transform.position.z);
+ 
         canMove = true;
     }
 
