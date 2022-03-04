@@ -38,7 +38,7 @@ public class BackGround : MonoBehaviour
     void Update()
     {
 
-        if (player.transform.position.z >=( backGroundPosition-1) * 60)
+        if (player.transform.position.z >=( backGroundPosition-1) * 70)
         {
             
             GetQueue(backGroundPosition);
@@ -61,7 +61,7 @@ public class BackGround : MonoBehaviour
     {
         GameObject t_clone = backGround_Archive.Dequeue();
         backGround_Archive2.Enqueue(t_clone);
-        t_clone.transform.position = new Vector3(0, 0, (position) * 60);
+        t_clone.transform.position = new Vector3(0, 0, (position) * 70);
         t_clone.SetActive(true);
         return t_clone;
 
