@@ -21,5 +21,7 @@ namespace RhythmTool
         /// </summary>
         public float strength;
         public float intensity;
+        public int ind;
+        public float[] line;
     }
 }

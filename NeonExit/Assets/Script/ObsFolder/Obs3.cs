@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Obs3 : MonoBehaviour
 {
-    [SerializeField] Pool3 pool3;
-    private float activeTime;
-    private float activeTimeRate = 5.0f;
+    public Obstacle obstacle;
+    [SerializeField] int ind;
+    [SerializeField] GameObject player;
+    //float activeTime = 5.0f;
+    //float activeTimeRate = 5.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -17,20 +19,18 @@ public class Obs3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         activeTime -= Time.deltaTime;
         if (activeTime <= 0)
         {
-            pool3.Enqueue(gameObject);
+            activeTime = activeTimeRate;
+            //obstacle.obsEnqueue(ind, gameObject);
         }
-    }
+        */
 
-    public void Init(Pool3 _pool3)
-    {
-        pool3 = _pool3;
-    }
-
-    public void CleanUp()
-    {
-        activeTime = activeTimeRate;
+        if (player.transform.position.z - transform.position.z >= 3)
+        {
+            obstacle.obsEnqueue(ind, gameObject);
+        }
     }
 }

@@ -1,5 +1,77 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7702173084193036900
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4441c1fab3119af4bb6d18cb48a9c462, type: 3}
+  m_Name: Place
+  m_EditorClassIdentifier: 
+  _name: Place
+  _features:
+  - timestamp: 2.7406073
+    length: 0
+    strength: 3.3333335
+    intensity: 0
+    ind: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 2
+  - timestamp: 4.7104654
+    length: 0
+    strength: 2.2916667
+    intensity: 0
+    ind: 1
+    line:
+    - 0
+  - timestamp: 5.200377
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 2
+    line:
+    - -2
+    - 0
+    - 1
+    - 2
+  - timestamp: 5.2003775
+    length: 0
+    strength: 3.0208335
+    intensity: 0
+    ind: 1
+    line:
+    - -1
+  - timestamp: 7.225061
+    length: 0
+    strength: 1.5625
+    intensity: 0
+    ind: 1
+    line:
+    - 0
+  - timestamp: 7.522216
+    length: 0
+    strength: 5.3125
+    intensity: 0
+    ind: 2
+    line:
+    - -2
+    - -1
+    - 0
+    - 2
+  - timestamp: 7.522216
+    length: 0
+    strength: 4.375
+    intensity: 0
+    ind: 1
+    line:
+    - 1
 --- !u!114 &-6268869439195334669
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10634,2606 +10706,3906 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Onsets
   _features:
-  - timestamp: 0.83591837
+  - timestamp: 0.85890687
     length: 0
     strength: 1.2001523
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 2.6702948
     length: 0
     strength: 4.7486463
     intensity: 5
+    ind: 0
+    line: []
   - timestamp: 4.4117913
     length: 0
     strength: 3.15047
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 4.9690704
     length: 0
     strength: 4.0162935
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 5.3405895
     length: 0
     strength: 2.74153
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 5.781769
     length: 0
     strength: 1.8631285
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 6.083628
     length: 0
     strength: 1.8809999
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 6.2693877
     length: 0
     strength: 2.1796653
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 6.733787
     length: 0
     strength: 2.5878391
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 7.058866
     length: 0
     strength: 2.9409397
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 7.3607254
     length: 0
     strength: 3.041602
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 8.150204
     length: 0
     strength: 2.8785868
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 8.521724
     length: 0
     strength: 4.824174
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 9.055782
     length: 0
     strength: 4.819641
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 9.496962
     length: 0
     strength: 2.8333056
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 9.868481
     length: 0
     strength: 2.7874098
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 10.19356
     length: 0
     strength: 1.5847565
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 10.56508
     length: 0
     strength: 3.063144
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 10.936599
     length: 0
     strength: 5.012994
     intensity: 5
+    ind: 0
+    line: []
   - timestamp: 11.540318
     length: 0
     strength: 3.665261
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 11.888617
     length: 0
     strength: 2.408187
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 12.283356
     length: 0
     strength: 1.3959826
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 12.654876
     length: 0
     strength: 3.661653
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 12.887074
     length: 0
     strength: 4.0021524
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 13.653334
     length: 0
     strength: 2.8568282
     intensity: 5
+    ind: 0
+    line: []
   - timestamp: 13.862313
     length: 0
     strength: 3.298991
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 14.024853
     length: 0
     strength: 3.1244931
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 14.373152
     length: 0
     strength: 2.0806532
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 14.675012
     length: 0
     strength: 2.61677
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 14.95365
     length: 0
     strength: 2.1763344
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 15.30195
     length: 0
     strength: 4.131716
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 15.836009
     length: 0
     strength: 2.47799
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 16.23075
     length: 0
     strength: 4.542041
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 16.555828
     length: 0
     strength: 4.0575337
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 16.880907
     length: 0
     strength: 2.986122
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 17.066668
     length: 0
     strength: 3.2016869
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 17.322086
     length: 0
     strength: 3.8299737
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 18.018684
     length: 0
     strength: 3.7484035
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 18.297325
     length: 0
     strength: 3.0287683
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 18.506304
     length: 0
     strength: 3.1075149
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 18.808163
     length: 0
     strength: 2.7778435
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 19.017143
     length: 0
     strength: 4.038274
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 19.249342
     length: 0
     strength: 3.6299052
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 19.667301
     length: 0
     strength: 2.4684906
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 19.945942
     length: 0
     strength: 5.780761
     intensity: 5
+    ind: 0
+    line: []
   - timestamp: 20.5961
     length: 0
     strength: 3.1904824
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 21.01406
     length: 0
     strength: 3.5874853
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 21.432018
     length: 0
     strength: 2.476062
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 21.849977
     length: 0
     strength: 2.7709036
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 24.288073
     length: 0
     strength: 0.9273988
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 25.47229
     length: 0
     strength: 2.2966127
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 25.774149
     length: 0
     strength: 2.5664873
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 26.00635
     length: 0
     strength: 3.1342251
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 27.144127
     length: 0
     strength: 2.277993
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 27.445986
     length: 0
     strength: 2.3358052
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 29.071383
     length: 0
     strength: 0.9730981
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 30.139502
     length: 0
     strength: 5.670633
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 30.67356
     length: 0
     strength: 4.770054
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 30.88254
     length: 0
     strength: 2.3242702
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 31.254059
     length: 0
     strength: 4.5797195
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 32.089977
     length: 0
     strength: 2.8820574
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 32.368618
     length: 0
     strength: 2.3366053
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 32.554375
     length: 0
     strength: 1.988339
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 33.877914
     length: 0
     strength: 1.5480733
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 34.156555
     length: 0
     strength: 1.0150477
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 34.458412
     length: 0
     strength: 2.1251745
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 34.760273
     length: 0
     strength: 0.9278066
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 35.78195
     length: 0
     strength: 2.4889596
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 35.99093
     length: 0
     strength: 2.7733681
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 36.29279
     length: 0
     strength: 2.984582
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 36.59465
     length: 0
     strength: 2.5602117
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 37.175148
     length: 0
     strength: 2.3088884
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 38.266487
     length: 0
     strength: 2.557907
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 38.684444
     length: 0
     strength: 2.71946
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 38.963085
     length: 0
     strength: 2.2927878
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 39.264942
     length: 0
     strength: 3.205762
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 39.590023
     length: 0
     strength: 2.2366562
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 40.47238
     length: 0
     strength: 6.2047615
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 41.0761
     length: 0
     strength: 6.488537
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 41.37796
     length: 0
     strength: 3.7430966
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 41.679817
     length: 0
     strength: 6.1025567
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 42.26032
     length: 0
     strength: 5.7802005
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 42.585396
     length: 0
     strength: 4.5037503
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 42.864037
     length: 0
     strength: 6.671454
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 43.189117
     length: 0
     strength: 4.7043
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 43.467754
     length: 0
     strength: 6.7928667
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 43.769615
     length: 0
     strength: 3.8148723
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 44.071472
     length: 0
     strength: 7.042401
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 44.373333
     length: 0
     strength: 4.3862596
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 44.675194
     length: 0
     strength: 6.441493
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 44.97705
     length: 0
     strength: 5.0121098
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 45.27891
     length: 0
     strength: 6.5794363
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 45.580772
     length: 0
     strength: 5.7997684
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 45.85941
     length: 0
     strength: 5.5886507
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 46.46313
     length: 0
     strength: 5.7394576
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 47.06685
     length: 0
     strength: 7.8299656
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 47.368706
     length: 0
     strength: 3.3330505
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 47.670567
     length: 0
     strength: 7.093973
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 47.972427
     length: 0
     strength: 4.8195763
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 48.274284
     length: 0
     strength: 5.7576985
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 48.576145
     length: 0
     strength: 3.5560117
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 48.878006
     length: 0
     strength: 6.2107086
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 49.179863
     length: 0
     strength: 4.557355
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 49.481724
     length: 0
     strength: 5.4084787
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 49.760365
     length: 0
     strength: 4.3683066
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 50.06222
     length: 0
     strength: 6.6175084
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 50.387302
     length: 0
     strength: 6.512676
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 50.66594
     length: 0
     strength: 6.337013
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 50.99102
     length: 0
     strength: 4.178076
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 51.26966
     length: 0
     strength: 6.735958
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 51.87338
     length: 0
     strength: 6.420819
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 52.17524
     length: 0
     strength: 4.575501
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 52.477097
     length: 0
     strength: 6.2916255
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 52.778957
     length: 0
     strength: 4.5344234
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 53.08082
     length: 0
     strength: 5.6065116
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 53.359455
     length: 0
     strength: 3.6037972
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 53.661316
     length: 0
     strength: 5.489018
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 53.963173
     length: 0
     strength: 4.0082455
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 54.265034
     length: 0
     strength: 6.5468884
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 54.566895
     length: 0
     strength: 4.6924796
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 54.86875
     length: 0
     strength: 6.789581
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 55.193832
     length: 0
     strength: 5.2115526
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 55.472473
     length: 0
     strength: 6.8107567
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 56.07619
     length: 0
     strength: 6.4027257
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 56.37805
     length: 0
     strength: 4.827819
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 56.65669
     length: 0
     strength: 5.8084197
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 56.95855
     length: 0
     strength: 3.474978
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 57.283627
     length: 0
     strength: 5.824128
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 57.562267
     length: 0
     strength: 4.617633
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 57.86413
     length: 0
     strength: 6.4422326
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 58.189205
     length: 0
     strength: 3.7489
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 58.467846
     length: 0
     strength: 6.922533
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 58.769707
     length: 0
     strength: 3.1906593
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 59.071564
     length: 0
     strength: 6.90105
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 59.373425
     length: 0
     strength: 4.402596
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 59.675285
     length: 0
     strength: 6.5943727
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 59.977142
     length: 0
     strength: 6.679907
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 60.279003
     length: 0
     strength: 6.0756755
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 60.55764
     length: 0
     strength: 4.6966343
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 60.88272
     length: 0
     strength: 6.406714
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 61.18458
     length: 0
     strength: 5.522111
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 61.46322
     length: 0
     strength: 6.4084654
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 61.76508
     length: 0
     strength: 5.948717
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 62.06694
     length: 0
     strength: 6.482844
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 62.368797
     length: 0
     strength: 5.8906474
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 62.67066
     length: 0
     strength: 6.5717115
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 62.972515
     length: 0
     strength: 5.1774907
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 63.274376
     length: 0
     strength: 6.7524686
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 63.576237
     length: 0
     strength: 5.8446817
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 63.878094
     length: 0
     strength: 6.2687206
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 64.179955
     length: 0
     strength: 6.4217844
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 64.48181
     length: 0
     strength: 6.061416
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 64.783676
     length: 0
     strength: 7.459981
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 65.06231
     length: 0
     strength: 5.853498
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 65.364174
     length: 0
     strength: 4.9299526
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 65.66603
     length: 0
     strength: 6.6518703
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 65.96789
     length: 0
     strength: 4.1439657
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 66.26975
     length: 0
     strength: 7.443
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 66.57161
     length: 0
     strength: 5.6194553
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 66.87347
     length: 0
     strength: 7.030398
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 67.17533
     length: 0
     strength: 5.9362006
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 67.45397
     length: 0
     strength: 5.588878
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 67.779045
     length: 0
     strength: 5.2700715
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 68.08091
     length: 0
     strength: 5.862927
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 68.38277
     length: 0
     strength: 6.014166
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 68.66141
     length: 0
     strength: 6.036385
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 68.963264
     length: 0
     strength: 5.3219457
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 69.26512
     length: 0
     strength: 6.4762845
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 69.5902
     length: 0
     strength: 6.1614785
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 69.86884
     length: 0
     strength: 6.6600266
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 70.147484
     length: 0
     strength: 5.5089555
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 70.472565
     length: 0
     strength: 7.329919
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 70.77442
     length: 0
     strength: 5.0291147
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 71.07628
     length: 0
     strength: 6.1492987
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 71.37814
     length: 0
     strength: 6.220935
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 71.68
     length: 0
     strength: 5.8441405
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 71.98186
     length: 0
     strength: 6.3719153
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 72.2605
     length: 0
     strength: 5.7774167
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 72.58558
     length: 0
     strength: 4.968926
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 72.86422
     length: 0
     strength: 5.999726
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 73.16608
     length: 0
     strength: 5.6685386
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 73.46793
     length: 0
     strength: 7.2419133
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 73.7698
     length: 0
     strength: 6.119247
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 74.071655
     length: 0
     strength: 6.9303336
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 74.37351
     length: 0
     strength: 7.062
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 74.67538
     length: 0
     strength: 6.3698397
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 74.977234
     length: 0
     strength: 5.3684945
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 75.27909
     length: 0
     strength: 6.310403
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 75.55773
     length: 0
     strength: 5.7712064
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 75.85959
     length: 0
     strength: 6.623479
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 76.18467
     length: 0
     strength: 6.0379496
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 76.46331
     length: 0
     strength: 6.2287183
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 76.76517
     length: 0
     strength: 5.8279295
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 77.06703
     length: 0
     strength: 6.475768
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 77.36889
     length: 0
     strength: 5.2095265
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 77.670746
     length: 0
     strength: 7.0454507
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 77.97261
     length: 0
     strength: 5.860469
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 78.27447
     length: 0
     strength: 6.240439
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 78.576324
     length: 0
     strength: 0.9335849
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 79.15682
     length: 0
     strength: 0.6825463
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 79.45869
     length: 0
     strength: 0.7860707
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 80.82866
     length: 0
     strength: 3.4156332
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 81.13052
     length: 0
     strength: 5.53956
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 81.5717
     length: 0
     strength: 5.365951
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 82.17542
     length: 0
     strength: 2.852317
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 82.500496
     length: 0
     strength: 5.182656
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 82.82558
     length: 0
     strength: 2.4045177
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 83.081
     length: 0
     strength: 3.2563512
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 83.545395
     length: 0
     strength: 3.348848
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 84.05624
     length: 0
     strength: 2.3864017
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 84.31165
     length: 0
     strength: 1.81429
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 84.65996
     length: 0
     strength: 5.3790174
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 85.03147
     length: 0
     strength: 2.0137093
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 85.26367
     length: 0
     strength: 5.50026
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 85.77451
     length: 0
     strength: 5.588094
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 86.378235
     length: 0
     strength: 2.0773845
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 86.54077
     length: 0
     strength: 5.9156694
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 86.84263
     length: 0
     strength: 2.7912426
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 87.283806
     length: 0
     strength: 2.6760361
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 87.84109
     length: 0
     strength: 2.3931096
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 88.514465
     length: 0
     strength: 1.9291973
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 89.07175
     length: 0
     strength: 3.3906167
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 89.373604
     length: 0
     strength: 1.1448208
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 89.67547
     length: 0
     strength: 5.543741
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 89.977325
     length: 0
     strength: 2.5386496
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 90.27918
     length: 0
     strength: 3.1901975
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 90.60426
     length: 0
     strength: 5.9000106
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 91.068665
     length: 0
     strength: 2.9644353
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 91.37052
     length: 0
     strength: 6.144325
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 92.09034
     length: 0
     strength: 4.898659
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 92.32254
     length: 0
     strength: 3.7190256
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 92.64762
     length: 0
     strength: 5.022961
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 93.0888
     length: 0
     strength: 6.0893583
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 93.59964
     length: 0
     strength: 2.9108996
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 93.9015
     length: 0
     strength: 3.5303912
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 94.55166
     length: 0
     strength: 5.0114646
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 94.853516
     length: 0
     strength: 5.537776
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 95.36436
     length: 0
     strength: 2.7138531
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 95.57333
     length: 0
     strength: 5.1577473
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 95.96807
     length: 0
     strength: 2.3162365
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 96.269936
     length: 0
     strength: 3.7039998
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 96.59501
     length: 0
     strength: 2.8545437
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 96.87365
     length: 0
     strength: 3.5435102
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 97.26839
     length: 0
     strength: 6.0066924
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 97.77923
     length: 0
     strength: 2.2695043
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 98.05787
     length: 0
     strength: 3.1027443
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 98.66159
     length: 0
     strength: 3.206699
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 99.172424
     length: 0
     strength: 4.3819776
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 101.053246
     length: 0
     strength: 5.369183
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 102.051704
     length: 0
     strength: 2.4762163
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 103.39846
     length: 0
     strength: 4.080093
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 104.16472
     length: 0
     strength: 1.9608696
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 104.4898
     length: 0
     strength: 2.038531
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 104.67555
     length: 0
     strength: 2.0566204
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 105.16318
     length: 0
     strength: 2.516799
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 105.465034
     length: 0
     strength: 2.7027988
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 105.882996
     length: 0
     strength: 3.0848851
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 106.53315
     length: 0
     strength: 2.9945743
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 106.90467
     length: 0
     strength: 4.529598
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 107.46195
     length: 0
     strength: 4.8036323
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 107.879906
     length: 0
     strength: 2.747319
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 108.22821
     length: 0
     strength: 2.8321795
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 108.831924
     length: 0
     strength: 3.2108152
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 109.31955
     length: 0
     strength: 4.754462
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 109.92326
     length: 0
     strength: 3.6670945
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 110.294785
     length: 0
     strength: 2.2989984
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 110.68952
     length: 0
     strength: 1.6639754
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 111.06104
     length: 0
     strength: 3.6366029
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 111.29324
     length: 0
     strength: 3.6940134
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 112.22204
     length: 0
     strength: 3.3578486
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 112.36136
     length: 0
     strength: 3.325771
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 113.08118
     length: 0
     strength: 2.519461
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 113.35982
     length: 0
     strength: 2.4460475
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 113.6849
     length: 0
     strength: 3.9054594
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 113.96354
     length: 0
     strength: 2.4281328
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 114.24218
     length: 0
     strength: 2.8892832
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 114.63692
     length: 0
     strength: 4.2537146
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 114.985214
     length: 0
     strength: 3.7515807
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 115.263855
     length: 0
     strength: 2.8541822
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 115.47283
     length: 0
     strength: 3.3396535
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 115.70503
     length: 0
     strength: 3.8933303
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 116.37841
     length: 0
     strength: 3.8398967
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 116.70349
     length: 0
     strength: 3.0126276
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 116.91247
     length: 0
     strength: 4.125719
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 117.21433
     length: 0
     strength: 2.5847964
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 117.42331
     length: 0
     strength: 3.0220609
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 117.63229
     length: 0
     strength: 3.493953
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 118.05025
     length: 0
     strength: 2.5843472
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 118.35211
     length: 0
     strength: 5.7246847
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 118.97905
     length: 0
     strength: 2.9788303
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 119.42023
     length: 0
     strength: 3.7307174
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 119.814964
     length: 0
     strength: 2.5681152
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 120.279366
     length: 0
     strength: 2.3121054
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 120.511566
     length: 0
     strength: 2.225484
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 120.88309
     length: 0
     strength: 1.8907739
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 121.092064
     length: 0
     strength: 1.5092154
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 121.4868
     length: 0
     strength: 1.6094021
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 122.09052
     length: 0
     strength: 1.8287095
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 122.69424
     length: 0
     strength: 2.122801
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 123.29796
     length: 0
     strength: 2.1156895
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 123.878456
     length: 0
     strength: 2.60168
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 124.18032
     length: 0
     strength: 2.4728885
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 124.41251
     length: 0
     strength: 2.9859548
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 124.691154
     length: 0
     strength: 1.7502313
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 125.062675
     length: 0
     strength: 2.4752486
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 125.294876
     length: 0
     strength: 2.2712593
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 125.6664
     length: 0
     strength: 3.3301785
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 125.8986
     length: 0
     strength: 2.3618193
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 126.293335
     length: 0
     strength: 2.6844442
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 126.89705
     length: 0
     strength: 2.7069893
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 127.08281
     length: 0
     strength: 0.9718268
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 127.50077
     length: 0
     strength: 2.3658621
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 128.08127
     length: 0
     strength: 2.5907001
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 128.5689
     length: 0
     strength: 5.3759174
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 129.07973
     length: 0
     strength: 4.65613
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 129.26549
     length: 0
     strength: 3.8341427
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 129.66023
     length: 0
     strength: 4.6556215
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 130.47293
     length: 0
     strength: 3.5880632
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 130.70512
     length: 0
     strength: 2.3339252
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 131.07664
     length: 0
     strength: 3.0608814
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 131.33206
     length: 0
     strength: 2.2124295
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 131.68036
     length: 0
     strength: 3.285525
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 132.28409
     length: 0
     strength: 3.0120013
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 132.51628
     length: 0
     strength: 1.5459864
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 132.8878
     length: 0
     strength: 3.2328773
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 133.49152
     length: 0
     strength: 3.3314722
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 133.74693
     length: 0
     strength: 2.8817968
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 134.07202
     length: 0
     strength: 4.30857
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 134.37387
     length: 0
     strength: 2.986517
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 134.67574
     length: 0
     strength: 3.7880447
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 135.25624
     length: 0
     strength: 4.315485
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 135.58131
     length: 0
     strength: 2.8309176
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 135.85995
     length: 0
     strength: 4.403556
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 136.16182
     length: 0
     strength: 2.6744263
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 136.46367
     length: 0
     strength: 4.889353
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 136.78876
     length: 0
     strength: 2.7494655
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 137.0674
     length: 0
     strength: 4.8406467
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 137.34604
     length: 0
     strength: 1.7769996
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 138.87856
     length: 0
     strength: 5.07628
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 139.48227
     length: 0
     strength: 5.4073744
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 139.76091
     length: 0
     strength: 3.6019244
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 140.06276
     length: 0
     strength: 5.8612585
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 140.38785
     length: 0
     strength: 3.1776927
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 140.66649
     length: 0
     strength: 6.616671
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 140.96834
     length: 0
     strength: 3.8084674
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 141.2702
     length: 0
     strength: 6.9438357
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 141.59528
     length: 0
     strength: 4.500086
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 141.87392
     length: 0
     strength: 6.441712
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 142.17578
     length: 0
     strength: 3.5853672
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 142.47765
     length: 0
     strength: 6.4574914
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 142.75629
     length: 0
     strength: 4.2784
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 143.05814
     length: 0
     strength: 6.265759
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 143.36
     length: 0
     strength: 4.8900075
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 143.66187
     length: 0
     strength: 5.288061
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 143.98694
     length: 0
     strength: 5.072248
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 144.26558
     length: 0
     strength: 6.01849
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 144.8693
     length: 0
     strength: 6.5259
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 145.47302
     length: 0
     strength: 6.871255
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 145.77487
     length: 0
     strength: 3.0975454
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 146.07674
     length: 0
     strength: 6.875175
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 146.35538
     length: 0
     strength: 4.821352
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 146.65723
     length: 0
     strength: 5.6461754
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 146.98232
     length: 0
     strength: 3.823881
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 147.26096
     length: 0
     strength: 5.6392465
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 147.58603
     length: 0
     strength: 4.783688
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 147.86467
     length: 0
     strength: 6.7115173
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 148.16653
     length: 0
     strength: 6.3171515
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 148.46838
     length: 0
     strength: 6.8124833
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 148.77025
     length: 0
     strength: 6.967875
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 149.07211
     length: 0
     strength: 6.4908757
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 149.37396
     length: 0
     strength: 3.9780934
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 149.67583
     length: 0
     strength: 6.600174
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 150.25633
     length: 0
     strength: 5.861828
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 150.5814
     length: 0
     strength: 4.4916816
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 150.86005
     length: 0
     strength: 6.044404
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 151.18512
     length: 0
     strength: 4.6990104
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 151.46376
     length: 0
     strength: 6.392882
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 152.06749
     length: 0
     strength: 6.451885
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 152.36934
     length: 0
     strength: 4.423417
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 152.6712
     length: 0
     strength: 6.8864036
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 152.97307
     length: 0
     strength: 4.6378236
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 153.27492
     length: 0
     strength: 6.597785
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 153.57678
     length: 0
     strength: 5.399194
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 153.87865
     length: 0
     strength: 5.5180764
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 154.1805
     length: 0
     strength: 3.340852
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 154.48236
     length: 0
     strength: 5.532278
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 154.78421
     length: 0
     strength: 4.3858643
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 155.06285
     length: 0
     strength: 6.8888946
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 155.36472
     length: 0
     strength: 3.182652
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 155.66658
     length: 0
     strength: 6.966787
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 155.96843
     length: 0
     strength: 4.800838
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 156.2703
     length: 0
     strength: 6.493728
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 156.57216
     length: 0
     strength: 3.715898
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 156.87401
     length: 0
     strength: 6.4493575
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 157.17587
     length: 0
     strength: 3.3309195
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 157.47774
     length: 0
     strength: 5.9496493
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 157.77959
     length: 0
     strength: 4.421524
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 158.05823
     length: 0
     strength: 6.0123963
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 158.38332
     length: 0
     strength: 6.1960826
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 158.66196
     length: 0
     strength: 6.0369806
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 158.9638
     length: 0
     strength: 4.2921677
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 159.26567
     length: 0
     strength: 6.215742
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 159.56754
     length: 0
     strength: 5.5537934
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 159.86938
     length: 0
     strength: 7.1047263
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 160.17125
     length: 0
     strength: 5.768527
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 160.47311
     length: 0
     strength: 6.6200657
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 160.77496
     length: 0
     strength: 6.5324345
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 161.07683
     length: 0
     strength: 6.1273265
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 161.37868
     length: 0
     strength: 5.6404977
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 161.68054
     length: 0
     strength: 6.2266774
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 161.95918
     length: 0
     strength: 5.9383717
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 162.26105
     length: 0
     strength: 6.8662944
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 162.5629
     length: 0
     strength: 5.8925447
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 162.86476
     length: 0
     strength: 5.9842424
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 163.18983
     length: 0
     strength: 6.845177
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 163.46848
     length: 0
     strength: 6.702665
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 163.77034
     length: 0
     strength: 5.2858715
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 164.0722
     length: 0
     strength: 6.7907896
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 164.37405
     length: 0
     strength: 4.475935
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 164.67592
     length: 0
     strength: 6.046595
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 164.97778
     length: 0
     strength: 6.1239634
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 165.27963
     length: 0
     strength: 6.4187565
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 165.55827
     length: 0
     strength: 5.8863783
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 165.86014
     length: 0
     strength: 5.9574246
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 166.18521
     length: 0
     strength: 5.175371
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 166.46385
     length: 0
     strength: 6.1072164
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 166.78894
     length: 0
     strength: 5.821942
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 167.06758
     length: 0
     strength: 7.139956
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 167.36943
     length: 0
     strength: 5.429508
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 167.6713
     length: 0
     strength: 6.5817904
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 167.97314
     length: 0
     strength: 6.1949244
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 168.27501
     length: 0
     strength: 6.309562
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 168.57687
     length: 0
     strength: 5.0421486
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 168.87872
     length: 0
     strength: 6.7262025
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 169.18059
     length: 0
     strength: 5.137896
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 169.45923
     length: 0
     strength: 6.5790973
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 169.7843
     length: 0
     strength: 5.9975696
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 170.06294
     length: 0
     strength: 5.7236195
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 170.38803
     length: 0
     strength: 5.897348
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 170.66667
     length: 0
     strength: 6.9829955
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 170.94531
     length: 0
     strength: 4.941486
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 171.27039
     length: 0
     strength: 7.207735
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 171.57225
     length: 0
     strength: 5.8785534
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 171.8741
     length: 0
     strength: 6.313875
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 172.17596
     length: 0
     strength: 6.181422
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 172.47783
     length: 0
     strength: 6.501513
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 172.77968
     length: 0
     strength: 7.5748887
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 173.05832
     length: 0
     strength: 5.9967904
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 173.3834
     length: 0
     strength: 5.6519637
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 173.66205
     length: 0
     strength: 6.123749
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 173.9639
     length: 0
     strength: 5.536584
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 174.26576
     length: 0
     strength: 7.614494
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 174.59084
     length: 0
     strength: 5.540859
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 174.86948
     length: 0
     strength: 7.317284
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 175.17134
     length: 0
     strength: 5.769859
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 175.47319
     length: 0
     strength: 6.1468067
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 175.77505
     length: 0
     strength: 5.691795
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 176.07692
     length: 0
     strength: 6.4225564
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 176.37877
     length: 0
     strength: 6.2976637
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 176.65741
     length: 0
     strength: 6.3700547
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 176.9825
     length: 0
     strength: 3.783399
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 177.14503
     length: 0
     strength: 3.9616315
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 177.47011
     length: 0
     strength: 4.368716
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 177.86485
     length: 0
     strength: 4.1140685
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 178.16672
     length: 0
     strength: 3.2211921
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 178.49179
     length: 0
     strength: 4.774052
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 178.77043
     length: 0
     strength: 4.2247596
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 179.11873
     length: 0
     strength: 3.0179996
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 179.35094
     length: 0
     strength: 3.2341394
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 179.53668
     length: 0
     strength: 3.2948496
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 179.97787
     length: 0
     strength: 4.5987916
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 180.27972
     length: 0
     strength: 4.2240424
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 180.62802
     length: 0
     strength: 6.221489
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 181.1853
     length: 0
     strength: 3.9196148
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 181.44072
     length: 0
     strength: 4.9991274
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 181.78903
     length: 0
     strength: 3.5210154
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 182.20699
     length: 0
     strength: 6.2573047
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 182.39275
     length: 0
     strength: 5.141323
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 182.97324
     length: 0
     strength: 4.0179176
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 183.41443
     length: 0
     strength: 4.801278
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 183.57697
     length: 0
     strength: 4.0749497
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 183.83238
     length: 0
     strength: 4.2876344
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 184.13425
     length: 0
     strength: 5.740514
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 184.32
     length: 0
     strength: 3.1963863
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 184.48254
     length: 0
     strength: 2.7880423
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 184.7844
     length: 0
     strength: 3.4171782
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 185.08626
     length: 0
     strength: 2.8936708
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 185.3649
     length: 0
     strength: 3.0609007
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 185.68997
     length: 0
     strength: 3.029643
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 185.96861
     length: 0
     strength: 2.8558786
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 186.27048
     length: 0
     strength: 3.4807532
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 186.54912
     length: 0
     strength: 3.1566525
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 186.85098
     length: 0
     strength: 3.5607622
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 187.17606
     length: 0
     strength: 4.955769
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 187.47792
     length: 0
     strength: 3.7059553
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 187.75655
     length: 0
     strength: 4.6693935
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 188.08163
     length: 0
     strength: 3.361411
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 188.36028
     length: 0
     strength: 3.6488957
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 188.68535
     length: 0
     strength: 3.5071082
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 188.98721
     length: 0
     strength: 3.8794894
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 189.26585
     length: 0
     strength: 4.243772
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 189.59093
     length: 0
     strength: 5.3147426
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 189.86957
     length: 0
     strength: 4.631671
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 190.07855
     length: 0
     strength: 4.6755257
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 190.47328
     length: 0
     strength: 4.4839807
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 190.89125
     length: 0
     strength: 6.2250576
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 191.37886
     length: 0
     strength: 3.4659503
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 191.6575
     length: 0
     strength: 4.572699
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 191.98259
     length: 0
     strength: 5.328263
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 192.238
     length: 0
     strength: 5.507355
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 192.56308
     length: 0
     strength: 4.462215
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 192.86494
     length: 0
     strength: 4.086743
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 193.19002
     length: 0
     strength: 5.161108
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 193.46866
     length: 0
     strength: 5.462867
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 193.79375
     length: 0
     strength: 3.9360454
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 194.07239
     length: 0
     strength: 5.5749245
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 194.37424
     length: 0
     strength: 4.634482
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 194.6761
     length: 0
     strength: 4.948753
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 195.0244
     length: 0
     strength: 1.9859576
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 195.79066
     length: 0
     strength: 6.070197
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 196.25505
     length: 0
     strength: 4.1267385
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 196.46404
     length: 0
     strength: 5.4250774
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 196.7659
     length: 0
     strength: 3.5784752
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 197.06775
     length: 0
     strength: 7.331603
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 197.36961
     length: 0
     strength: 4.6210394
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 197.67148
     length: 0
     strength: 6.9432716
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 198.01978
     length: 0
     strength: 4.3665504
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 198.27519
     length: 0
     strength: 6.0755353
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 198.55383
     length: 0
     strength: 3.6830049
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 198.8789
     length: 0
     strength: 6.064416
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 199.18077
     length: 0
     strength: 3.58804
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 199.45941
     length: 0
     strength: 5.911047
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 199.78448
     length: 0
     strength: 3.0643299
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 200.06313
     length: 0
     strength: 6.0024714
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 200.41142
     length: 0
     strength: 3.1809256
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 200.66685
     length: 0
     strength: 6.094813
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 200.9687
     length: 0
     strength: 3.764044
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 201.27057
     length: 0
     strength: 7.192426
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 201.57243
     length: 0
     strength: 4.7412953
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 201.87428
     length: 0
     strength: 6.253295
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 202.47801
     length: 0
     strength: 6.1406813
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 202.80309
     length: 0
     strength: 2.9117472
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 203.08173
     length: 0
     strength: 5.3841796
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 203.33714
     length: 0
     strength: 1.6258367
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 203.66222
     length: 0
     strength: 6.270689
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 204.26595
     length: 0
     strength: 5.927553
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 204.5678
     length: 0
     strength: 2.5833945
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 204.86966
     length: 0
     strength: 7.1297855
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 205.19473
     length: 0
     strength: 3.2467608
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 205.47337
     length: 0
     strength: 6.322894
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 205.75201
     length: 0
     strength: 6.1315265
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 206.0771
     length: 0
     strength: 6.3876657
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 206.37895
     length: 0
     strength: 7.116905
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 206.68082
     length: 0
     strength: 5.593747
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 206.98268
     length: 0
     strength: 2.7969944
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 207.26132
     length: 0
     strength: 6.1165237
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 207.67928
     length: 0
     strength: 3.6342676
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 207.86504
     length: 0
     strength: 6.4435883
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 208.19011
     length: 0
     strength: 3.212283
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 208.46875
     length: 0
     strength: 7.4169874
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 208.77061
     length: 0
     strength: 5.051514
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 209.07248
     length: 0
     strength: 6.3642135
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 209.6762
     length: 0
     strength: 6.7542477
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 210.00127
     length: 0
     strength: 3.3722355
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 210.2799
     length: 0
     strength: 5.6706877
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 210.55855
     length: 0
     strength: 3.9575431
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 210.86041
     length: 0
     strength: 5.6136675
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 211.16226
     length: 0
     strength: 5.0860095
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 211.46413
     length: 0
     strength: 5.8912992
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 211.7892
     length: 0
     strength: 2.7394052
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 212.06784
     length: 0
     strength: 6.034082
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 212.39293
     length: 0
     strength: 3.115546
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 212.67157
     length: 0
     strength: 6.750918
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 212.97342
     length: 0
     strength: 2.1771133
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 213.27528
     length: 0
     strength: 6.74598
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 213.60036
     length: 0
     strength: 3.315347
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 213.879
     length: 0
     strength: 5.2522893
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 214.18086
     length: 0
     strength: 2.3583229
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 214.48273
     length: 0
     strength: 5.50795
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 214.76137
     length: 0
     strength: 2.2451632
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 215.06322
     length: 0
     strength: 5.651449
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 215.36508
     length: 0
     strength: 3.8547976
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 215.66693
     length: 0
     strength: 6.9747434
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 215.9688
     length: 0
     strength: 7.0387135
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 216.27066
     length: 0
     strength: 6.6840816
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 216.57251
     length: 0
     strength: 4.4626455
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 216.87437
     length: 0
     strength: 6.8199244
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 217.17624
     length: 0
     strength: 5.7853622
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 217.47809
     length: 0
     strength: 6.1170783
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 217.75673
     length: 0
     strength: 4.989949
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 218.0586
     length: 0
     strength: 6.402047
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 218.38367
     length: 0
     strength: 6.694478
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 218.66231
     length: 0
     strength: 5.7368307
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 218.96417
     length: 0
     strength: 4.772768
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 219.26604
     length: 0
     strength: 6.0164
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 219.59111
     length: 0
     strength: 4.6564817
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 219.86975
     length: 0
     strength: 7.060896
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 220.17162
     length: 0
     strength: 5.8619194
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 220.47346
     length: 0
     strength: 6.728645
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 220.77533
     length: 0
     strength: 7.2187715
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 221.0772
     length: 0
     strength: 5.9765487
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 221.37904
     length: 0
     strength: 6.322073
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 221.65768
     length: 0
     strength: 6.052452
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 221.98277
     length: 0
     strength: 6.2788024
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 222.2614
     length: 0
     strength: 5.348585
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 222.58649
     length: 0
     strength: 4.7747197
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 222.86513
     length: 0
     strength: 7.1172824
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 223.16698
     length: 0
     strength: 5.931843
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 223.46884
     length: 0
     strength: 5.7878113
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 223.7707
     length: 0
     strength: 6.4070735
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 224.07256
     length: 0
     strength: 7.2882957
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 224.37442
     length: 0
     strength: 4.942376
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 224.67628
     length: 0
     strength: 6.351149
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 224.97813
     length: 0
     strength: 5.401409
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 225.25677
     length: 0
     strength: 6.4861403
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 225.58186
     length: 0
     strength: 6.3942275
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 225.8605
     length: 0
     strength: 5.9313064
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 226.16235
     length: 0
     strength: 4.25799
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 226.46422
     length: 0
     strength: 5.6529164
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 226.78929
     length: 0
     strength: 5.996958
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 227.06793
     length: 0
     strength: 6.309936
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 227.3698
     length: 0
     strength: 5.4964757
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 227.67166
     length: 0
     strength: 7.3513503
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 227.97351
     length: 0
     strength: 6.6893964
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 228.27538
     length: 0
     strength: 6.817029
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 228.55402
     length: 0
     strength: 5.067545
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 228.87909
     length: 0
     strength: 6.4332385
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 229.18095
     length: 0
     strength: 5.3460245
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 229.48282
     length: 0
     strength: 5.438352
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 229.78467
     length: 0
     strength: 5.9481897
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 230.06331
     length: 0
     strength: 6.2194734
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 230.36517
     length: 0
     strength: 6.1035686
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 230.66702
     length: 0
     strength: 6.6000433
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 230.99211
     length: 0
     strength: 4.3702083
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 231.27075
     length: 0
     strength: 6.5605865
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 231.5726
     length: 0
     strength: 4.79833
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 231.87447
     length: 0
     strength: 6.613377
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 232.17633
     length: 0
     strength: 5.2545133
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 232.47818
     length: 0
     strength: 6.511797
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 232.75682
     length: 0
     strength: 5.7881317
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 233.05869
     length: 0
     strength: 5.713785
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 233.38376
     length: 0
     strength: 5.3157434
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 233.6624
     length: 0
     strength: 5.4829893
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 233.98749
     length: 0
     strength: 4.7796354
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 234.26613
     length: 0
     strength: 6.211632
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 234.54477
     length: 0
     strength: 1.7332673
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 234.77696
     length: 0
     strength: 2.6651375
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 235.10204
     length: 0
     strength: 2.936536
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 235.58966
     length: 0
     strength: 3.7365708
     intensity: 0
+    ind: 0
+    line: []
   - timestamp: 236.03084
     length: 0
     strength: 1.4768461
     intensity: 0
+    ind: 0
+    line: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13253,6 +14625,7 @@ MonoBehaviour:
   - {fileID: -565829952009095432}
   - {fileID: 1046687144285316086}
   - {fileID: -4873951681438616603}
+  - {fileID: -7702173084193036900}
 --- !u!114 &1046687144285316086
 MonoBehaviour:
   m_ObjectHideFlags: 1
