@@ -15,7 +15,7 @@ public class Obstacle : MonoBehaviour
     [SerializeField] float threshold;
     public GameObject[] obs = new GameObject[3];
     Dictionary<int, Queue<GameObject>> queue = new Dictionary<int, Queue<GameObject>>();
-    private int poolCount = 10;
+    private int poolCount = 100;
     public float arrivetime;
 
 

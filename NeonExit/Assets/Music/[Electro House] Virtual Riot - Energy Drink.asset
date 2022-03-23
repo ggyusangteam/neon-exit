@@ -14,15 +14,69 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Place
   _features:
-  - timestamp: 1.0339011
+  - timestamp: 5.3014026
     length: 0
     strength: 3.8541665
     intensity: 0
-    ind: 0
-    line: []
-  - timestamp: 3.8851407
+    ind: 2
+    line:
+    - -2
+    - -1
+    - 1
+    - 2
+  - timestamp: 7.5090857
     length: 0
-    strength: 4.0625
+    strength: 3.8541665
+    intensity: 0
+    ind: 2
+    line:
+    - -2
+    - -1
+    - 1
+    - 2
+  - timestamp: 9.868985
+    length: 0
+    strength: 3.8541665
+    intensity: 0
+    ind: 2
+    line:
+    - -2
+    - -1
+    - 1
+    - 2
+  - timestamp: 12.381156
+    length: 0
+    strength: 3.8541665
+    intensity: 0
+    ind: 2
+    line:
+    - -2
+    - -1
+    - 1
+    - 2
+  - timestamp: 14.893327
+    length: 0
+    strength: 3.8541665
+    intensity: 0
+    ind: 2
+    line:
+    - -2
+    - -1
+    - 1
+    - 2
+  - timestamp: 17.177116
+    length: 0
+    strength: 3.8541665
+    intensity: 0
+    ind: 2
+    line:
+    - -2
+    - -1
+    - 1
+    - 2
+  - timestamp: 19.917667
+    length: 0
+    strength: 3.8541665
     intensity: 0
     ind: 2
     line:
