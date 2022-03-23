@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
 
     public GameObject player;
-  
+ 
     // 플레이어 게임 오브젝트
     public bool canMove = true;
     //이동 종료 여부
@@ -23,11 +23,11 @@ public class Player : MonoBehaviour
     // Vector3 destinationPos = new Vector3();
     // Vector3 dir = new Vector3();
     float dir;
-
+ 
     RaycastHit Hit;
     // 벽과의 충돌을 감지할 Ray
 
-    [SerializeField] Animator anim;
+    public Animator anim;
 
     // 애니메이션 속도 
 
@@ -42,7 +42,7 @@ public class Player : MonoBehaviour
    //두번째 터치
     void Start()
     {
-
+        
     }
 
 
@@ -80,7 +80,7 @@ public class Player : MonoBehaviour
                 float yMoved = endTouch.y - firstTouch.y;
                 if (Mathf.Abs(xMoved) > Mathf.Abs(yMoved))
                 {
-                    if (xMoved > 0)
+                    if (xMoved > 0 && canMove == true)
                     {
                         StartCoroutine(RightMoveCo(player.transform, 1));
                     }
@@ -91,18 +91,19 @@ public class Player : MonoBehaviour
                 }
                 else
                 {
-                    if (yMoved > 0)
+                    if (yMoved > 0 && canMove == true)
                     {
                         StartCoroutine(JumpCo(player.transform, 1));
                     }
                     else
                     {
-                        anim.SetBool("Slide", true);
+                        anim.SetTrigger("Slide");
+
                     }
                 }
             } 
             }
-        
+
 
 
 
@@ -126,12 +127,12 @@ public class Player : MonoBehaviour
 
 
 
+            
+            
+         
+          
+        
 
-
-        anim.SetBool("Left", false);
-        anim.SetBool("Jump", false);
-        anim.SetBool("Right", false);
-        anim.SetBool("Slide", false);
         if (Input.GetKeyDown(KeyCode.A)&& canMove == true) //좌로 이동 나중에 슬라이드로 변경
         {                     
                          StartCoroutine(LeftMoveCo(player.transform, -1));       
@@ -162,6 +163,15 @@ public class Player : MonoBehaviour
 
             canMove = false;
         }
+        if (Input.GetKeyDown(KeyCode.S) && canMove == true) //점프 나중에 슬라이드로 변경
+        {
+
+
+
+            anim.SetBool("Slide", true);
+
+
+        }
     }
 
 
@@ -190,7 +200,7 @@ public class Player : MonoBehaviour
 
         }
         transform_param.position = new Vector3(transform.position.x, currentPos.y, transform.position.z);
- 
+        anim.SetBool("Jump", false);
         canMove = true;
     }
 
@@ -222,6 +232,7 @@ public class Player : MonoBehaviour
                 yield return null;
             }
             transform_param.position = new Vector3(destinationPos, transform.position.y, transform.position.z);
+            anim.SetBool("Left", false);
             canMove = true;
         }
     }
@@ -251,8 +262,9 @@ public class Player : MonoBehaviour
                 yield return null;
             }
             transform_param.position = new Vector3(destinationPos, transform.position.y, transform.position.z);
-
+            anim.SetBool("Right", false);
             canMove = true;
+
         }
     }
 
