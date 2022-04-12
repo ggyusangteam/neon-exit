@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 13466546}
   - component: {fileID: 13466545}
+  - component: {fileID: 13466547}
   m_Layer: 0
   m_Name: BackGround
   m_TagString: Untagged
@@ -171,6 +172,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &13466547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13466544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110e8a75ce8a185438300a3b68a4c7db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 492154931}
+  lineList:
+  - {fileID: 2100000, guid: 31ab050122943814f828f6aef26d0dc8, type: 2}
+  - {fileID: 2100000, guid: 30f6f02639a9e514f87373745e802964, type: 2}
+  - {fileID: 2100000, guid: b56ed3a1b35576144b42cf26090c3ed9, type: 2}
+  - {fileID: 2100000, guid: 651ddba449a2caa42aeed45d33f68ba7, type: 2}
 --- !u!1 &243640813
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &705507994
 Light:
   m_ObjectHideFlags: 0
@@ -665,8 +684,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556f4e6e34f040242b314d5cfcafeafe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SlideSpeed: 2
-  UpSpeed: 2
+  SlideSpeed: 0
+  UpSpeed: 0
   player: {fileID: 492154931}
 --- !u!114 &963194231
 MonoBehaviour:
@@ -919,6 +938,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98f77ed403e2b9040ad5efcbc5facacb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obstacle: {fileID: 0}
+  ind: 0
+  player: {fileID: 0}
 --- !u!1001 &1242507563
 PrefabInstance:
   m_ObjectHideFlags: 0
