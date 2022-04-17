@@ -19,26 +19,72 @@ MonoBehaviour:
     strength: 3.8541665
     intensity: 0
     ind: 2
+    elecSize: 0
     line:
     - -2
     - -1
     - 1
     - 2
-  - timestamp: 7.5090857
+  - timestamp: 5.971251
     length: 0
-    strength: 3.8541665
+    strength: 2.3958333
     intensity: 0
-    ind: 2
+    ind: 1
+    elecSize: 0
     line:
-    - -2
-    - -1
-    - 1
-    - 2
+    - 0
+  - timestamp: 6.2371373
+    length: 0
+    strength: 2.3958333
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 6.5916524
+    length: 0
+    strength: 2.3958333
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 6.990482
+    length: 0
+    strength: 2.3958333
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 7.256368
+    length: 0
+    strength: 2.3958333
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 7.7438264
+    length: 0
+    strength: 3.5416665
+    intensity: 0
+    ind: 3
+    elecSize: 1
+    line: []
+  - timestamp: 8.630114
+    length: 0
+    strength: 3.5416665
+    intensity: 0
+    ind: 3
+    elecSize: 10
+    line: []
   - timestamp: 9.868985
     length: 0
     strength: 3.8541665
     intensity: 0
     ind: 2
+    elecSize: 0
     line:
     - -2
     - -1
@@ -49,6 +95,7 @@ MonoBehaviour:
     strength: 3.8541665
     intensity: 0
     ind: 2
+    elecSize: 0
     line:
     - -2
     - -1
@@ -59,6 +106,7 @@ MonoBehaviour:
     strength: 3.8541665
     intensity: 0
     ind: 2
+    elecSize: 0
     line:
     - -2
     - -1
@@ -69,6 +117,7 @@ MonoBehaviour:
     strength: 3.8541665
     intensity: 0
     ind: 2
+    elecSize: 0
     line:
     - -2
     - -1
@@ -79,6 +128,7 @@ MonoBehaviour:
     strength: 3.8541665
     intensity: 0
     ind: 2
+    elecSize: 0
     line:
     - -2
     - -1
@@ -2102,6306 +2152,7357 @@ MonoBehaviour:
     strength: 1.8434703
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 0.74303854
     length: 0
     strength: 1.1458148
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 0.998458
     length: 0
     strength: 1.1083206
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 1.4164172
     length: 0
     strength: 1.0854354
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 1.6950567
     length: 0
     strength: 0.9853482
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 1.9736961
     length: 0
     strength: 0.5050211
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 2.1594558
     length: 0
     strength: 1.1609837
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 2.6238549
     length: 0
     strength: 1.1390666
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 2.8560543
     length: 0
     strength: 1.163638
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 3.3204534
     length: 0
     strength: 0.9501343
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 3.552653
     length: 0
     strength: 1.0254805
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 3.8080726
     length: 0
     strength: 1.1660708
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 4.040272
     length: 0
     strength: 1.3669899
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 4.504671
     length: 0
     strength: 1.3833177
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 4.736871
     length: 0
     strength: 1.4280638
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 5.2244897
     length: 0
     strength: 1.4922175
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 5.4334693
     length: 0
     strength: 1.2943008
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 5.665669
     length: 0
     strength: 1.5644242
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 5.921088
     length: 0
     strength: 1.1989977
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 6.3854876
     length: 0
     strength: 1.3708992
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 6.8498864
     length: 0
     strength: 1.4517393
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 6.9892063
     length: 0
     strength: 1.2653269
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 7.3142858
     length: 0
     strength: 1.3905475
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 7.7786846
     length: 0
     strength: 1.9827096
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 8.243084
     length: 0
     strength: 1.6915953
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 8.614603
     length: 0
     strength: 1.6378678
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 8.916463
     length: 0
     strength: 1.6179059
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 9.195102
     length: 0
     strength: 1.1948102
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 9.427301
     length: 0
     strength: 0.7848197
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 9.659501
     length: 0
     strength: 1.837852
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 10.1239
     length: 0
     strength: 1.7355722
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 10.3561
     length: 0
     strength: 1.5336565
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 10.727619
     length: 0
     strength: 1.9137874
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 11.075918
     length: 0
     strength: 1.8409599
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 11.308118
     length: 0
     strength: 1.8978895
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 11.540318
     length: 0
     strength: 1.8538978
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 12.004717
     length: 0
     strength: 1.753937
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 12.376236
     length: 0
     strength: 1.8904476
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 12.701315
     length: 0
     strength: 1.9640863
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 12.933515
     length: 0
     strength: 1.5342796
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 13.188934
     length: 0
     strength: 1.7252461
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 13.397914
     length: 0
     strength: 1.857414
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 13.885533
     length: 0
     strength: 2.003788
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 14.233832
     length: 0
     strength: 1.8666116
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 14.489252
     length: 0
     strength: 2.1667545
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 15.046531
     length: 0
     strength: 2.9658716
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 15.27873
     length: 0
     strength: 4.222162
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 15.51093
     length: 0
     strength: 3.0665479
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 15.766349
     length: 0
     strength: 5.11231
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 15.9985485
     length: 0
     strength: 2.9504776
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 16.23075
     length: 0
     strength: 2.6628304
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 16.462948
     length: 0
     strength: 2.6430933
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 16.695147
     length: 0
     strength: 4.6819987
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 16.927347
     length: 0
     strength: 2.8574967
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 17.159546
     length: 0
     strength: 2.7456381
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 17.391747
     length: 0
     strength: 2.5903292
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 17.623945
     length: 0
     strength: 4.1949267
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 17.856146
     length: 0
     strength: 2.93848
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 18.343763
     length: 0
     strength: 3.0378432
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 18.575964
     length: 0
     strength: 4.0229454
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 18.784943
     length: 0
     strength: 3.3303688
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 19.040363
     length: 0
     strength: 2.7260025
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 19.272562
     length: 0
     strength: 2.5353827
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 19.504763
     length: 0
     strength: 3.6288993
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 19.736961
     length: 0
     strength: 2.9189377
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 19.96916
     length: 0
     strength: 2.440292
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 20.22458
     length: 0
     strength: 2.8880641
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 20.45678
     length: 0
     strength: 4.1721377
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 20.66576
     length: 0
     strength: 3.4141147
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 20.921179
     length: 0
     strength: 2.8420348
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 21.13016
     length: 0
     strength: 2.5296328
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 21.385578
     length: 0
     strength: 4.143781
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 21.617777
     length: 0
     strength: 2.1450243
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 22.082176
     length: 0
     strength: 3.2214458
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 22.314377
     length: 0
     strength: 4.033145
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 22.546576
     length: 0
     strength: 3.434429
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 22.778776
     length: 0
     strength: 3.2518692
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 23.034195
     length: 0
     strength: 2.6840138
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 23.266394
     length: 0
     strength: 4.639256
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 23.475374
     length: 0
     strength: 2.7692149
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 23.730793
     length: 0
     strength: 2.7423892
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 23.962994
     length: 0
     strength: 2.6763422
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 24.195192
     length: 0
     strength: 4.236829
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 24.450613
     length: 0
     strength: 3.4138377
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 24.659592
     length: 0
     strength: 3.0402958
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 24.891792
     length: 0
     strength: 2.7223833
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 25.147211
     length: 0
     strength: 3.749794
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 25.35619
     length: 0
     strength: 2.964741
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 25.82059
     length: 0
     strength: 3.1593757
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 26.07601
     length: 0
     strength: 4.5881586
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 26.308208
     length: 0
     strength: 3.7878585
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 26.54041
     length: 0
     strength: 2.795901
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 26.772608
     length: 0
     strength: 2.8590105
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 27.004807
     length: 0
     strength: 3.9760027
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 27.469206
     length: 0
     strength: 4.418828
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 27.701406
     length: 0
     strength: 3.9903545
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 27.933605
     length: 0
     strength: 5.1197705
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 28.165806
     length: 0
     strength: 4.5653353
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 28.630203
     length: 0
     strength: 3.7908082
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 28.885624
     length: 0
     strength: 5.019215
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 29.233923
     length: 0
     strength: 4.0586977
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 29.698322
     length: 0
     strength: 4.392775
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 29.953741
     length: 0
     strength: 5.158137
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 30.30204
     length: 0
     strength: 8.266647
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 30.76644
     length: 0
     strength: 8.901862
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 30.9522
     length: 0
     strength: 4.8655443
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 31.230839
     length: 0
     strength: 8.317301
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 31.46304
     length: 0
     strength: 4.688122
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 31.695238
     length: 0
     strength: 6.784414
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 31.927437
     length: 0
     strength: 4.5078754
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 32.182858
     length: 0
     strength: 6.580362
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 32.345398
     length: 0
     strength: 4.4625793
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 32.647255
     length: 0
     strength: 7.679971
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 32.856236
     length: 0
     strength: 4.924315
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 33.111656
     length: 0
     strength: 8.805498
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 33.343853
     length: 0
     strength: 4.990815
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 33.576054
     length: 0
     strength: 8.559232
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 33.785034
     length: 0
     strength: 4.90338
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 34.040455
     length: 0
     strength: 7.372758
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 34.22621
     length: 0
     strength: 3.7840798
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 34.528072
     length: 0
     strength: 6.249499
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 34.99247
     length: 0
     strength: 7.290398
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 35.20145
     length: 0
     strength: 4.9324656
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 35.45687
     length: 0
     strength: 8.476262
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 35.68907
     length: 0
     strength: 4.7184477
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 35.92127
     length: 0
     strength: 8.254367
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 36.38567
     length: 0
     strength: 7.771778
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 36.850067
     length: 0
     strength: 6.8280334
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 37.082268
     length: 0
     strength: 5.0555325
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 37.33769
     length: 0
     strength: 6.985696
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 37.802086
     length: 0
     strength: 7.635188
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 38.266487
     length: 0
     strength: 8.526914
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 38.730885
     length: 0
     strength: 8.998877
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 38.963085
     length: 0
     strength: 4.4974246
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 39.195282
     length: 0
     strength: 6.5945845
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 39.427483
     length: 0
     strength: 4.041384
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 39.659683
     length: 0
     strength: 6.630432
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 39.845444
     length: 0
     strength: 3.7115023
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 40.1473
     length: 0
     strength: 7.4414597
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 40.611702
     length: 0
     strength: 8.173003
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 40.8439
     length: 0
     strength: 4.965004
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 41.0761
     length: 0
     strength: 8.340321
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 41.28508
     length: 0
     strength: 4.2415295
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 41.5405
     length: 0
     strength: 7.285826
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 41.703037
     length: 0
     strength: 3.59599
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 42.02812
     length: 0
     strength: 6.142332
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 42.492516
     length: 0
     strength: 7.0727587
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 42.724716
     length: 0
     strength: 4.354263
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 42.956917
     length: 0
     strength: 8.002155
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 43.165897
     length: 0
     strength: 4.796627
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 43.421314
     length: 0
     strength: 8.280821
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 43.885715
     length: 0
     strength: 7.6412153
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 44.350113
     length: 0
     strength: 6.747781
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 44.837734
     length: 0
     strength: 7.010707
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 45.30213
     length: 0
     strength: 7.2834916
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 45.511112
     length: 0
     strength: 5.248727
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 45.76653
     length: 0
     strength: 8.482402
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 45.99873
     length: 0
     strength: 5.514487
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 46.23093
     length: 0
     strength: 8.0531645
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 46.46313
     length: 0
     strength: 5.712365
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 46.695328
     length: 0
     strength: 6.6773224
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 46.95075
     length: 0
     strength: 5.1989245
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 47.18295
     length: 0
     strength: 6.144933
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 47.391926
     length: 0
     strength: 5.1349072
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 47.647346
     length: 0
     strength: 7.5533433
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 47.856327
     length: 0
     strength: 6.437624
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 48.111748
     length: 0
     strength: 8.081908
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 48.343945
     length: 0
     strength: 5.886706
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 48.576145
     length: 0
     strength: 8.289398
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 48.785126
     length: 0
     strength: 5.712196
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 49.040543
     length: 0
     strength: 7.757846
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 49.272743
     length: 0
     strength: 4.9350023
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 49.528164
     length: 0
     strength: 6.760933
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 49.737144
     length: 0
     strength: 5.715132
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 49.99256
     length: 0
     strength: 7.0082083
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 50.20154
     length: 0
     strength: 6.4192905
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 50.456963
     length: 0
     strength: 7.735187
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 50.66594
     length: 0
     strength: 6.241765
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 50.92136
     length: 0
     strength: 8.010027
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 51.15356
     length: 0
     strength: 4.5801635
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 51.38576
     length: 0
     strength: 7.500368
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 51.85016
     length: 0
     strength: 6.9507184
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 52.08236
     length: 0
     strength: 5.2790737
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 52.337776
     length: 0
     strength: 7.0419803
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 52.546757
     length: 0
     strength: 5.6434283
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 52.802177
     length: 0
     strength: 6.9384
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 53.034378
     length: 0
     strength: 5.1105757
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 53.266575
     length: 0
     strength: 8.167452
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 53.730976
     length: 0
     strength: 8.228001
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 53.963173
     length: 0
     strength: 5.355063
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 54.195374
     length: 0
     strength: 6.665822
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 54.427574
     length: 0
     strength: 5.4550557
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 54.682995
     length: 0
     strength: 6.095446
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 54.89197
     length: 0
     strength: 5.2033854
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 55.147392
     length: 0
     strength: 7.29802
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 55.356373
     length: 0
     strength: 6.2497945
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 55.61179
     length: 0
     strength: 7.932985
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 55.84399
     length: 0
     strength: 5.6406393
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 56.07619
     length: 0
     strength: 8.058863
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 56.30839
     length: 0
     strength: 5.450838
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 56.54059
     length: 0
     strength: 7.0509424
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 56.77279
     length: 0
     strength: 4.9664574
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 57.02821
     length: 0
     strength: 6.563587
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 57.237186
     length: 0
     strength: 6.2332573
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 57.492607
     length: 0
     strength: 6.8216977
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 57.95701
     length: 0
     strength: 7.677263
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 58.165985
     length: 0
     strength: 6.0251694
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 58.421406
     length: 0
     strength: 8.098
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 58.653606
     length: 0
     strength: 5.153304
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 58.885803
     length: 0
     strength: 7.4858055
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 59.350204
     length: 0
     strength: 6.592558
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 59.489525
     length: 0
     strength: 5.841696
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 60.162903
     length: 0
     strength: 7.8083296
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 61.11492
     length: 0
     strength: 2.6995432
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 75.302315
     length: 0
     strength: 3.624715
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 75.51129
     length: 0
     strength: 3.3443222
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 75.76671
     length: 0
     strength: 4.239634
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 75.99891
     length: 0
     strength: 4.3161902
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 76.440094
     length: 0
     strength: 4.1481957
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 76.69551
     length: 0
     strength: 3.959937
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 76.92771
     length: 0
     strength: 3.5767632
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 77.09025
     length: 0
     strength: 3.1141407
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 77.41533
     length: 0
     strength: 3.703503
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 77.624306
     length: 0
     strength: 3.5808372
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 77.85651
     length: 0
     strength: 3.9682338
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 78.15837
     length: 0
     strength: 3.4826436
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 78.32091
     length: 0
     strength: 3.980239
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 78.576324
     length: 0
     strength: 4.4929514
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 78.808525
     length: 0
     strength: 3.7619236
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 79.087166
     length: 0
     strength: 3.1024501
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 79.2497
     length: 0
     strength: 3.6268804
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 79.50513
     length: 0
     strength: 3.9666998
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 79.78377
     length: 0
     strength: 3.516454
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 80.15528
     length: 0
     strength: 3.48049
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 80.457146
     length: 0
     strength: 3.8825874
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 80.66612
     length: 0
     strength: 3.6478994
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 80.85188
     length: 0
     strength: 3.299928
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 81.15374
     length: 0
     strength: 3.7991273
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 81.38594
     length: 0
     strength: 4.3160677
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 81.59492
     length: 0
     strength: 4.1599154
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 81.89678
     length: 0
     strength: 3.7087018
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 82.08254
     length: 0
     strength: 3.764943
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 82.31474
     length: 0
     strength: 4.3861704
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 82.57016
     length: 0
     strength: 4.0959916
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 82.77914
     length: 0
     strength: 4.161108
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 83.01134
     length: 0
     strength: 3.709199
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 83.266754
     length: 0
     strength: 4.5395827
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 83.498955
     length: 0
     strength: 3.9163508
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 83.731155
     length: 0
     strength: 4.282153
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 83.963356
     length: 0
     strength: 4.3335476
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 84.242
     length: 0
     strength: 4.031399
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 84.42776
     length: 0
     strength: 3.7727735
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 84.65996
     length: 0
     strength: 4.1867113
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 84.93859
     length: 0
     strength: 4.025617
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 85.147575
     length: 0
     strength: 3.6799638
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 85.379776
     length: 0
     strength: 4.1215625
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 85.61197
     length: 0
     strength: 4.466647
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 85.82095
     length: 0
     strength: 3.7818742
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 86.07637
     length: 0
     strength: 4.587001
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 86.331795
     length: 0
     strength: 3.89604
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 86.77297
     length: 0
     strength: 3.4221492
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 87.00517
     length: 0
     strength: 3.350062
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 87.23737
     length: 0
     strength: 3.5877638
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 87.70177
     length: 0
     strength: 3.9317863
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 87.98041
     length: 0
     strength: 2.9227645
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 88.421585
     length: 0
     strength: 8.251573
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 88.76989
     length: 0
     strength: 7.7974434
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 89.11819
     length: 0
     strength: 6.6852965
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 89.48971
     length: 0
     strength: 5.7313423
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 89.652245
     length: 0
     strength: 4.791609
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 89.838005
     length: 0
     strength: 6.4897323
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 90.070206
     length: 0
     strength: 6.757658
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 90.30241
     length: 0
     strength: 7.161601
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 90.46494
     length: 0
     strength: 7.1214943
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 90.7668
     length: 0
     strength: 7.6527886
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 90.975784
     length: 0
     strength: 6.3147683
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 91.2312
     length: 0
     strength: 8.269012
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 91.4634
     length: 0
     strength: 6.032924
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 91.6956
     length: 0
     strength: 6.9247723
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 91.9278
     length: 0
     strength: 6.030337
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 92.16
     length: 0
     strength: 6.3454866
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 92.34576
     length: 0
     strength: 6.4687033
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 92.64762
     length: 0
     strength: 7.3504834
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 92.8566
     length: 0
     strength: 6.694153
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 93.112015
     length: 0
     strength: 7.6315446
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 93.344215
     length: 0
     strength: 6.2556615
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 93.576416
     length: 0
     strength: 8.18836
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 93.7854
     length: 0
     strength: 5.1779895
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 94.04082
     length: 0
     strength: 7.2953877
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 94.27302
     length: 0
     strength: 4.6033163
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 94.528435
     length: 0
     strength: 6.749912
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 94.69097
     length: 0
     strength: 6.206336
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 94.992836
     length: 0
     strength: 6.823933
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 95.22504
     length: 0
     strength: 6.1199946
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 95.45724
     length: 0
     strength: 7.9279137
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 95.68943
     length: 0
     strength: 5.7799287
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 95.92163
     length: 0
     strength: 8.246094
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 96.15383
     length: 0
     strength: 5.4124327
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 96.38603
     length: 0
     strength: 8.424105
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 96.61823
     length: 0
     strength: 5.563741
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 96.85043
     length: 0
     strength: 6.57817
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 97.082634
     length: 0
     strength: 4.59953
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 97.33805
     length: 0
     strength: 7.026417
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 97.54703
     length: 0
     strength: 5.566698
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 97.80245
     length: 0
     strength: 7.4189515
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 97.96499
     length: 0
     strength: 6.0472693
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 98.266846
     length: 0
     strength: 8.140526
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 98.47583
     length: 0
     strength: 6.471403
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 98.73125
     length: 0
     strength: 7.772477
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 98.96345
     length: 0
     strength: 5.8378882
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 99.19565
     length: 0
     strength: 6.7939243
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 99.42785
     length: 0
     strength: 5.99768
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 99.66004
     length: 0
     strength: 5.9729223
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 99.8458
     length: 0
     strength: 7.1353
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 100.14767
     length: 0
     strength: 7.1356697
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 100.35664
     length: 0
     strength: 6.1996884
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 100.61206
     length: 0
     strength: 7.3961763
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 100.84426
     length: 0
     strength: 5.9061604
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 101.07646
     length: 0
     strength: 8.083865
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 101.30866
     length: 0
     strength: 5.8563395
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 101.54086
     length: 0
     strength: 6.778691
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 101.77306
     length: 0
     strength: 4.7866406
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 102.02848
     length: 0
     strength: 6.65951
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 102.26068
     length: 0
     strength: 6.3738723
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 102.49288
     length: 0
     strength: 6.976617
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 102.72508
     length: 0
     strength: 6.267309
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 102.957275
     length: 0
     strength: 7.683016
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 103.2127
     length: 0
     strength: 5.799646
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 103.42168
     length: 0
     strength: 8.161302
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 103.63066
     length: 0
     strength: 5.0238323
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 103.88608
     length: 0
     strength: 7.6876564
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 104.11828
     length: 0
     strength: 4.8507295
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 104.35048
     length: 0
     strength: 6.619667
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 104.605896
     length: 0
     strength: 4.4572186
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 104.8381
     length: 0
     strength: 6.9466095
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 105.04707
     length: 0
     strength: 5.083615
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 105.3025
     length: 0
     strength: 6.7551155
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 105.511475
     length: 0
     strength: 7.3180237
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 105.76689
     length: 0
     strength: 7.7291827
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 105.975876
     length: 0
     strength: 6.1245837
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 106.23129
     length: 0
     strength: 7.613614
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 106.46349
     length: 0
     strength: 5.972705
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 106.695694
     length: 0
     strength: 6.808395
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 106.927895
     length: 0
     strength: 5.748673
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 107.39229
     length: 0
     strength: 6.8138824
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 107.64771
     length: 0
     strength: 6.923588
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 107.85669
     length: 0
     strength: 6.2331495
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 108.11211
     length: 0
     strength: 7.5664034
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 108.34431
     length: 0
     strength: 6.31692
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 108.57651
     length: 0
     strength: 7.9621224
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 108.80871
     length: 0
     strength: 5.831256
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 109.04091
     length: 0
     strength: 7.35971
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 109.27311
     length: 0
     strength: 4.948071
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 109.5053
     length: 0
     strength: 6.5958605
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 109.69106
     length: 0
     strength: 6.0857735
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 109.99293
     length: 0
     strength: 6.7747154
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 110.22513
     length: 0
     strength: 5.7967663
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 110.45732
     length: 0
     strength: 7.818245
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 110.666306
     length: 0
     strength: 5.537912
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 110.92172
     length: 0
     strength: 8.204584
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 111.1307
     length: 0
     strength: 5.3528194
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 111.38612
     length: 0
     strength: 7.533193
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 111.618324
     length: 0
     strength: 5.878056
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 111.850525
     length: 0
     strength: 6.6194124
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 112.10594
     length: 0
     strength: 4.9695663
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 112.33814
     length: 0
     strength: 6.9126444
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 112.54712
     length: 0
     strength: 6.063661
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 112.802536
     length: 0
     strength: 7.0614185
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 113.01152
     length: 0
     strength: 6.9016504
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 113.26694
     length: 0
     strength: 7.5137987
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 113.47592
     length: 0
     strength: 6.0129385
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 113.73134
     length: 0
     strength: 7.826088
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 113.96354
     length: 0
     strength: 6.7801375
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 114.19574
     length: 0
     strength: 6.922527
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 114.42793
     length: 0
     strength: 5.9426627
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 114.66013
     length: 0
     strength: 6.385131
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 114.91556
     length: 0
     strength: 6.7376027
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 115.14776
     length: 0
     strength: 7.1167665
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 115.356735
     length: 0
     strength: 6.5405397
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 115.61215
     length: 0
     strength: 7.117311
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 115.84435
     length: 0
     strength: 5.6181617
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 116.07655
     length: 0
     strength: 8.044558
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 116.308754
     length: 0
     strength: 6.3930407
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 116.540955
     length: 0
     strength: 6.818671
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 116.773155
     length: 0
     strength: 4.554585
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 117.02857
     length: 0
     strength: 6.6684427
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 117.26077
     length: 0
     strength: 6.217328
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 117.49297
     length: 0
     strength: 6.9656367
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 117.72517
     length: 0
     strength: 6.2156615
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 117.95737
     length: 0
     strength: 7.348755
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 118.16635
     length: 0
     strength: 5.9438086
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 118.42177
     length: 0
     strength: 8.027477
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 118.65397
     length: 0
     strength: 5.1896915
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 118.88617
     length: 0
     strength: 8.040603
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 119.11837
     length: 0
     strength: 5.32702
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 119.35057
     length: 0
     strength: 6.752676
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 119.60599
     length: 0
     strength: 5.083044
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 119.83819
     length: 0
     strength: 6.883515
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 120.047165
     length: 0
     strength: 5.6468525
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 120.30258
     length: 0
     strength: 6.7840385
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 120.511566
     length: 0
     strength: 5.070415
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 120.76698
     length: 0
     strength: 8.107915
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 120.97597
     length: 0
     strength: 5.053904
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 121.231384
     length: 0
     strength: 7.96832
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 121.463585
     length: 0
     strength: 5.5001535
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 121.695786
     length: 0
     strength: 7.0529966
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 121.92798
     length: 0
     strength: 5.0818453
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 122.1834
     length: 0
     strength: 6.034835
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 122.39238
     length: 0
     strength: 4.8226132
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 122.647804
     length: 0
     strength: 7.2999587
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 122.85678
     length: 0
     strength: 6.0200367
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 123.1122
     length: 0
     strength: 7.7628875
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 123.3444
     length: 0
     strength: 5.305657
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 123.5766
     length: 0
     strength: 7.9503565
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 123.785576
     length: 0
     strength: 5.6404257
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 124.041
     length: 0
     strength: 7.3667264
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 124.2732
     length: 0
     strength: 4.624735
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 124.52862
     length: 0
     strength: 6.6486425
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 124.737595
     length: 0
     strength: 5.5047045
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 124.99302
     length: 0
     strength: 6.9813876
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 125.201996
     length: 0
     strength: 6.0716596
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 125.45741
     length: 0
     strength: 7.944088
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 125.6664
     length: 0
     strength: 5.66302
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 125.921814
     length: 0
     strength: 8.093034
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 126.154015
     length: 0
     strength: 4.734619
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 126.386215
     length: 0
     strength: 7.59059
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 126.618416
     length: 0
     strength: 4.392744
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 126.85061
     length: 0
     strength: 6.462593
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 127.08281
     length: 0
     strength: 5.110615
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 127.338234
     length: 0
     strength: 6.5942535
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 127.54721
     length: 0
     strength: 5.271783
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 127.80263
     length: 0
     strength: 7.0050387
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 128.01161
     length: 0
     strength: 5.0799603
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 128.26703
     length: 0
     strength: 8.243403
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 128.49922
     length: 0
     strength: 5.205398
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 128.73143
     length: 0
     strength: 8.224208
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 128.96362
     length: 0
     strength: 5.2731194
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 129.19583
     length: 0
     strength: 6.9825726
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 129.42802
     length: 0
     strength: 4.996292
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 129.68344
     length: 0
     strength: 6.066691
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 129.89243
     length: 0
     strength: 5.0810103
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 130.14784
     length: 0
     strength: 7.2905154
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 130.35683
     length: 0
     strength: 6.3557315
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 130.61224
     length: 0
     strength: 8.007297
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 130.82123
     length: 0
     strength: 6.190778
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 131.07664
     length: 0
     strength: 8.088596
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 131.30884
     length: 0
     strength: 6.007078
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 131.54105
     length: 0
     strength: 6.884942
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 131.77324
     length: 0
     strength: 4.973865
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 132.02866
     length: 0
     strength: 6.6683254
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 132.23764
     length: 0
     strength: 5.827021
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 132.49306
     length: 0
     strength: 6.706945
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 132.70204
     length: 0
     strength: 6.188445
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 132.95746
     length: 0
     strength: 7.5727015
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 133.16644
     length: 0
     strength: 5.7307954
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 133.42186
     length: 0
     strength: 8.221007
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 133.63084
     length: 0
     strength: 5.4184422
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 133.88626
     length: 0
     strength: 7.6951447
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 134.35066
     length: 0
     strength: 6.936534
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 134.58286
     length: 0
     strength: 4.697591
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 134.83827
     length: 0
     strength: 6.834856
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 135.04726
     length: 0
     strength: 6.0862985
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 135.30267
     length: 0
     strength: 6.963876
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 135.51166
     length: 0
     strength: 5.537029
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 135.76707
     length: 0
     strength: 7.867456
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 135.99927
     length: 0
     strength: 5.657639
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 136.23148
     length: 0
     strength: 7.802129
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 136.46367
     length: 0
     strength: 6.539725
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 136.69588
     length: 0
     strength: 6.869999
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 136.92807
     length: 0
     strength: 5.5791793
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 137.16028
     length: 0
     strength: 5.7452955
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 137.39247
     length: 0
     strength: 5.5867214
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 137.64789
     length: 0
     strength: 7.344846
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 137.85687
     length: 0
     strength: 6.8913403
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 138.11229
     length: 0
     strength: 8.062183
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 138.32127
     length: 0
     strength: 6.2305293
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 138.57669
     length: 0
     strength: 8.273474
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 138.78568
     length: 0
     strength: 6.498009
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 139.04109
     length: 0
     strength: 7.6526437
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 139.5287
     length: 0
     strength: 6.7829347
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 139.73769
     length: 0
     strength: 6.6093645
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 139.9931
     length: 0
     strength: 6.7849216
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 140.20209
     length: 0
     strength: 6.3663206
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 140.4575
     length: 0
     strength: 7.711765
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 140.68971
     length: 0
     strength: 6.5783954
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 140.9219
     length: 0
     strength: 8.104134
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 141.13089
     length: 0
     strength: 5.703458
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 141.3863
     length: 0
     strength: 7.590027
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 141.6185
     length: 0
     strength: 5.181067
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 141.85071
     length: 0
     strength: 5.6326413
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 142.0829
     length: 0
     strength: 4.809007
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 142.33832
     length: 0
     strength: 6.798894
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 142.5473
     length: 0
     strength: 5.9257574
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 142.80272
     length: 0
     strength: 7.1633143
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 143.0117
     length: 0
     strength: 5.409148
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 143.26712
     length: 0
     strength: 7.944071
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 143.4761
     length: 0
     strength: 5.8096843
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 143.73152
     length: 0
     strength: 8.346319
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 143.96371
     length: 0
     strength: 5.5836897
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 144.19592
     length: 0
     strength: 6.9908786
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 144.42812
     length: 0
     strength: 5.233826
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 144.68353
     length: 0
     strength: 6.039278
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 144.89252
     length: 0
     strength: 5.403694
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 145.14793
     length: 0
     strength: 7.413816
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 145.35692
     length: 0
     strength: 6.6032467
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 145.61234
     length: 0
     strength: 7.7595034
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 145.82132
     length: 0
     strength: 6.54715
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 146.07674
     length: 0
     strength: 8.248155
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 146.30893
     length: 0
     strength: 5.711839
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 146.54114
     length: 0
     strength: 7.208852
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 146.77333
     length: 0
     strength: 5.831088
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 147.02875
     length: 0
     strength: 6.68894
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 147.23773
     length: 0
     strength: 6.42167
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 147.49315
     length: 0
     strength: 6.641698
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 147.70213
     length: 0
     strength: 6.6882615
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 147.95755
     length: 0
     strength: 7.518012
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 148.16653
     length: 0
     strength: 5.903199
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 148.42195
     length: 0
     strength: 7.7030673
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 148.63094
     length: 0
     strength: 5.68537
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 148.88635
     length: 0
     strength: 7.9178057
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 149.35075
     length: 0
     strength: 6.7852626
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 149.81514
     length: 0
     strength: 6.7155013
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 150.04735
     length: 0
     strength: 6.6377897
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 150.30276
     length: 0
     strength: 6.046695
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 150.62785
     length: 0
     strength: 4.428792
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 151.23157
     length: 0
     strength: 3.5472035
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 151.57986
     length: 0
     strength: 3.2946892
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 152.04427
     length: 0
     strength: 2.7685754
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 152.27646
     length: 0
     strength: 2.4826698
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 152.50867
     length: 0
     strength: 2.4951253
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 152.85696
     length: 0
     strength: 2.3884475
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 153.32137
     length: 0
     strength: 2.4716113
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 153.46068
     length: 0
     strength: 2.141506
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 153.66966
     length: 0
     strength: 2.1558266
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 154.13406
     length: 0
     strength: 1.8230546
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 154.62167
     length: 0
     strength: 1.657869
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 154.85388
     length: 0
     strength: 1.7650366
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 155.08607
     length: 0
     strength: 1.5735985
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 155.43437
     length: 0
     strength: 1.853332
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 155.78267
     length: 0
     strength: 2.1281266
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 156.36317
     length: 0
     strength: 1.8614129
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 156.8508
     length: 0
     strength: 1.6959201
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 157.083
     length: 0
     strength: 1.4923412
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 157.31519
     length: 0
     strength: 1.5559614
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 157.77959
     length: 0
     strength: 1.9011617
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 158.12788
     length: 0
     strength: 1.9077578
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 158.4762
     length: 0
     strength: 2.2988129
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 158.8245
     length: 0
     strength: 1.6569339
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 159.07991
     length: 0
     strength: 1.456392
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 159.3121
     length: 0
     strength: 1.6602606
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 159.54431
     length: 0
     strength: 1.9342517
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 160.00871
     length: 0
     strength: 1.4402909
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 160.47311
     length: 0
     strength: 1.9363353
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 160.82141
     length: 0
     strength: 1.8771362
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 161.16971
     length: 0
     strength: 1.9257493
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 161.4019
     length: 0
     strength: 1.6969913
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 161.77342
     length: 0
     strength: 1.8646066
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 162.12172
     length: 0
     strength: 1.2943928
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 162.35393
     length: 0
     strength: 1.2844977
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 163.05052
     length: 0
     strength: 1.8936769
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 163.39882
     length: 0
     strength: 1.840903
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 163.63103
     length: 0
     strength: 1.8524097
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 163.88644
     length: 0
     strength: 1.5968592
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 164.35085
     length: 0
     strength: 1.7495079
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 164.58304
     length: 0
     strength: 1.6663219
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 164.93134
     length: 0
     strength: 2.3917115
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 165.16354
     length: 0
     strength: 2.946122
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 165.76726
     length: 0
     strength: 3.8086514
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 165.97624
     length: 0
     strength: 3.5361242
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 166.20844
     length: 0
     strength: 2.901612
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 166.44063
     length: 0
     strength: 2.8219
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 166.69606
     length: 0
     strength: 3.4954333
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 167.39265
     length: 0
     strength: 2.7919312
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 167.62485
     length: 0
     strength: 2.9837074
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 167.85706
     length: 0
     strength: 2.7256408
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 168.20535
     length: 0
     strength: 2.8184116
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 168.55365
     length: 0
     strength: 3.455882
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 168.92517
     length: 0
     strength: 2.9990125
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 169.27347
     length: 0
     strength: 2.5413377
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 169.50568
     length: 0
     strength: 3.347284
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 169.73787
     length: 0
     strength: 2.3888254
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 170.20227
     length: 0
     strength: 2.6487105
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 170.43446
     length: 0
     strength: 3.898764
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 170.66667
     length: 0
     strength: 3.3873181
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 171.38649
     length: 0
     strength: 3.4405053
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 171.61868
     length: 0
     strength: 2.3710742
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 171.96698
     length: 0
     strength: 2.5898323
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 172.31528
     length: 0
     strength: 3.7778742
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 172.54749
     length: 0
     strength: 2.7068005
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 172.8029
     length: 0
     strength: 2.2029507
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 173.24408
     length: 0
     strength: 3.8010545
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 173.47629
     length: 0
     strength: 2.9685457
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 173.70848
     length: 0
     strength: 2.160096
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 173.94067
     length: 0
     strength: 2.8963926
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 174.1961
     length: 0
     strength: 3.7687662
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 174.4283
     length: 0
     strength: 2.8199193
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 174.66049
     length: 0
     strength: 2.7349768
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 174.8927
     length: 0
     strength: 2.1494818
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 175.1249
     length: 0
     strength: 3.0851498
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 175.3571
     length: 0
     strength: 2.6864703
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 175.7054
     length: 0
     strength: 2.8154442
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 176.07692
     length: 0
     strength: 3.872514
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 176.30911
     length: 0
     strength: 3.5051575
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 176.77351
     length: 0
     strength: 2.5040898
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 177.0057
     length: 0
     strength: 3.3767998
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 177.23792
     length: 0
     strength: 3.0319238
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 177.58621
     length: 0
     strength: 3.079861
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 177.93451
     length: 0
     strength: 3.4562838
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 178.16672
     length: 0
     strength: 4.1831193
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 178.6311
     length: 0
     strength: 3.3847213
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 178.88654
     length: 0
     strength: 4.0774736
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 179.11873
     length: 0
     strength: 2.600812
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 179.39737
     length: 0
     strength: 2.918387
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 179.58313
     length: 0
     strength: 2.9407327
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 179.81532
     length: 0
     strength: 3.9641142
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 180.04753
     length: 0
     strength: 3.322444
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 180.30295
     length: 0
     strength: 7.1492023
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 180.51193
     length: 0
     strength: 5.6675687
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 180.76735
     length: 0
     strength: 7.9730062
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 180.97633
     length: 0
     strength: 5.590054
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 181.23175
     length: 0
     strength: 8.042451
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 181.44072
     length: 0
     strength: 5.233316
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 181.69615
     length: 0
     strength: 6.7162976
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 181.92834
     length: 0
     strength: 5.005434
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 182.18376
     length: 0
     strength: 5.813284
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 182.41597
     length: 0
     strength: 5.025384
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 182.64816
     length: 0
     strength: 7.5289025
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 182.85715
     length: 0
     strength: 5.714642
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 183.11256
     length: 0
     strength: 7.920428
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 183.32155
     length: 0
     strength: 5.7728395
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 183.57697
     length: 0
     strength: 8.125578
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 183.83238
     length: 0
     strength: 5.5086193
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 184.04137
     length: 0
     strength: 7.0626597
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 184.29678
     length: 0
     strength: 4.7820835
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 184.52898
     length: 0
     strength: 6.833764
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 184.76118
     length: 0
     strength: 5.0705657
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 184.99338
     length: 0
     strength: 6.831892
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 185.22557
     length: 0
     strength: 5.5517235
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 185.45778
     length: 0
     strength: 7.7487073
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 185.92218
     length: 0
     strength: 8.046818
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 186.13115
     length: 0
     strength: 5.415595
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 186.38658
     length: 0
     strength: 7.5660715
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 186.61877
     length: 0
     strength: 5.295646
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 186.85098
     length: 0
     strength: 5.813805
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 187.1064
     length: 0
     strength: 5.0003386
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 187.3386
     length: 0
     strength: 6.584201
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 187.47792
     length: 0
     strength: 5.364966
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 187.803
     length: 0
     strength: 7.246488
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 188.03519
     length: 0
     strength: 6.0890193
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 188.2674
     length: 0
     strength: 8.381091
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 188.47638
     length: 0
     strength: 5.618246
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 188.7318
     length: 0
     strength: 7.987604
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 188.96399
     length: 0
     strength: 5.182507
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 189.1962
     length: 0
     strength: 6.9295177
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 189.40517
     length: 0
     strength: 4.562351
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 189.6838
     length: 0
     strength: 6.17597
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 189.91602
     length: 0
     strength: 5.588523
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 190.14821
     length: 0
     strength: 7.5319896
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 190.3572
     length: 0
     strength: 5.8110747
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 190.61261
     length: 0
     strength: 7.7139025
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 190.8448
     length: 0
     strength: 5.3286433
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 191.07701
     length: 0
     strength: 8.089064
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 191.33243
     length: 0
     strength: 5.770927
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 191.54141
     length: 0
     strength: 7.0743885
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 191.7736
     length: 0
     strength: 4.966016
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 192.02902
     length: 0
     strength: 6.6609616
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 192.26123
     length: 0
     strength: 4.7258244
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 192.49342
     length: 0
     strength: 6.79068
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 192.72562
     length: 0
     strength: 6.2925415
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 192.95782
     length: 0
     strength: 7.7050962
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 193.16681
     length: 0
     strength: 4.9367046
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 193.42223
     length: 0
     strength: 8.224197
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 193.65442
     length: 0
     strength: 5.2883625
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 193.88663
     length: 0
     strength: 7.799954
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 194.11882
     length: 0
     strength: 4.850875
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 194.35101
     length: 0
     strength: 6.102299
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 194.58322
     length: 0
     strength: 5.475163
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 194.81541
     length: 0
     strength: 6.656807
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 195.30304
     length: 0
     strength: 7.0361886
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 195.51202
     length: 0
     strength: 6.6241336
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 195.76744
     length: 0
     strength: 7.849559
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 195.97641
     length: 0
     strength: 6.294726
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 196.23184
     length: 0
     strength: 7.845305
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 196.44081
     length: 0
     strength: 5.8615417
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 196.69624
     length: 0
     strength: 6.6914864
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 196.92844
     length: 0
     strength: 5.575998
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 197.18385
     length: 0
     strength: 5.960539
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 197.41606
     length: 0
     strength: 6.048496
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 197.64825
     length: 0
     strength: 7.201883
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 197.85724
     length: 0
     strength: 6.2905903
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 198.11266
     length: 0
     strength: 7.668149
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 198.32164
     length: 0
     strength: 6.674235
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 198.57706
     length: 0
     strength: 7.909836
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 198.80925
     length: 0
     strength: 6.2254424
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 199.04146
     length: 0
     strength: 6.950617
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 199.27365
     length: 0
     strength: 5.541424
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 199.52907
     length: 0
     strength: 6.6692715
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 199.73805
     length: 0
     strength: 5.475261
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 199.99347
     length: 0
     strength: 6.689565
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 200.22566
     length: 0
     strength: 6.8137197
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 200.45787
     length: 0
     strength: 7.664985
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 200.66685
     length: 0
     strength: 6.1387877
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 200.92227
     length: 0
     strength: 8.140187
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 201.13124
     length: 0
     strength: 6.382011
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 201.38667
     length: 0
     strength: 7.8001766
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 201.61887
     length: 0
     strength: 5.8638005
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 201.85106
     length: 0
     strength: 5.858675
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 202.10649
     length: 0
     strength: 5.505217
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 202.33868
     length: 0
     strength: 6.5717425
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 202.54767
     length: 0
     strength: 5.7392607
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 202.80309
     length: 0
     strength: 6.9589276
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 203.01207
     length: 0
     strength: 6.3089976
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 203.26749
     length: 0
     strength: 8.10117
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 203.47646
     length: 0
     strength: 6.324862
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 203.73189
     length: 0
     strength: 7.8087106
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 203.96408
     length: 0
     strength: 5.795537
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 204.19627
     length: 0
     strength: 6.9633646
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 204.40526
     length: 0
     strength: 6.0213833
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 204.6839
     length: 0
     strength: 5.9477334
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 204.9161
     length: 0
     strength: 6.0527306
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 205.1483
     length: 0
     strength: 7.476459
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 205.35728
     length: 0
     strength: 6.4736075
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 205.6127
     length: 0
     strength: 7.7118073
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 205.82167
     length: 0
     strength: 6.9675426
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 206.0771
     length: 0
     strength: 7.99229
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 206.33252
     length: 0
     strength: 6.3540335
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 206.5415
     length: 0
     strength: 6.857106
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 206.7737
     length: 0
     strength: 5.590648
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 207.02911
     length: 0
     strength: 6.6557136
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 207.26132
     length: 0
     strength: 5.9507074
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 207.49352
     length: 0
     strength: 6.552888
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 207.72571
     length: 0
     strength: 6.673109
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 207.95792
     length: 0
     strength: 7.7852283
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 208.1669
     length: 0
     strength: 6.451664
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 208.42232
     length: 0
     strength: 8.057237
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 208.65451
     length: 0
     strength: 6.3938894
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 208.88672
     length: 0
     strength: 7.601705
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 209.11891
     length: 0
     strength: 5.442507
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 209.3511
     length: 0
     strength: 5.947396
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 209.58331
     length: 0
     strength: 6.136112
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 209.83873
     length: 0
     strength: 6.711552
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 210.07092
     length: 0
     strength: 5.84904
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 210.30313
     length: 0
     strength: 6.894954
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 210.53532
     length: 0
     strength: 4.5210314
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 210.76753
     length: 0
     strength: 4.344734
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 210.99973
     length: 0
     strength: 5.2140584
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 211.46413
     length: 0
     strength: 5.060219
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 211.69632
     length: 0
     strength: 4.1801476
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 211.92853
     length: 0
     strength: 3.442089
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 212.06784
     length: 0
     strength: 3.2871494
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 212.41614
     length: 0
     strength: 4.1749153
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 212.62512
     length: 0
     strength: 3.3296895
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 212.85733
     length: 0
     strength: 5.0074267
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 213.32172
     length: 0
     strength: 4.6893415
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 213.57715
     length: 0
     strength: 4.394363
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 213.78612
     length: 0
     strength: 3.9070652
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 213.94867
     length: 0
     strength: 3.2565677
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 214.25052
     length: 0
     strength: 4.5694237
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 214.50594
     length: 0
     strength: 3.638901
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 214.76137
     length: 0
     strength: 3.992047
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 215.22575
     length: 0
     strength: 4.4697204
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 215.45796
     length: 0
     strength: 3.78231
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 215.69016
     length: 0
     strength: 3.9106052
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 216.15456
     length: 0
     strength: 5.0289636
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 216.38676
     length: 0
     strength: 4.4809585
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 216.61896
     length: 0
     strength: 5.079333
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 217.08336
     length: 0
     strength: 3.201785
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 217.31555
     length: 0
     strength: 4.4096866
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 217.54776
     length: 0
     strength: 3.8851001
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 217.80318
     length: 0
     strength: 3.9076066
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 218.03537
     length: 0
     strength: 4.6784444
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 218.26758
     length: 0
     strength: 4.3730903
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 218.47655
     length: 0
     strength: 4.9490356
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 218.73198
     length: 0
     strength: 4.3138056
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 218.96417
     length: 0
     strength: 4.9692883
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 219.19637
     length: 0
     strength: 4.259438
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 219.56789
     length: 0
     strength: 3.976287
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 219.89297
     length: 0
     strength: 4.2956405
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 220.38058
     length: 0
     strength: 4.532604
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 220.6128
     length: 0
     strength: 4.5639496
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 220.84499
     length: 0
     strength: 4.8393173
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 221.0772
     length: 0
     strength: 4.355819
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 221.28616
     length: 0
     strength: 4.254901
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 221.54158
     length: 0
     strength: 2.7348917
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 221.77379
     length: 0
     strength: 2.9292696
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 222.00598
     length: 0
     strength: 3.1551156
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 222.23819
     length: 0
     strength: 3.60477
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 222.70259
     length: 0
     strength: 4.0037303
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 223.02766
     length: 0
     strength: 3.0940716
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 223.42241
     length: 0
     strength: 8.563607
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 223.58495
     length: 0
     strength: 4.786443
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 223.7707
     length: 0
     strength: 7.9184327
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 223.93324
     length: 0
     strength: 4.7640057
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 224.119
     length: 0
     strength: 6.9509215
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 224.28154
     length: 0
     strength: 4.658095
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 224.4673
     length: 0
     strength: 5.7661133
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 224.62984
     length: 0
     strength: 4.413275
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 224.83882
     length: 0
     strength: 6.309074
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 225.07101
     length: 0
     strength: 6.564002
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 225.30322
     length: 0
     strength: 6.681127
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 225.48898
     length: 0
     strength: 6.6768904
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 225.76762
     length: 0
     strength: 7.7320075
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 225.99982
     length: 0
     strength: 6.2697
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 226.23203
     length: 0
     strength: 8.007306
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 226.46422
     length: 0
     strength: 6.108015
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 226.69641
     length: 0
     strength: 6.95715
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 226.92862
     length: 0
     strength: 5.602865
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 227.16081
     length: 0
     strength: 6.2815037
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 227.39302
     length: 0
     strength: 5.571657
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 227.64844
     length: 0
     strength: 7.1502366
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 227.85742
     length: 0
     strength: 6.3706326
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 228.11284
     length: 0
     strength: 7.1335583
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 228.34503
     length: 0
     strength: 6.1740303
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 228.57724
     length: 0
     strength: 8.106924
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 228.78621
     length: 0
     strength: 5.2006297
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 229.04163
     length: 0
     strength: 7.426538
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 229.27383
     length: 0
     strength: 4.114329
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 229.50603
     length: 0
     strength: 6.770715
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 229.76144
     length: 0
     strength: 6.112943
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 229.99365
     length: 0
     strength: 6.539628
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 230.22585
     length: 0
     strength: 5.873808
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 230.45805
     length: 0
     strength: 7.630666
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 230.69025
     length: 0
     strength: 5.890306
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 230.92245
     length: 0
     strength: 8.266916
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 231.13142
     length: 0
     strength: 5.377541
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 231.38684
     length: 0
     strength: 7.650406
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 231.61905
     length: 0
     strength: 5.0684485
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 231.85124
     length: 0
     strength: 7.0757294
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 232.08345
     length: 0
     strength: 4.1905417
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 232.33887
     length: 0
     strength: 6.5370207
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 232.54785
     length: 0
     strength: 5.259382
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 232.80327
     length: 0
     strength: 7.048381
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 232.9658
     length: 0
     strength: 5.9440403
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 233.26767
     length: 0
     strength: 7.6545963
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 233.49986
     length: 0
     strength: 5.95362
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 233.73207
     length: 0
     strength: 7.9756417
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 233.96426
     length: 0
     strength: 5.948254
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 234.19646
     length: 0
     strength: 6.951958
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 234.42867
     length: 0
     strength: 6.1804867
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 234.66086
     length: 0
     strength: 6.147856
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 234.84662
     length: 0
     strength: 6.909955
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 235.14848
     length: 0
     strength: 7.197575
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 235.35747
     length: 0
     strength: 6.138513
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 235.61288
     length: 0
     strength: 7.4981165
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 235.84508
     length: 0
     strength: 5.8409686
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 236.07729
     length: 0
     strength: 8.191542
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 236.30948
     length: 0
     strength: 5.9281282
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 236.54167
     length: 0
     strength: 7.1092453
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 236.7971
     length: 0
     strength: 4.5615115
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 237.00607
     length: 0
     strength: 6.5042567
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 237.26149
     length: 0
     strength: 6.036925
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 237.4937
     length: 0
     strength: 6.471227
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 237.72589
     length: 0
     strength: 6.308183
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 237.9581
     length: 0
     strength: 7.651964
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 238.19029
     length: 0
     strength: 5.5414944
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 238.4225
     length: 0
     strength: 8.09354
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 238.63147
     length: 0
     strength: 5.234424
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 238.88689
     length: 0
     strength: 7.8434906
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 239.1191
     length: 0
     strength: 5.0066547
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 239.35129
     length: 0
     strength: 6.5087895
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 239.5835
     length: 0
     strength: 4.8300548
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 239.83891
     length: 0
     strength: 6.765868
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 240.0479
     length: 0
     strength: 5.0994277
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 240.30331
     length: 0
     strength: 6.816095
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 240.51228
     length: 0
     strength: 6.343918
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 240.76772
     length: 0
     strength: 7.426819
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 240.97668
     length: 0
     strength: 6.254456
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 241.2321
     length: 0
     strength: 7.609505
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 241.46431
     length: 0
     strength: 6.0230923
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 241.6965
     length: 0
     strength: 7.0306497
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 241.92871
     length: 0
     strength: 5.6715217
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 242.1609
     length: 0
     strength: 5.867005
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 242.39311
     length: 0
     strength: 6.656653
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 242.64853
     length: 0
     strength: 7.220549
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 242.8575
     length: 0
     strength: 6.232542
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 243.11293
     length: 0
     strength: 7.314803
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 243.34512
     length: 0
     strength: 6.021146
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 243.57733
     length: 0
     strength: 7.875378
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 243.7863
     length: 0
     strength: 5.691134
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 244.04172
     length: 0
     strength: 8.0556755
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 244.27393
     length: 0
     strength: 5.0966434
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 244.52934
     length: 0
     strength: 6.6221004
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 244.76154
     length: 0
     strength: 6.0344853
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 244.99374
     length: 0
     strength: 6.3961663
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 245.22594
     length: 0
     strength: 6.3084993
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 245.45815
     length: 0
     strength: 7.5618825
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 245.66711
     length: 0
     strength: 5.292202
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 245.92255
     length: 0
     strength: 8.072772
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 246.13152
     length: 0
     strength: 5.794506
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 246.38693
     length: 0
     strength: 7.584164
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 246.61914
     length: 0
     strength: 6.1608005
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 246.85133
     length: 0
     strength: 6.8692575
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 247.10675
     length: 0
     strength: 4.7569733
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 247.33896
     length: 0
     strength: 6.6729665
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 247.54794
     length: 0
     strength: 5.9125075
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 247.80336
     length: 0
     strength: 7.149156
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 248.01233
     length: 0
     strength: 6.3180823
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 248.26776
     length: 0
     strength: 7.4344516
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 248.47673
     length: 0
     strength: 6.4394913
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 248.73215
     length: 0
     strength: 7.687964
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 248.96436
     length: 0
     strength: 6.3762536
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 249.19655
     length: 0
     strength: 7.0846987
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 249.42876
     length: 0
     strength: 6.19087
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 249.66095
     length: 0
     strength: 6.22381
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 249.89316
     length: 0
     strength: 6.7388606
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 250.14857
     length: 0
     strength: 7.2520614
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 250.35754
     length: 0
     strength: 6.304677
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 250.61298
     length: 0
     strength: 7.050665
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 250.84517
     length: 0
     strength: 6.039323
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 251.07736
     length: 0
     strength: 7.8970194
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 251.30957
     length: 0
     strength: 6.194556
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 251.54176
     length: 0
     strength: 7.1156096
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 251.77397
     length: 0
     strength: 4.651126
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 252.02939
     length: 0
     strength: 6.5559254
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 252.49379
     length: 0
     strength: 6.660998
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 252.70277
     length: 0
     strength: 5.609208
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 252.95819
     length: 0
     strength: 7.703467
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 253.16716
     length: 0
     strength: 5.4009495
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 253.42259
     length: 0
     strength: 8.277779
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 253.63156
     length: 0
     strength: 5.6899295
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 253.88698
     length: 0
     strength: 7.8911967
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 254.11919
     length: 0
     strength: 5.3417554
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 254.35138
     length: 0
     strength: 6.957597
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 254.58359
     length: 0
     strength: 4.89959
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 254.839
     length: 0
     strength: 6.8212953
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 255.04799
     length: 0
     strength: 5.8666015
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 255.3034
     length: 0
     strength: 6.836375
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 255.51237
     length: 0
     strength: 5.146491
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 255.7678
     length: 0
     strength: 8.023797
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 256
     length: 0
     strength: 5.597875
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 256.2322
     length: 0
     strength: 8.028506
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 256.4644
     length: 0
     strength: 5.6721325
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 256.6966
     length: 0
     strength: 6.9770856
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 256.9288
     length: 0
     strength: 5.562046
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 257.161
     length: 0
     strength: 6.15035
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 257.3932
     length: 0
     strength: 4.848109
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 257.64862
     length: 0
     strength: 7.192632
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 257.8576
     length: 0
     strength: 5.825931
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 258.113
     length: 0
     strength: 8.10361
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 258.322
     length: 0
     strength: 6.145065
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 258.57742
     length: 0
     strength: 7.884709
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 258.7864
     length: 0
     strength: 6.133628
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 259.0418
     length: 0
     strength: 7.5256453
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 259.27402
     length: 0
     strength: 5.072051
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 259.52942
     length: 0
     strength: 6.536021
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 259.7384
     length: 0
     strength: 5.743658
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 259.99384
     length: 0
     strength: 6.4716525
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 260.20282
     length: 0
     strength: 5.770469
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 260.45822
     length: 0
     strength: 7.9162254
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 260.6672
     length: 0
     strength: 6.015917
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 260.92264
     length: 0
     strength: 7.5517297
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 261.13162
     length: 0
     strength: 4.9887714
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 261.38702
     length: 0
     strength: 7.7925677
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 261.85144
     length: 0
     strength: 7.057926
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 262.08362
     length: 0
     strength: 5.3703136
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 262.33905
     length: 0
     strength: 6.9037523
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 262.54803
     length: 0
     strength: 5.272305
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 262.80344
     length: 0
     strength: 7.062279
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 263.03564
     length: 0
     strength: 5.366887
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 263.26785
     length: 0
     strength: 8.052446
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 263.47684
     length: 0
     strength: 5.0643306
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 263.73224
     length: 0
     strength: 8.092871
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 263.96445
     length: 0
     strength: 5.867565
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 264.19666
     length: 0
     strength: 6.9979877
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 264.42883
     length: 0
     strength: 5.3903093
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 264.66104
     length: 0
     strength: 6.142245
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 264.89325
     length: 0
     strength: 5.255015
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 265.14865
     length: 0
     strength: 7.39219
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 265.35764
     length: 0
     strength: 6.341353
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 265.61307
     length: 0
     strength: 7.77755
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 265.84528
     length: 0
     strength: 6.2293096
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 266.07745
     length: 0
     strength: 8.018141
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 266.30966
     length: 0
     strength: 6.066449
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 266.54187
     length: 0
     strength: 6.954185
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 266.77405
     length: 0
     strength: 4.9727597
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 267.02948
     length: 0
     strength: 6.550977
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 267.23846
     length: 0
     strength: 5.4945216
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 267.47067
     length: 0
     strength: 6.9412837
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 267.70285
     length: 0
     strength: 6.102233
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 267.93506
     length: 0
     strength: 7.214909
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 268.16727
     length: 0
     strength: 5.9359527
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 268.42267
     length: 0
     strength: 8.070456
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 268.63165
     length: 0
     strength: 5.762236
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 268.8871
     length: 0
     strength: 7.772762
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 269.35147
     length: 0
     strength: 6.811689
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 269.58368
     length: 0
     strength: 4.906696
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 269.83908
     length: 0
     strength: 6.8200073
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 270.04807
     length: 0
     strength: 5.8669376
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 270.3035
     length: 0
     strength: 6.811001
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 270.51248
     length: 0
     strength: 5.584374
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 270.76788
     length: 0
     strength: 7.9942746
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 271.0001
     length: 0
     strength: 6.4027705
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 271.2323
     length: 0
     strength: 8.035152
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 271.46448
     length: 0
     strength: 6.6231556
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 271.6967
     length: 0
     strength: 7.1830087
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 271.9289
     length: 0
     strength: 5.3423214
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 272.1611
     length: 0
     strength: 6.2323647
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 272.39328
     length: 0
     strength: 5.2041607
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 272.6487
     length: 0
     strength: 7.2172217
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 272.8577
     length: 0
     strength: 6.648427
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 273.1131
     length: 0
     strength: 7.552895
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 273.32208
     length: 0
     strength: 7.1104465
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 273.5775
     length: 0
     strength: 7.7905164
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 273.7865
     length: 0
     strength: 6.1091905
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 274.0419
     length: 0
     strength: 7.8586726
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 274.2741
     length: 0
     strength: 5.1873617
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 274.5295
     length: 0
     strength: 6.435773
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 274.7385
     length: 0
     strength: 5.811266
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 274.99393
     length: 0
     strength: 6.5461154
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 275.2029
     length: 0
     strength: 6.9900074
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 275.4583
     length: 0
     strength: 7.4303336
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 275.6673
     length: 0
     strength: 6.3978605
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 275.92273
     length: 0
     strength: 7.7321935
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 276.1549
     length: 0
     strength: 5.23508
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 276.38712
     length: 0
     strength: 7.8420067
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 276.5961
     length: 0
     strength: 5.6835556
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 276.85153
     length: 0
     strength: 6.2737846
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 277.0837
     length: 0
     strength: 5.16852
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 277.33914
     length: 0
     strength: 6.7972546
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 277.54813
     length: 0
     strength: 5.474964
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 277.80353
     length: 0
     strength: 6.6957
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 278.03574
     length: 0
     strength: 5.533564
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 278.26794
     length: 0
     strength: 8.018544
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 278.50012
     length: 0
     strength: 5.6011605
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 278.73233
     length: 0
     strength: 7.95653
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 278.96454
     length: 0
     strength: 5.5392375
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 279.19675
     length: 0
     strength: 6.982089
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 279.42892
     length: 0
     strength: 5.4427223
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 279.66113
     length: 0
     strength: 6.07042
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 279.89334
     length: 0
     strength: 5.5587587
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 280.14874
     length: 0
     strength: 7.2382936
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 280.35773
     length: 0
     strength: 6.976545
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 280.61316
     length: 0
     strength: 7.6586943
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 280.82214
     length: 0
     strength: 6.32514
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 281.07755
     length: 0
     strength: 8.085081
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 281.30975
     length: 0
     strength: 5.8013062
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 281.54196
     length: 0
     strength: 7.4889526
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 281.77414
     length: 0
     strength: 5.569471
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 282.02957
     length: 0
     strength: 6.5725174
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 282.23856
     length: 0
     strength: 6.2784686
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 282.49396
     length: 0
     strength: 6.365759
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 282.93515
     length: 0
     strength: 7.0221148
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 283.16736
     length: 0
     strength: 6.3639474
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 283.42276
     length: 0
     strength: 7.9850826
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 283.63174
     length: 0
     strength: 5.7220416
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 283.88718
     length: 0
     strength: 7.7881255
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 284.35156
     length: 0
     strength: 6.8918786
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 284.58377
     length: 0
     strength: 6.598892
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 284.81595
     length: 0
     strength: 6.777054
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 285.04816
     length: 0
     strength: 6.799848
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
   - timestamp: 285.3036
     length: 0
     strength: 6.46294
     intensity: 0
     ind: 0
+    elecSize: 0
     line: []
 --- !u!114 &-452527632176040331
 MonoBehaviour:
