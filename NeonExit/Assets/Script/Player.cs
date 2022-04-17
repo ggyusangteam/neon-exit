@@ -45,15 +45,6 @@ public class Player : MonoBehaviour
         
     }
 
-    //장애물 충돌
-    void OnTriggerEnter(Collider _col)
-    {
-        if (_col.tag == "obstacle")
-        {
-            anim.SetBool("Dead", true);
-            canMove = false;
-        }
-    }
 
     void Update()
     {

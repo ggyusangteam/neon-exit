@@ -33,9 +33,4 @@ public class Coin : MonoBehaviour
             obstacle.obsEnqueue(ind, gameObject);
         }
     }
-
-    void OnTriggerEnter(Collider _col)
-    {
-        obstacle.obsEnqueue(ind, gameObject);
-    }
 }
