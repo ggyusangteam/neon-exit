@@ -1,15 +1,30 @@
+
+*.log
+*.log
+NeonExit/Logs/AssetImportWorker0.log
+NeonExit/Logs/shadercompiler-AssetImportWorker0.log
+NeonExit/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+NeonExit/Logs/shadercompiler-UnityShaderCompiler.exe1.log
+NeonExit/Logs/shadercompiler-UnityShaderCompiler.exe2.log
+NeonExit/Logs/shadercompiler-UnityShaderCompiler.exe3.log
+NeonExit/Logs/shadercompiler-UnityShaderCompiler.exe4.log
+NeonExit/Logs/shadercompiler-UnityShaderCompiler.exe5.log
+NeonExit/Logs/shadercompiler-UnityShaderCompiler.exe6.log
+NeonExit/Logs/shadercompiler-UnityShaderCompiler.exe7.log
+*.log
+NeonExit/Logs/AssetImportWorker0.log
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-
+NeonExit\Logs\*
 [Ll]ibrary/
 [Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta

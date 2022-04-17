@@ -17,7 +17,7 @@ public class BackGround : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < max_BackGround; i++)
+        for (int i = 0; i < max_BackGround; i++) 
         {
             GameObject clone_Note = Instantiate(backGround_Prefab);
 
@@ -26,6 +26,7 @@ public class BackGround : MonoBehaviour
             InsertQueue(clone_Note);
 
         }
+
 
         GetQueue(0);
         GetQueue(1);
