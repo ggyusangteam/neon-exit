@@ -45,15 +45,6 @@ public class Player : MonoBehaviour
         
     }
 
-    //장애물 충돌
-    void OnTriggerEnter(Collider _col)
-    {
-        if (_col.tag == "obstacle")
-        {
-            anim.SetBool("Dead", true);
-            canMove = false;
-        }
-    }
 
     void Update()
     {
@@ -136,11 +127,9 @@ public class Player : MonoBehaviour
 
 
 
-            
-            
-         
-          
-        
+
+
+
 
         if (Input.GetKeyDown(KeyCode.A)&& canMove == true) //좌로 이동 나중에 슬라이드로 변경
         {                     
@@ -181,7 +170,81 @@ public class Player : MonoBehaviour
 
 
         }
+        if (Input.GetKey(KeyCode.H) ) //망치 변경
+        {
+
+
+
+            anim.SetBool("hammer_1", true);
+           
+
+        }
+        if (Input.GetKeyUp(KeyCode.H)) //망치 변경
+        {
+
+
+
+        
+            anim.SetBool("hammer_1", false);
+
+        }
+        if (Input.GetKey(KeyCode.J)) //망치 휘두르기
+        {
+
+
+
+            anim.SetBool("hammer_use", true);
+           
+
+        }
+        if (Input.GetKeyUp(KeyCode.J)) //망치 휘두르기
+        {
+
+
+
+          
+            anim.SetBool("hammer_use", false);
+
+        }
+        if (Input.GetKey(KeyCode.Q)) //왼벽타기
+        {
+
+
+
+            anim.SetBool("WallWalk_Left", true);
+
+
+        }
+        if (Input.GetKeyUp(KeyCode.Q)) //왼벽타기
+        {
+
+
+
+            anim.SetBool("WallWalk_Left", false);
+
+
+        }
+        if (Input.GetKey(KeyCode.E)) // 오른벽타기
+        {
+
+
+
+            anim.SetBool("WallWalk_Right", true);
+
+
+        }
+        if (Input.GetKeyUp(KeyCode.E)) //오른벽타기
+        {
+
+
+
+            anim.SetBool("WallWalk_Right", false);
+
+
+        }
+
     }
+
 
 
     IEnumerator JumpCo(Transform transform_param, int a)

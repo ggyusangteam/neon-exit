@@ -6,7 +6,6 @@ using RhythmTool;
 
 public class Obstacle : MonoBehaviour
 {
-    public const int obsCnt = 4;
 
     public RhythmData rhythmData;
     private List<Onset> places;
@@ -14,7 +13,7 @@ public class Obstacle : MonoBehaviour
     public AudioSource audioSource;
     [SerializeField] GameObject player;
     [SerializeField] float threshold;
-    public GameObject[] obs = new GameObject[obsCnt];
+    public GameObject[] obs = new GameObject[3];
     Dictionary<int, Queue<GameObject>> queue = new Dictionary<int, Queue<GameObject>>();
     private int poolCount = 100;
     public float arrivetime;
@@ -23,7 +22,7 @@ public class Obstacle : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int y = 0; y < obsCnt; y++)
+        for (int y = 0; y < 3; y++)
         {
             Queue<GameObject> newqueue = new Queue<GameObject>();
             queue.Add(y, newqueue);
@@ -34,6 +33,7 @@ public class Obstacle : MonoBehaviour
             }
             //수정필요
             setObs(y);
+
         }
     }
 
@@ -53,24 +53,10 @@ public class Obstacle : MonoBehaviour
             int ind = place.ind;
             int len = place.line.Length;
             Debug.Log("Obs" + ind + " appear at " + time + "sec");
-
-            if(ind == 3)
-            {
-                int elecSize = place.elecSize;
-
-                for(int x = 0; x < elecSize; x++)
-                {
-                    GameObject temp = obsDequeue(ind);
-                    temp.transform.position = new Vector3(0, player.transform.position.y + 0.5f, player.transform.position.z + 50 + x);
-                    temp = obsDequeue(ind);
-                    temp.transform.position = new Vector3(0, player.transform.position.y + 0.5f, player.transform.position.z + 50 + x + 0.5f);
-                }
-            }
-
             for (int x = 0; x < len; x++)
             {
                 GameObject temp = obsDequeue(ind);
-                temp.transform.position = new Vector3(place.line[x], player.transform.position.y+0.5f, player.transform.position.z + 50);
+                temp.transform.position = new Vector3(place.line[x], 0.5f, player.transform.position.z + 50);
             }
         }
         prevTime = time;
