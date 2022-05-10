@@ -344,7 +344,7 @@ MonoBehaviour:
   jumpSpeed: 5
   downSpeed: 7
   anim: {fileID: 1510689031}
-  sensitivity: 5
+  sensitivity: 3
 --- !u!65 &492154933
 BoxCollider:
   m_ObjectHideFlags: 0
