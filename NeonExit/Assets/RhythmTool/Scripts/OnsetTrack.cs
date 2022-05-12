@@ -7,9 +7,9 @@ namespace RhythmTool
     /// </summary>
     public class OnsetTrack : Track<Onset>
     {
-        
+
     }
-    
+
     /// <summary>
     /// An Onset is the start of a note in a song.
     /// </summary>
@@ -22,6 +22,7 @@ namespace RhythmTool
         public float strength;
         public float intensity;
         public int ind;
+        public int elecSize;
         public float[] line;
     }
 }

@@ -19,11 +19,12 @@ public class Player : MonoBehaviour
     //점프 속도
     public float downSpeed;
     // 떨어지는 속도
+
     float destinationPos;
     // Vector3 destinationPos = new Vector3();
     // Vector3 dir = new Vector3();
     float dir;
- 
+
     RaycastHit Hit;
     // 벽과의 충돌을 감지할 Ray
 
@@ -35,14 +36,19 @@ public class Player : MonoBehaviour
     [SerializeField] float sensitivity;
     // 드래그 민감도
 
-  
-    Vector3 firstTouch; 
+    private double currentTime; //현재시간
+
+    Vector3 firstTouch;
     // 첫번째 터치 
     Vector3 endTouch;
-   //두번째 터치
+    //두번째 터치
+    Vector3 firstMouseTouch;
+    // 마우스 첫번째 
+    Vector3 endMouseTouch;
+    //마우스 두번째 
     void Start()
     {
-        
+
     }
 
 
@@ -56,17 +62,17 @@ public class Player : MonoBehaviour
         }
 
 
+        //모바일 애니메이션 로직 
 
-
-
+        /*
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
-           if (touch.phase == TouchPhase.Began)
+            if (touch.phase == TouchPhase.Began)
             {
-           
-                firstTouch = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x,touch.position.y,10));
-                Debug.Log("first" + firstTouch+touch.position);
+
+                firstTouch = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, 10));
+                Debug.Log("first" + firstTouch + touch.position);
 
             }
 
@@ -82,29 +88,83 @@ public class Player : MonoBehaviour
                 {
                     if (xMoved > 0 && canMove == true)
                     {
-                        StartCoroutine(RightMoveCo(player.transform, 1));
+                        StartCoroutine(RightMoveCo(player.transform, 1)); //우측이동
                     }
                     else
                     {
-                        StartCoroutine(LeftMoveCo(player.transform, -1));
+                        StartCoroutine(LeftMoveCo(player.transform, -1)); //좌측이동
                     }
                 }
                 else
                 {
                     if (yMoved > 0 && canMove == true)
                     {
-                        StartCoroutine(JumpCo(player.transform, 1));
+                        StartCoroutine(JumpCo(player.transform, 1)); //점프
                     }
                     else
                     {
-                        anim.SetTrigger("Slide");
+                        anim.SetTrigger("Slide"); //슬라이드
 
                     }
                 }
-            } 
+            }
+        }
+
+        */
+
+
+        if (Input.GetMouseButtonDown(0))
+        {
+
+            firstMouseTouch = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10));
+            //   Debug.Log("first" + firstTouch + touch.position);
+
+        }
+
+        if (Input.GetMouseButtonUp(0))
+
+        {
+            //  Debug.Log("ended" + touch.position);
+            endMouseTouch = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10));
+
+            float xMoved = endMouseTouch.x - firstMouseTouch.x;
+            float yMoved = endMouseTouch.y - firstMouseTouch.y;
+            if (Mathf.Abs(xMoved - yMoved) >= sensitivity)
+            {
+                if (Mathf.Abs(xMoved) > Mathf.Abs(yMoved))
+                {
+                    if (xMoved > 0 && canMove == true)
+                    {
+                        StartCoroutine(RightMoveCo(player.transform, 1)); //우측이동
+                    }
+                    else if (xMoved < 0 && canMove == true)
+                    {
+                        StartCoroutine(LeftMoveCo(player.transform, -1)); //좌측이동
+                    }
+                }
+                else
+                {
+                    if (yMoved > 0 && canMove == true)
+                    {
+                        StartCoroutine(JumpCo(player.transform, 1)); //점프
+                    }
+                    else if (yMoved < 0 && canMove == true)
+                    {
+
+                        anim.SetBool("Slide", true); //슬라이드
+                        canMove = false;
+                    }
+                }
             }
 
+           
+        }
 
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Slide") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
+        {
+            canMove = true;
+            Debug.Log("Current State Name 애니메이션 종료.");
+        }
 
 
 
@@ -127,35 +187,33 @@ public class Player : MonoBehaviour
 
 
 
-            
-            
-         
-          
-        
 
-        if (Input.GetKeyDown(KeyCode.A)&& canMove == true) //좌로 이동 나중에 슬라이드로 변경
-        {                     
-                         StartCoroutine(LeftMoveCo(player.transform, -1));       
-        }
-        if (Input.GetKeyDown(KeyCode.D) && canMove == true) //우로 이동 나중에 슬라이드로 변경
+
+
+
+        if (Input.GetKeyDown(KeyCode.A) && canMove == true) //좌로 이동
         {
-           
-            
-
-
-                StartCoroutine(RightMoveCo(player.transform, 1));
-        
+            StartCoroutine(LeftMoveCo(player.transform, -1));
         }
-
-        if (Input.GetKeyDown(KeyCode.W) && canMove == true) //점프 나중에 슬라이드로 변경
+        if (Input.GetKeyDown(KeyCode.D) && canMove == true) //우로 이동 
         {
-        
-      
 
-                StartCoroutine(JumpCo(player.transform, 1));
-            
+
+
+
+            StartCoroutine(RightMoveCo(player.transform, 1));
+
         }
-        if (Input.GetKeyDown(KeyCode.F) ) //사망
+
+        if (Input.GetKeyDown(KeyCode.W) && canMove == true) //점프 
+        {
+
+
+
+            StartCoroutine(JumpCo(player.transform, 1));
+
+        }
+        if (Input.GetKeyDown(KeyCode.F)) //사망
         {
 
 
@@ -163,7 +221,7 @@ public class Player : MonoBehaviour
 
             canMove = false;
         }
-        if (Input.GetKeyDown(KeyCode.S) && canMove == true) //점프 나중에 슬라이드로 변경
+        if (Input.GetKeyDown(KeyCode.S) && canMove == true) //슬라이드
         {
 
 
@@ -172,7 +230,102 @@ public class Player : MonoBehaviour
 
 
         }
+        if (Input.GetKey(KeyCode.H) && canMove == true) //망치 변경   재현이형과 상의 후 조건 추가
+        {
+
+
+
+            anim.SetBool("Hammer_1", true);
+
+
+        }
+        if (Input.GetKeyUp(KeyCode.H) ) //망치 변경
+        {
+
+
+
+
+            anim.SetBool("Hammer_1", false);
+
+        }
+        if (Input.GetKey(KeyCode.J) && canMove == true) //망치 휘두르기
+        {
+
+
+
+            anim.SetBool("Hammer_Use", true);
+
+
+        }
+        if (Input.GetKeyUp(KeyCode.J)) //망치 휘두르기
+        {
+
+
+
+
+            anim.SetBool("hammer_Use", false);
+
+        }
+        if (Input.GetKey(KeyCode.Q) && canMove == true) //왼벽타기  재현이형과 상의 후 조건 추가
+        { 
+
+
+
+            anim.SetBool("WallWalk_Left", true);
+            canMove = false;
+
+        }
+        if (Input.GetKeyUp(KeyCode.Q)) //왼벽타기
+        {
+
+
+
+            anim.SetBool("WallWalk_Left", false);
+            canMove = true;
+
+        }
+        if (Input.GetKey(KeyCode.E) && canMove == true) // 오른벽타기  재현이형과 상의 후 조건 추가
+        {
+
+
+
+            anim.SetBool("WallWalk_Right", true);
+            canMove = false;
+
+        }
+        if (Input.GetKeyUp(KeyCode.E)) //오른벽타기
+        {
+
+
+
+            anim.SetBool("WallWalk_Right", false);
+            canMove = true;
+
+        }
+        if (Input.GetKey(KeyCode.T) && canMove == true) // 전신주 타기  재현이형과 상의 후 조건 추가
+        {
+
+
+
+            anim.SetBool("PoleJump", true);
+            canMove = false;
+           
+
+
+        }
+        if (Input.GetKeyUp(KeyCode.T)) // 전신주 타기  재현이형과 상의 후 조건 추가
+        {
+
+
+
+            anim.SetBool("PoleJump", false);
+            canMove = true;
+
+
+        }
+       
     }
+
 
 
     IEnumerator JumpCo(Transform transform_param, int a)
@@ -181,12 +334,12 @@ public class Player : MonoBehaviour
         destinationPos = transform_param.position.y + dir;
         anim.SetBool("Jump", true);
         Vector3 currentPos = transform_param.position;
-   
+
         canMove = false;
 
         while (transform_param.position.y - destinationPos >= 0.0001f || destinationPos - transform_param.position.y >= 0.0001f)
         {
-     
+
             transform_param.position = Vector3.MoveTowards(transform_param.position, new Vector3(transform.position.x, destinationPos, transform.position.z), jumpSpeed * Time.deltaTime);
             yield return null;
         }
@@ -194,7 +347,7 @@ public class Player : MonoBehaviour
 
         while (transform_param.position.y - currentPos.y >= 0.0001f || currentPos.y - transform_param.position.y >= 0.0001f)
         {
-     
+
             transform_param.position = Vector3.MoveTowards(transform_param.position, new Vector3(transform.position.x, currentPos.y, transform.position.z), downSpeed * Time.deltaTime);
             yield return null;
 
@@ -222,7 +375,7 @@ public class Player : MonoBehaviour
         else
         {
             Debug.Log("바로앞에 벽 없음 이동 가능");
-           
+
             anim.SetBool("Left", true);
             canMove = false;
             while (transform_param.position.x - destinationPos >= 0.0001f)
@@ -267,5 +420,13 @@ public class Player : MonoBehaviour
 
         }
     }
-
+    void OnTriggerEnter(Collider _col)
+    {
+        if (_col.tag == "obstacle")
+        {
+            anim.SetBool("Dead", true);
+            canMove = false;
+        }
+    }
 }
+
