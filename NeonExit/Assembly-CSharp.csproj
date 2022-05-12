@@ -68,7 +68,6 @@
     <Compile Include="Assets\Audio.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\BeatTrack.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\OnsetTrack.cs" />
-    <Compile Include="Assets\Script\ObsFolder\Obstacle.cs" />
     <Compile Include="Assets\Script\ObsFolder\Coin.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\ChromaTrack.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\BeatTracker.cs" />
@@ -88,6 +87,7 @@
     <Compile Include="Assets\RhythmTool\Scripts\RhythmTarget.cs" />
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\RhythmTool\Examples\Scripts\Visualizer.cs" />
+    <Compile Include="Assets\Script\ObsFolder\Obstacle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LightningBolt\Readme.txt" />

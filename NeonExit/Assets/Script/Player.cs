@@ -420,5 +420,13 @@ public class Player : MonoBehaviour
 
         }
     }
+    void OnTriggerEnter(Collider _col)
+    {
+        if (_col.tag == "obstacle")
+        {
+            anim.SetBool("Dead", true);
+            canMove = false;
+        }
+    }
 }
 
