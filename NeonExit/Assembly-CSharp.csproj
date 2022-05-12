@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,6 +53,9 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\RhythmTool\Scripts\RhythmData.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\Track.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\DebugDrawer.cs" />
@@ -75,6 +78,7 @@
     <Compile Include="Assets\LineManager.cs" />
     <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\ValueTrack.cs" />
+    <Compile Include="Assets\Script\ObsFolder\Obstacle.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\RhythmAnalyzer.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\RhythmEventProvider.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\LomontFFT.cs" />
@@ -87,7 +91,6 @@
     <Compile Include="Assets\RhythmTool\Scripts\RhythmTarget.cs" />
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\RhythmTool\Examples\Scripts\Visualizer.cs" />
-    <Compile Include="Assets\Script\ObsFolder\Obstacle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LightningBolt\Readme.txt" />
