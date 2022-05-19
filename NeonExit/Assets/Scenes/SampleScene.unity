@@ -349,8 +349,9 @@ MonoBehaviour:
   sideSpeed: 7
   jumpSpeed: 5
   downSpeed: 7
+  jumpHeight: 0.5
   anim: {fileID: 1510689031}
-  sensitivity: 3
+  sensitivity: 2
 --- !u!54 &492154933
 Rigidbody:
   m_ObjectHideFlags: 0
