@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
     //점프 속도
     public float downSpeed;
     // 떨어지는 속도
+    public float jumpHeight;
+    //점프 높이
 
     float destinationPos;
     // Vector3 destinationPos = new Vector3();
@@ -331,7 +333,7 @@ public class Player : MonoBehaviour
     IEnumerator JumpCo(Transform transform_param, int a)
     {
         dir = a;
-        destinationPos = transform_param.position.y + dir;
+        destinationPos = transform_param.position.y +jumpHeight+ dir;
         anim.SetBool("Jump", true);
         Vector3 currentPos = transform_param.position;
 
