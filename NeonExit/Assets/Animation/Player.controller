@@ -8,7 +8,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Polejump_1
-  m_Speed: 1
+  m_Speed: 2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -6689632182294625398}
@@ -21,7 +21,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 1827226128182048838, guid: 4f040ee9915399b4ab85213d0cea3d5d, type: 3}
+  m_Motion: {fileID: 1827226128182048838, guid: 1104119df6b0fc64ab25fae552c6a2bb, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -144,10 +144,10 @@ AnimatorStateMachine:
     m_Position: {x: 340, y: -70, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3437017464999181327}
-    m_Position: {x: -170, y: 270, z: 0}
+    m_Position: {x: -120, y: 270, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5441492952733188896}
-    m_Position: {x: 350, y: 530, z: 0}
+    m_Position: {x: 340, y: 530, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8594408017089419653}
     m_Position: {x: -130, y: 390, z: 0}
@@ -159,7 +159,7 @@ AnimatorStateMachine:
     m_Position: {x: 150, y: 430, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5902850857618488070}
-    m_Position: {x: 490, y: 430, z: 0}
+    m_Position: {x: 480, y: 430, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -9038666718354332786}
     m_Position: {x: 600, y: 180, z: 0}
@@ -212,7 +212,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: wallwalk_Right
-  m_Speed: 1
+  m_Speed: 10
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 3389962141396737907}
@@ -239,7 +239,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Slide
-  m_Speed: 1
+  m_Speed: 10
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -1605409702314617011}
@@ -343,7 +343,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Left
-  m_Speed: 1
+  m_Speed: 2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 512273571957209595}
@@ -392,7 +392,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: wallwalk_left
-  m_Speed: 1
+  m_Speed: 10
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 8885178310006222646}
@@ -769,7 +769,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 1827226128182048838, guid: 4abd571b431001249ba7195fe3dab62f, type: 3}
+  m_Motion: {fileID: 1827226128182048838, guid: 5a47f54ef18f1514aaef82a487b50d99, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -884,7 +884,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Run
-  m_Speed: 1
+  m_Speed: 1.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -7596855373448936279}
@@ -968,7 +968,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Right
-  m_Speed: 1
+  m_Speed: 2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 772320691140104827}
@@ -1020,7 +1020,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jump
-  m_Speed: 1
+  m_Speed: 3.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -8221665771971960753}
