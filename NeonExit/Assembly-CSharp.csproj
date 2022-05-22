@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,9 +53,6 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\RhythmTool\Scripts\RhythmData.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\Track.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\DebugDrawer.cs" />
@@ -65,17 +62,16 @@
     <Compile Include="Assets\Script\CameraMove.cs" />
     <Compile Include="Assets\RhythmTool\Examples\Scripts\Line.cs" />
     <Compile Include="Assets\Script\ObsFolder\Electronic.cs" />
-    <Compile Include="Assets\Script\ObsFolder\Obs3.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\Bindings.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\Util.cs" />
-    <Compile Include="Assets\Audio.cs" />
+    <Compile Include="Assets\Script\Audio.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\BeatTrack.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\OnsetTrack.cs" />
     <Compile Include="Assets\Script\ObsFolder\Coin.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\ChromaTrack.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\BeatTracker.cs" />
     <Compile Include="Assets\Script\ObsFolder\Barricade.cs" />
-    <Compile Include="Assets\LineManager.cs" />
+    <Compile Include="Assets\Script\LineManager.cs" />
     <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\ValueTrack.cs" />
     <Compile Include="Assets\Script\ObsFolder\Obstacle.cs" />
@@ -91,13 +87,34 @@
     <Compile Include="Assets\RhythmTool\Scripts\RhythmTarget.cs" />
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\RhythmTool\Examples\Scripts\Visualizer.cs" />
+    <Compile Include="Assets\PauseManager.cs" />
+    <Compile Include="Assets\ObsAssets\WireBuilder\Scripts\WireConnector.cs" />
+    <Compile Include="Assets\ObsAssets\WireBuilder\Scripts\WireConnectorGroup.cs" />
+    <Compile Include="Assets\Script\ObsFolder\Rocket.cs" />
+    <Compile Include="Assets\Script\ObsFolder\DestroyedCar.cs" />
+    <Compile Include="Assets\ObsAssets\WireBuilder\Scripts\Wire.cs" />
+    <Compile Include="Assets\Script\ObsFolder\DestRoc.cs" />
+    <Compile Include="Assets\Script\ObsFolder\Sign.cs" />
+    <Compile Include="Assets\ObsAssets\ARPG Effects\Demo\Scripts\ARPGFXCycler.cs" />
+    <Compile Include="Assets\ObsAssets\WireBuilder\Scripts\WireGenerator.cs" />
+    <Compile Include="Assets\ObsAssets\ARPG Effects\Scripts\ARPGFXLightFade.cs" />
+    <Compile Include="Assets\ObsAssets\ARPG Effects\Scripts\ARPGFXPortalScript.cs" />
+    <Compile Include="Assets\ObsAssets\ARPG Effects\Scripts\ARPGFXRotation.cs" />
+    <Compile Include="Assets\ObsAssets\Sci-Fi Holographic Signs\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\ObsAssets\WireBuilder\Scripts\WireManager.cs" />
+    <Compile Include="Assets\ObsAssets\ARPG Effects\Demo\Scripts\ARPGSceneSelect.cs" />
+    <Compile Include="Assets\ObsAssets\ARPG Effects\Demo\Scripts\ARPGFXLoopScript.cs" />
+    <Compile Include="Assets\ObsAssets\WireBuilder\Scripts\WireType.cs" />
+    <Compile Include="Assets\ObsAssets\ARPG Effects\Scripts\ARPGFXLightFlicker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LightningBolt\Readme.txt" />
     <None Include="Assets\RhythmTool\Examples\Misc\UnlitColorTransparent.shader" />
     <None Include="Assets\DavePixel\ReadMe!.rtf.txt" />
+    <None Include="Assets\ObsAssets\WireBuilder\Shaders\Wire_Animated_Standard.shader" />
     <None Include="Assets\RhythmTool\3.2 Upgrade Guide.txt" />
     <None Include="Assets\RhythmTool\Examples\Readme.txt" />
+    <None Include="Assets\ObsAssets\Sci-Fi Holographic Signs\Shaders\Holo.shader" />
     <None Include="Assets\RhythmTool\Examples\Songs\Example songs.txt" />
   </ItemGroup>
   <ItemGroup>

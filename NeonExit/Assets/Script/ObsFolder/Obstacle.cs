@@ -6,7 +6,7 @@ using RhythmTool;
 
 public class Obstacle : MonoBehaviour
 {
-    public const int obsCnt = 4;
+    public const int obsCnt = 10;
 
     public RhythmData rhythmData;
     private List<Onset> places;
@@ -54,23 +54,68 @@ public class Obstacle : MonoBehaviour
             int len = place.line.Length;
             Debug.Log("Obs" + ind + " appear at " + time + "sec");
 
-            if(ind == 3)
+            if(ind == 0 || ind == 5 || ind == 9)
             {
-                int elecSize = place.elecSize;
-
-                for(int x = 0; x < elecSize; x++)
+                for (int x = 0; x < len; x++)
                 {
                     GameObject temp = obsDequeue(ind);
-                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 50 + x);
-                    temp = obsDequeue(ind);
-                    temp.transform.position = new Vector3(0,  0.5f, player.transform.position.z + 50 + x + 0.5f);
+                    temp.transform.position = new Vector3(place.line[x], 0f, player.transform.position.z + 50);
                 }
             }
 
-            for (int x = 0; x < len; x++)
+            else if(ind == 6)
+            {
+                for (int x = 0; x < len; x++)
+                {
+                    GameObject temp = obsDequeue(ind);
+                    temp.transform.position = new Vector3(place.line[x] + 0.5f, 0f, player.transform.position.z + 50);
+                }
+            }
+
+            else if(ind == 2)
             {
                 GameObject temp = obsDequeue(ind);
-                temp.transform.position = new Vector3(place.line[x],0.5f, player.transform.position.z + 50);
+                temp.transform.position = new Vector3(0, 1.2f, player.transform.position.z + 50);
+            }
+
+            else if (ind == 3)
+            {
+                GameObject temp;
+                int elecSize = place.elecSize;
+
+                temp = obsDequeue(4);
+                temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 50);
+                temp = temp.transform.GetChild(1).gameObject;
+                temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 50 + elecSize-1);
+                //에디터 건드리는 코드 필요
+
+                for (int x = 1; x < elecSize-1; x++)
+                {
+                    temp = obsDequeue(ind);
+                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 50 + x);
+                    temp = obsDequeue(ind);
+                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 50 + x + 0.5f);
+                }
+            }
+
+            else if(ind == 7)
+            {
+                for (int x = 0; x < len; x++)
+                {
+                    GameObject temp = obsDequeue(ind);
+                    temp.transform.position = new Vector3(place.line[x], 50f, player.transform.position.z + 50);
+                    temp = obsDequeue(8);
+                    temp.transform.position = new Vector3(place.line[x], 0.1f, player.transform.position.z + 50);
+                }
+            }
+
+            else
+            {
+                for (int x = 0; x < len; x++)
+                {
+                    GameObject temp = obsDequeue(ind);
+                    temp.transform.position = new Vector3(place.line[x], 0.5f, player.transform.position.z + 50);
+                }
             }
         }
         prevTime = time;

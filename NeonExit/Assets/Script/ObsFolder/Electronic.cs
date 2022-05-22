@@ -28,7 +28,7 @@ public class Electronic : MonoBehaviour
         }
         */
 
-        if (player.transform.position.z - transform.position.z >= 10)
+        if (player.transform.position.z - transform.position.z >= 20)
         {
             obstacle.obsEnqueue(ind, gameObject);
         }
