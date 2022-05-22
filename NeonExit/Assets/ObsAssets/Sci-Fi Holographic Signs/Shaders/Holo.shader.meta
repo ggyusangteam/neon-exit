@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fcb8793f116214455b375ba826434c45
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Displacement: {fileID: 2800000, guid: 6824678ccb0ef400ea97cf66d7bf0b56, type: 3}
+  - _Dots: {fileID: 2800000, guid: c08a999c2bb384a1793f9225a3154e61, type: 3}
+  - _Details: {fileID: 2800000, guid: b0cc20c9266a34c57a3dd0670464741e, type: 3}
+  - _TextTexture: {fileID: 2800000, guid: 52de902dc70e74c8a91527de967b73ae, type: 3}
+  - _Icon: {fileID: 2800000, guid: b2f0d410e71b143d882f958158712f86, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Recycling_area
+  m_Shader: {fileID: 4800000, guid: fcb8793f116214455b375ba826434c45, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Details:
+        m_Texture: {fileID: 2800000, guid: a7a3349391ef046d9a91655557e1f32c, type: 3}
+        m_Scale: {x: 7.16, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Displacement:
+        m_Texture: {fileID: 2800000, guid: 6824678ccb0ef400ea97cf66d7bf0b56, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dots:
+        m_Texture: {fileID: 2800000, guid: c08a999c2bb384a1793f9225a3154e61, type: 3}
+        m_Scale: {x: 50, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Icon:
+        m_Texture: {fileID: 2800000, guid: a7b21f8b45335460db286b08ed5a5cd3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextTexture:
+        m_Texture: {fileID: 2800000, guid: 722cdff3fc89c4b54b9fb802ecbb3bee, type: 3}
+        m_Scale: {x: 1.5, y: 0.35}
+        m_Offset: {x: -0.25, y: 0.3}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BackgroundStripeSpeed: 0.022
+    - _BorderWidth: 0
+    - _ColorIntensity: 2
+    - _Glitchspeed: 0.0157
+    - _Iconscrollingspeed: 0
+    - _TextAnimation: 0
+    - _TextAnimationSpeed: 1
+    - __dirty: 0
+    m_Colors:
+    - _BackgroundStripe: {r: 0.06475165, g: 0.21698111, b: 0, a: 0.31764707}
+    - _DetailsColor: {r: 0.09433961, g: 0.08595387, b: 0, a: 1}
+    - _Dotcolor: {r: 0.037439857, g: 0.20754719, b: 0, a: 1}
+    - _IconOffsetLeft: {r: -0.1, g: -0.5, b: 0, a: 0}
+    - _IconOffsetRight: {r: -6.9, g: -0.5, b: 0, a: 0}
+    - _IconTiling: {r: 8, g: 2, b: 0, a: 0}
+  m_BuildTextureStacks: []
