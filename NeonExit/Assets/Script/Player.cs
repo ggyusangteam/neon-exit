@@ -11,6 +11,8 @@ public class Player : MonoBehaviour
 
     Vector3 currentColTransform;
     //콜라이더 좌표
+    public float slideColRotateTime;
+    //콜라이더 회전 지속 시간
 
     // 플레이어 게임 오브젝트
     public static  bool canMove = true;
@@ -176,8 +178,8 @@ public class Player : MonoBehaviour
         {
          
             canMove = true;
-            Debug.Log(anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
-            Invoke("OriginColCen", 0.4f);
+         //   Debug.Log(anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
+            Invoke("OriginColCen", slideColRotateTime);
         }
 
 
@@ -369,13 +371,13 @@ public class Player : MonoBehaviour
         {
             if (Hit.collider.CompareTag("Wall"))
             {
-                Debug.Log("바로앞에 벽이있음");
+                
             }
 
         }
         else
         {
-            Debug.Log("바로앞에 벽 없음 이동 가능");
+            
 
             anim.SetBool("Left", true);
             canMove = false;

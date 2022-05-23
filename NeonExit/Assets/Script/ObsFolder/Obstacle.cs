@@ -52,7 +52,7 @@ public class Obstacle : MonoBehaviour
         {
             int ind = place.ind;
             int len = place.line.Length;
-            Debug.Log("Obs" + ind + " appear at " + time + "sec");
+   //         Debug.Log("Obs" + ind + " appear at " + time + "sec");
 
             if(ind == 0 || ind == 5 || ind == 9)
             {
