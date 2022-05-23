@@ -24,9 +24,9 @@ public class BackGround : MonoBehaviour
             clone_Note.transform.SetParent(backGroundParent.transform);
 
             InsertQueue(clone_Note);
-
+            
         }
-
+      //backGround_Prefab.SetActive(false);
 
         GetQueue(0);
         GetQueue(1);

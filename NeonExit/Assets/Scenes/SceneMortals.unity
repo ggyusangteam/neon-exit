@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657683, g: 0.49641192, b: 0.5748182, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657755, g: 0.4964127, b: 0.57481825, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7175c37d1ccc3043a70dc8cd927437c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backGround_Prefab: {fileID: 274443271}
+  backGround_Prefab: {fileID: 3769869816192605527, guid: 6a0bb751c05d9654f98ea62c38011797, type: 3}
   backGroundPosition: 2
   player: {fileID: 492154931}
   backGroundParent: {fileID: 13466544}
@@ -494,11 +494,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3d058bbfd16b5a44ad811d4da6c2226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &274443271 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3769869816192605527, guid: 6a0bb751c05d9654f98ea62c38011797, type: 3}
-  m_PrefabInstance: {fileID: 5004473183860699569}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &424459261
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,7 +967,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 60
+  far clip plane: 65
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -2318,23 +2313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3769869816192605527, guid: 6a0bb751c05d9654f98ea62c38011797, type: 3}
       propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5004473184610766766, guid: 6a0bb751c05d9654f98ea62c38011797, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5007183569181956205, guid: 6a0bb751c05d9654f98ea62c38011797, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.625
-      objectReference: {fileID: 0}
-    - target: {fileID: 5007183569181956205, guid: 6a0bb751c05d9654f98ea62c38011797, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.625
-      objectReference: {fileID: 0}
-    - target: {fileID: 5007183569181956205, guid: 6a0bb751c05d9654f98ea62c38011797, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6557535909683451020, guid: 6a0bb751c05d9654f98ea62c38011797, type: 3}
       propertyPath: m_RootOrder
