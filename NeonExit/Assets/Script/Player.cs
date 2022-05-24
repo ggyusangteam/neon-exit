@@ -8,8 +8,16 @@ public class Player : MonoBehaviour
     public CapsuleCollider playerCol;
     //플레이어 콜라이더
     public GameObject player;
+	//
+	public bool testMode;
 
-    Vector3 currentColTransform;
+	public float slideTime;
+	//슬라이드 후 이동 가능 시간
+	int score = 0;
+	bool isHammer = false;
+	bool isElec = false;
+
+	Vector3 currentColTransform;
     //콜라이더 좌표
     public float slideColRotateTime;
     //콜라이더 회전 지속 시간
@@ -40,6 +48,8 @@ public class Player : MonoBehaviour
     // 벽과의 충돌을 감지할 Ray
 
     public Animator anim;
+
+
 
     // 애니메이션 속도 
 
@@ -125,7 +135,18 @@ public class Player : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-
+				if (isElec == true &&canMove ==true)
+			{
+					anim.SetBool("PoleJump", true);
+					canMove = false;
+					
+				}
+				if(isHammer==true && canMove ==true)
+				{
+					anim.SetBool("Hammer_1", true);
+					
+					hammer.SetActive(true);
+				}
                 firstMouseTouch = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10));
                 //   Debug.Log("first" + firstTouch + touch.position);
 
@@ -134,9 +155,15 @@ public class Player : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
 
             {
-                
-                //  Debug.Log("ended" + touch.position);
-                endMouseTouch = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10));
+	                 if (anim.GetBool("PoleJump")==true)
+				{
+					anim.SetBool("PoleJump", false);
+					canMove = true;
+				}
+				
+				
+					//  Debug.Log("ended" + touch.position);
+					endMouseTouch = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10));
 
                 float xMoved = endMouseTouch.x - firstMouseTouch.x;
                 float yMoved = endMouseTouch.y - firstMouseTouch.y;
@@ -173,20 +200,27 @@ public class Player : MonoBehaviour
 
             }
         }
-     
-        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Slide") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 2f)
+		if (anim.GetCurrentAnimatorStateInfo(0).IsName("Slide") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= slideTime)
+		{
+
+			canMove = true;
+			//   Debug.Log(anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
+			Invoke("OriginColCen", slideColRotateTime);
+		}
+		if (anim.GetCurrentAnimatorStateInfo(0).IsName("Slide") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 2f)
         {
          
-            canMove = true;
+
          //   Debug.Log(anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
             Invoke("OriginColCen", slideColRotateTime);
         }
 
-        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Hammer_1") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.95f)
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Hammer_1") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.8f)
         {
-           
+			anim.SetBool("Hammer_1", false);
+			Debug.Log(anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
             hammer.SetActive(false);
-            Debug.Log(anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
+       
         }
 
 
@@ -429,13 +463,53 @@ public class Player : MonoBehaviour
 
         }
     }
-    void OnTriggerEnter(Collider _col)
-    {
-        if (_col.tag == "obstacle")
-        {
-            anim.SetBool("Dead", true);
-            canMove = false;
-        }
-    }
+	private void OnTriggerStay(Collider _col)
+	{
+		if(_col.tag == "hammer"&&anim.GetBool("Hammer_1")==true)
+		{
+			_col.gameObject.GetComponent<Animator>().Play("WallBreak");
+		}
+	}
+	void OnTriggerEnter(Collider _col)
+	{
+		if (_col.tag == "obstacle" && testMode==false)
+		{
+			anim.SetBool("Dead", true);
+			canMove = false;
+		}
+
+		if (_col.tag == "hammer")
+		{
+			isHammer = true;
+			Debug.Log(isHammer);
+		}
+
+		if (_col.tag == "electro")
+		{
+			isElec = true;
+			Debug.Log(isElec);
+		}
+
+		if (_col.tag == "score")
+		{
+			score += _col.gameObject.GetComponent<Col>().score;
+			Debug.Log(score);
+		}
+	}
+
+	void OnTriggerExit(Collider _col)
+	{
+		if (_col.tag == "hammer")
+		{
+			isHammer = false;
+			Debug.Log(isHammer);
+		}
+
+		if (_col.tag == "electro")
+		{
+			isElec = false;
+			Debug.Log(isElec);
+		}
+	}
 }
 

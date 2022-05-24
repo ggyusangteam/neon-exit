@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Coin : MonoBehaviour
+public class Wall : MonoBehaviour
 {
-    public Obstacle obstacle;
+	
+
+	public Obstacle obstacle;
     [SerializeField] int ind;
     [SerializeField] GameObject player;
-    public int score = 100;
     //float activeTime = 5.0f;
     //float activeTimeRate = 5.0f;
 
@@ -20,7 +21,7 @@ public class Coin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*
+		/*
         activeTime -= Time.deltaTime;
         if (activeTime <= 0)
         {
@@ -28,15 +29,10 @@ public class Coin : MonoBehaviour
             //obstacle.obsEnqueue(ind, gameObject);
         }
         */
-
+		//this.GetComponent<Animator>().Play("WallBreak");
         if (player.transform.position.z - transform.position.z >= 3)
         {
             obstacle.obsEnqueue(ind, gameObject);
         }
-    }
-
-    void OnTriggerEnter(Collider _col)
-    {
-        obstacle.obsEnqueue(ind, gameObject);
     }
 }

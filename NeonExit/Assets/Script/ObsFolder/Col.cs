@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Coin : MonoBehaviour
+public class Col : MonoBehaviour
 {
     public Obstacle obstacle;
     [SerializeField] int ind;
@@ -29,14 +29,10 @@ public class Coin : MonoBehaviour
         }
         */
 
-        if (player.transform.position.z - transform.position.z >= 3)
+        if (player.transform.position.z - transform.position.z >= transform.localScale.z / 20 + 3)
         {
+            transform.localScale = new Vector3(1, 1, 1);
             obstacle.obsEnqueue(ind, gameObject);
         }
-    }
-
-    void OnTriggerEnter(Collider _col)
-    {
-        obstacle.obsEnqueue(ind, gameObject);
     }
 }
