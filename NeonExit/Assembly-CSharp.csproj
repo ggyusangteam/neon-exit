@@ -89,6 +89,7 @@
     <Compile Include="Assets\ObsAssets\ARPG Effects\Scripts\ARPGFXLightFade.cs" />
     <Compile Include="Assets\ObsAssets\ARPG Effects\Scripts\ARPGFXLightFlicker.cs" />
     <Compile Include="Assets\ChangeColor.cs" />
+    <Compile Include="Assets\Script\ObsFolder\Wall.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\ValueTrack.cs" />
     <Compile Include="Assets\Script\ObsFolder\Obstacle.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\RhythmAnalyzer.cs" />
@@ -99,6 +100,7 @@
     <Compile Include="Assets\ObsAssets\WireBuilder\Scripts\WireManager.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\OnsetDetector.cs" />
     <Compile Include="Assets\ObsAssets\ARPG Effects\Demo\Scripts\ARPGSceneSelect.cs" />
+    <Compile Include="Assets\Script\ObsFolder\Col.cs" />
     <Compile Include="Assets\ObsAssets\ARPG Effects\Scripts\ARPGFXPortalScript.cs" />
     <Compile Include="Assets\ObsAssets\WireBuilder\Scripts\WireType.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\VolumeSampler.cs" />
@@ -110,8 +112,7 @@
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\RhythmTool\Examples\Scripts\Visualizer.cs" />
     <Compile Include="Assets\Script\ObsFolder\DestroyedCar.cs" />
-    <Compile Include="Assets\Script\ObsFolder\Wall.cs" />
-    <Compile Include="Assets\Script\ObsFolder\Col.cs" />
+    <Compile Include="Assets\ScoreManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LightningBolt\Readme.txt" />

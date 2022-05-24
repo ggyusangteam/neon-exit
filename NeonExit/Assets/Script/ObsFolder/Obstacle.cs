@@ -7,7 +7,7 @@ using RhythmTool;
 public class Obstacle : MonoBehaviour
 {
     public const int obsCnt = 12;
-
+	
     public RhythmData rhythmData;
     private List<Onset> places;
     private float prevTime;
@@ -99,7 +99,7 @@ public class Obstacle : MonoBehaviour
 
                 temp = obsDequeue(11);
                 temp.transform.position = new Vector3(0, 2, player.transform.position.z + 50);
-                temp.transform.localScale = new Vector3(1, 1, 50);
+                temp.transform.localScale = new Vector3(1, 1, 170);
                 temp.tag = "hammer";
 
                 temp = obsDequeue(11);
@@ -128,11 +128,11 @@ public class Obstacle : MonoBehaviour
 
                 temp = obsDequeue(11);
                 temp.transform.position = new Vector3(place.line[0]-1, 2, player.transform.position.z + 50 + ((elecSize-1) / 2));
-                temp.transform.localScale = new Vector3(1/7f, 1, (elecSize+4)*10);
+                temp.transform.localScale = new Vector3(1/7f, 1, (elecSize+14)*10);
                 temp.tag = "electro";
 				temp = obsDequeue(11);
 				temp.transform.position = new Vector3(place.line[0] + 1, 2, player.transform.position.z + 50 + ((elecSize - 1) / 2));
-				temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize + 4) * 10);
+				temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize + 14) * 10);
 				temp.tag = "electro";
 
 				temp = obsDequeue(11);

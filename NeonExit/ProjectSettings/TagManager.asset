@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Wall
+  - obstacle
+  - destroy
+  - BreakWall
+  - score
+  - hammer
+  - electro
   layers:
   - Default
   - TransparentFX

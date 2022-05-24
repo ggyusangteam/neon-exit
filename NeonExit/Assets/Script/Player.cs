@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+	public static Player instance;
     public CapsuleCollider playerCol;
     //플레이어 콜라이더
     public GameObject player;
@@ -13,7 +14,7 @@ public class Player : MonoBehaviour
 
 	public float slideTime;
 	//슬라이드 후 이동 가능 시간
-	int score = 0;
+	public  int score = 0;
 	bool isHammer = false;
 	bool isElec = false;
 
@@ -69,7 +70,9 @@ public class Player : MonoBehaviour
     void Start()
     {
         currentColTransform = playerCol.center;
-    }
+		instance = this;
+
+	}
  
     void Update()
     {
@@ -151,7 +154,15 @@ public class Player : MonoBehaviour
                 //   Debug.Log("first" + firstTouch + touch.position);
 
             }
+			if(Input.GetMouseButton(0))
+			{
+				if (isElec == true && canMove == true)
+				{
+					anim.SetBool("PoleJump", true);
+					canMove = false;
 
+				}
+			}
             if (Input.GetMouseButtonUp(0))
 
             {
@@ -200,6 +211,18 @@ public class Player : MonoBehaviour
 
             }
         }
+		if (anim.GetCurrentAnimatorStateInfo(0).IsName("Polejump_1") )
+		{
+
+			playerCol.center = new Vector3(currentColTransform.x, currentColTransform.y+3, currentColTransform.z);
+			
+		}
+		if (anim.GetCurrentAnimatorStateInfo(0).IsName("Polejump_3"))
+		{
+
+			playerCol.center = currentColTransform;
+
+		}
 		if (anim.GetCurrentAnimatorStateInfo(0).IsName("Slide") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= slideTime)
 		{
 
@@ -465,9 +488,11 @@ public class Player : MonoBehaviour
     }
 	private void OnTriggerStay(Collider _col)
 	{
-		if(_col.tag == "hammer"&&anim.GetBool("Hammer_1")==true)
+		if(_col.tag == "BreakWall"&&anim.GetBool("Hammer_1")==true)
 		{
-			_col.gameObject.GetComponent<Animator>().Play("WallBreak");
+			Debug.Log("sd");
+			_col.gameObject.transform.parent.GetComponent<Animator>().SetBool("WallBreak", true);
+			_col.gameObject.transform.parent.GetComponent<BoxCollider>().enabled = false;
 		}
 	}
 	void OnTriggerEnter(Collider _col)

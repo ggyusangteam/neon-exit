@@ -116,6 +116,13 @@ MonoBehaviour:
     elecSize: 0
     line:
     - -2
+  - timestamp: 10.176487
+    length: 0
+    strength: 6.458333
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
   - timestamp: 10.42576
     length: 0
     strength: 1
@@ -332,20 +339,20 @@ MonoBehaviour:
     - 0
   - timestamp: 14.76789
     length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - 2
-  - timestamp: 14.76789
-    length: 0
     strength: 1
     intensity: 0
     ind: 1
     elecSize: 0
     line:
     - -2
+  - timestamp: 14.76789
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - 2
   - timestamp: 14.84776
     length: 0
     strength: 9
@@ -904,13 +911,6 @@ MonoBehaviour:
     - 2
   - timestamp: 39.42748
     length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 39.42748
-    length: 0
     strength: 6
     intensity: 0
     ind: 6
@@ -918,6 +918,13 @@ MonoBehaviour:
     line:
     - -2
     - 1
+  - timestamp: 39.42748
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
   - timestamp: 40.07764
     length: 0
     strength: 7
@@ -1012,13 +1019,6 @@ MonoBehaviour:
     - -1
   - timestamp: 50.08544
     length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 50.08544
-    length: 0
     strength: 6
     intensity: 0
     ind: 6
@@ -1026,6 +1026,13 @@ MonoBehaviour:
     line:
     - -2
     - 0
+  - timestamp: 50.08544
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
   - timestamp: 50.7356
     length: 0
     strength: 10
@@ -1368,20 +1375,20 @@ MonoBehaviour:
     - 2
   - timestamp: 75.41842
     length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 75.41842
-    length: 0
     strength: 5
     intensity: 0
     ind: 5
     elecSize: 0
     line:
     - 1
+  - timestamp: 75.41842
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - -2
   - timestamp: 76.07458
     length: 0
     strength: 1
@@ -1477,20 +1484,20 @@ MonoBehaviour:
     line: []
   - timestamp: 82.7327
     length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 82.7327
-    length: 0
     strength: 5
     intensity: 0
     ind: 5
     elecSize: 0
     line:
     - -1
+  - timestamp: 82.7327
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - 1
   - timestamp: 83.4293
     length: 0
     strength: 10
@@ -1599,19 +1606,19 @@ MonoBehaviour:
     - 0
   - timestamp: 97.05941
     length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 97.05941
-    length: 0
     strength: 5
     intensity: 0
     ind: 5
     elecSize: 0
     line:
     - 1
+  - timestamp: 97.05941
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
   - timestamp: 97.57025
     length: 1.8
     strength: 3
@@ -1708,20 +1715,20 @@ MonoBehaviour:
     - 1
   - timestamp: 111.0843
     length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 111.0843
-    length: 0
     strength: 6
     intensity: 0
     ind: 6
     elecSize: 0
     line:
     - 1
+  - timestamp: 111.0843
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - -1
   - timestamp: 111.8273
     length: 0
     strength: 1
@@ -2542,20 +2549,20 @@ MonoBehaviour:
     - 0
   - timestamp: 158.0815
     length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 158.0815
-    length: 0
     strength: 1
     intensity: 0
     ind: 1
     elecSize: 0
     line:
     - -2
+  - timestamp: 158.0815
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -1
   - timestamp: 158.0845
     length: 0
     strength: 9
