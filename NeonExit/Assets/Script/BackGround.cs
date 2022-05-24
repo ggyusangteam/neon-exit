@@ -33,8 +33,8 @@ public class BackGround : MonoBehaviour
 
 
     }
-
-
+   
+	
     // Update is called once per frame
     void Update()
     {
@@ -57,7 +57,7 @@ public class BackGround : MonoBehaviour
      
 
     }
-
+ 
      public GameObject GetQueue(int position)
     {
         GameObject t_clone = backGround_Archive.Dequeue();

@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     //콜라이더 좌표
     public float slideColRotateTime;
     //콜라이더 회전 지속 시간
+    public GameObject hammer;
 
     // 플레이어 게임 오브젝트
     public static  bool canMove = true;
@@ -45,7 +46,7 @@ public class Player : MonoBehaviour
 
     [SerializeField] float sensitivity;
     // 드래그 민감도
-
+    
 
     Vector3 firstTouch;
     // 첫번째 터치 
@@ -59,8 +60,7 @@ public class Player : MonoBehaviour
     {
         currentColTransform = playerCol.center;
     }
-
-
+ 
     void Update()
     {
         
@@ -182,6 +182,12 @@ public class Player : MonoBehaviour
             Invoke("OriginColCen", slideColRotateTime);
         }
 
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Hammer_1") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.95f)
+        {
+           
+            hammer.SetActive(false);
+            Debug.Log(anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
+        }
 
 
 
@@ -252,7 +258,7 @@ public class Player : MonoBehaviour
 
 
             anim.SetBool("Hammer_1", true);
-
+            hammer.SetActive(true);
 
         }
         if (Input.GetKeyUp(KeyCode.H) ) //망치 변경
