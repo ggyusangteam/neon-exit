@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
 	public static Player instance;
     public CapsuleCollider playerCol;
     //플레이어 콜라이더
@@ -71,6 +72,7 @@ public class Player : MonoBehaviour
     {
         currentColTransform = playerCol.center;
 		instance = this;
+        canMove = true;
 
 	}
  
@@ -241,7 +243,7 @@ public class Player : MonoBehaviour
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("Hammer_1") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.8f)
         {
 			anim.SetBool("Hammer_1", false);
-			Debug.Log(anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
+		//	Debug.Log(anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
             hammer.SetActive(false);
        
         }
@@ -490,7 +492,7 @@ public class Player : MonoBehaviour
 	{
 		if(_col.tag == "BreakWall"&&anim.GetBool("Hammer_1")==true)
 		{
-			Debug.Log("sd");
+
 			_col.gameObject.transform.parent.GetComponent<Animator>().SetBool("WallBreak", true);
 			_col.gameObject.transform.parent.GetComponent<BoxCollider>().enabled = false;
 		}
@@ -506,19 +508,20 @@ public class Player : MonoBehaviour
 		if (_col.tag == "hammer")
 		{
 			isHammer = true;
-			Debug.Log(isHammer);
+			//Debug.Log(isHammer);
 		}
 
 		if (_col.tag == "electro")
 		{
 			isElec = true;
-			Debug.Log(isElec);
+			//Debug.Log(isElec);
 		}
 
 		if (_col.tag == "score")
 		{
 			score += _col.gameObject.GetComponent<Col>().score;
-			Debug.Log(score);
+            ScoreManager.instance.UpdateScore();
+		//	Debug.Log(score);
 		}
 	}
 
@@ -527,13 +530,13 @@ public class Player : MonoBehaviour
 		if (_col.tag == "hammer")
 		{
 			isHammer = false;
-			Debug.Log(isHammer);
+			//Debug.Log(isHammer);
 		}
 
 		if (_col.tag == "electro")
 		{
 			isElec = false;
-			Debug.Log(isElec);
+		//	Debug.Log(isElec);
 		}
 	}
 }
