@@ -6,7 +6,7 @@ using RhythmTool;
 
 public class Obstacle : MonoBehaviour
 {
-    public const int obsCnt = 12;
+    public const int obsCnt = 14;
 	
     public RhythmData rhythmData;
     private List<Onset> places;
@@ -153,6 +153,38 @@ public class Obstacle : MonoBehaviour
                 temp = obsDequeue(11);
                 temp.transform.position = new Vector3(0, 2, player.transform.position.z + 50 + 0.5f);
                 temp.tag = "score";
+            }
+
+            else if (ind == 12)
+            {
+                int elecSize = place.elecSize;
+                float xloc = place.line[0];
+                if (xloc == 3) xloc += 0.3f;
+                else xloc -= 0.3f;
+
+                temp = obsDequeue(ind);
+                temp.transform.position = new Vector3(xloc, 0, player.transform.position.z + 47.5f);
+
+                for (int x = 0; x < elecSize/3 + 1; x++)
+                {
+                    temp = obsDequeue(13);
+                    temp.transform.position = new Vector3(xloc, 0.75f, player.transform.position.z + 50 + (x * 3));
+                }
+
+                for (int x = 0; x < elecSize; x++)
+                {
+                    temp = obsDequeue(3);
+                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 50 + x);
+                    temp = obsDequeue(3);
+                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 50 + x + 0.5f);
+                }
+
+                if (xloc == 3.3f) xloc = 2;
+                else xloc = -2;
+                temp = obsDequeue(11);
+                temp.transform.position = new Vector3(xloc, 2, player.transform.position.z + 50 + ((elecSize - 1) / 2));
+                temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize + 14) * 10);
+                temp.tag = "truck";
             }
 
             else
