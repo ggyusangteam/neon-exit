@@ -1,3751 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6332528683350461597
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4441c1fab3119af4bb6d18cb48a9c462, type: 3}
-  m_Name: Place(Clone)
-  m_EditorClassIdentifier: 
-  _name: Place
-  _features:
-  - timestamp: 0
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 0
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 0.000015258789
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 5.891948
-    length: 0
-    strength: 5.520833
-    intensity: 0
-    ind: 12
-    elecSize: 50
-    line:
-    - -3
-  - timestamp: 6.757007
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 7.430386
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 7.430386
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 8.103765
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 8.753922
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 8.916463
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 9.079002
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-    - 1
-  - timestamp: 9.079002
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 9.7756
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 10.176487
-    length: 0
-    strength: 6.458333
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 10.42576
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 10.941641
-    length: 0
-    strength: 6.458333
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 11.09914
-    length: 1
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 10
-    line:
-    - -1
-  - timestamp: 12.74776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 12.84776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 12.94776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 13.04776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 13.14776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 13.24776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 13.34776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 13.42113
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 13.42113
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 13.447761
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 13.54776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 13.64776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 13.747761
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 13.84776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 13.94776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 14.04776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 14.09451
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 14.147759
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 14.24776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 14.34776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 14.44776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 14.54776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 14.64776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 14.74776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 14.76789
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 14.76789
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - 2
-  - timestamp: 14.84776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 14.947761
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 15.04776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 15.09374
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-    - 2
-  - timestamp: 15.14776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 15.23229
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - 2
-  - timestamp: 15.23229
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 15.247761
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 15.34776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 15.41805
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-    - 2
-  - timestamp: 15.447761
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 15.547761
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 15.64776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 15.747761
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 15.847761
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 15.947761
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 16.04776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 16.09143
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 16.147758
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 16.24776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 16.34776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 16.447758
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 16.54776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 16.647758
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 16.74776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 16.76481
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-    - 1
-  - timestamp: 16.84776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 16.947758
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 17.04776
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 17.41497
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 17.937195
-    length: 2
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 20
-    line:
-    - -1
-  - timestamp: 20.08526
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 20.75864
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 21.4088
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 1
-  - timestamp: 22.75556
-    length: 0.7
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 7
-    line:
-    - -1
-  - timestamp: 23.75401
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 24.42739
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 24.75247
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 24.75247
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 25.42585
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 25.77415
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 26.07601
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 26.42431
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 26.74939
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 27.09769
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 27.42277
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 27.42277
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 28.09615
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 1
-  - timestamp: 28.7463
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 28.7463
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 29.41968
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 29.76798
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 2
-  - timestamp: 30.09306
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 30.2556
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 30.76644
-    length: 1.3
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 13
-    line:
-    - -1
-  - timestamp: 32.41506
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 33.08844
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 33.08844
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 34.08689
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 34.08689
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 34.76027
-    length: 1
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 10
-    line:
-    - 0
-  - timestamp: 36.08381
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 36.43211
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 36.75719
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 37.10549
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 37.43057
-    length: 1
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 10
-    line:
-    - 0
-  - timestamp: 39.07919
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 39.42748
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-    - 1
-  - timestamp: 39.42748
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 40.07764
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 40.75102
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 40.75102
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 41.4244
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 1
-  - timestamp: 42.07456
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 42.07456
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 42.74794
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 43.42131
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 44.09469
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 2
-  - timestamp: 49.43528
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 49.43528
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 50.08544
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-    - 0
-  - timestamp: 50.08544
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 50.7356
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 51.40898
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 2
-  - timestamp: 51.59474
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 52.08236
-    length: 0.7
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 7
-    line:
-    - 0
-  - timestamp: 53.38268
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 54.07927
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 54.49723
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 54.75265
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 55.433437
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 55.43344
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-    - 1
-  - timestamp: 56.07619
-    length: 0.7
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 7
-    line:
-    - -1
-  - timestamp: 57.42295
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 58.09633
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-    - 0
-  - timestamp: 58.74649
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-    - 1
-  - timestamp: 59.41987
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 60.09324
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 60.743397
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-    - 1
-  - timestamp: 61.416775
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 62.090157
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-    - 1
-  - timestamp: 62.76354
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 63.413696
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 63.4137
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-    - 1
-  - timestamp: 64.2496
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 64.76045
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 65.15518
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -1
-    - 0
-    - 1
-    - 2
-  - timestamp: 65.64281
-    length: 0.5
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 5
-    line:
-    - -1
-  - timestamp: 67.08245
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -1
-    - 0
-    - 1
-    - 2
-  - timestamp: 67.59328
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 67.593285
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 68.08091
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -1
-    - 0
-    - 1
-    - 2
-  - timestamp: 68.75429
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 69.40444
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 69.40444
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 70.07782
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 70.75121
-    length: 0.7
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 7
-    line:
-    - -1
-  - timestamp: 72.074745
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 72.74812
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-    - 0
-  - timestamp: 73.44274
-    length: 0.7
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 7
-    line:
-    - -1
-  - timestamp: 74.90758
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 75.41842
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 75.41842
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 76.07458
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 76.72474
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-    - 1
-  - timestamp: 77.37489
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-    - 2
-  - timestamp: 78.0715
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 78.0715
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 78.74487
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 0
-    elecSize: 0
-    line: []
-  - timestamp: 79.41825
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 80.06841
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 80.758995
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 2
-  - timestamp: 81.43238
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 82.08254
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 82.7327
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 82.7327
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 83.4293
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 84.07945
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 84.07945
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 85.26367
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 2
-  - timestamp: 85.75129
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 86.26213
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 86.95873
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -1
-    - 0
-    - 1
-    - 2
-  - timestamp: 91.90458
-    length: 1.5
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 15
-    line:
-    - -1
-  - timestamp: 93.68
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 94.08726
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 94.32213
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 94.64454
-    length: 1.6
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 16
-    line:
-    - 0
-  - timestamp: 97.05941
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 97.05941
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 97.57025
-    length: 1.8
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 18
-    line:
-    - 0
-  - timestamp: 99.70648
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 100.4031
-    length: 1.2
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 12
-    line:
-    - -1
-  - timestamp: 101.982
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 101.982
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-    - 1
-  - timestamp: 102.8412
-    length: 1.1
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 11
-    line:
-    - -1
-  - timestamp: 105.674
-    length: 1.3
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 13
-    line:
-    - -1
-  - timestamp: 108.0889
-    length: 1.1
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 11
-    line:
-    - -1
-  - timestamp: 109.4356
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 110.109
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 110.520226
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 111.0843
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 111.0843
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 111.8273
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 2
-  - timestamp: 112.4078
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 112.7561
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 113.08118
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 113.40626
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 113.407394
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -1
-    - 0
-    - 1
-    - 2
-  - timestamp: 114.0796
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 115.42338
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 115.4234
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 115.9342
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 115.93422
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 116.35218
-    length: 1.4
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 14
-    line:
-    - 0
-  - timestamp: 118.7468
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 118.7468
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 119.0835
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 119.42018
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 119.42018
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 119.75688
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-    - 2
-  - timestamp: 120.18644
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 2
-  - timestamp: 120.18644
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-    - 1
-  - timestamp: 120.67406
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -1
-    - 0
-    - 1
-    - 2
-  - timestamp: 120.67406
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 121.01076
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 121.4403
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 121.440315
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 121.5797
-    length: 0.9
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 9
-    line:
-    - -1
-  - timestamp: 121.5797
-    length: 0.9
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 9
-    line:
-    - -1
-  - timestamp: 124.1107
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 124.784
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 124.78408
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 125.43424
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 1
-  - timestamp: 126.1308
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 126.13088
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 126.52558
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 127.0596
-    length: 0.9
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 9
-    line:
-    - 0
-  - timestamp: 128.4528
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 128.4528
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 130.0318
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 130.8636
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 130.8677
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 131.4017
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -1
-    - 0
-    - 1
-    - 2
-  - timestamp: 132.07509
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 132.44661
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 133.4451
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 133.4451
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 134.3042
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 134.3083
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 134.76863
-    length: 2
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 20
-    line:
-    - -1
-  - timestamp: 145.4266
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 146.09999
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 146.1
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 146.75014
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 147.4235
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-    - 1
-  - timestamp: 147.42355
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 148.0969
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 148.7703
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 148.77036
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 149.4204
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 1
-  - timestamp: 150.0938
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 150.09381
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 150.7672
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 151.4174
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 151.41747
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 152.09073
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 152.7641
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-    - 1
-  - timestamp: 152.76416
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 153.4375
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 154.0876
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 154.08762
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 154.9235
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 155.5737
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 156.0845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 156.0845
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-    - 1
-  - timestamp: 156.1845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 156.2845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 156.3845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 156.4845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 156.58449
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 156.6845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 156.75789
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 156.7845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 156.8845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 156.9845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 157.083
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 157.083
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 157.0845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 157.18451
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 157.2845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 157.38449
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 157.4845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 157.5845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 157.6845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 157.78448
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 157.88449
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 157.9845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 158.0815
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 158.0815
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 158.0845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 158.1845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 158.2845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 158.3845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 158.4845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 158.5459
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-    - 1
-  - timestamp: 158.58449
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 158.6845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 158.7548
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-    - 2
-  - timestamp: 158.7845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 158.8845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 158.9845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 159.0845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 159.18451
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 159.2845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 159.38449
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 159.4845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 159.5845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 159.6845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 159.75325
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 159.78448
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 159.88449
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 159.9845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 160.0845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 160.1845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 160.2845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 160.3845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 160.4845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 160.4963
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-    - 1
-  - timestamp: 160.58449
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 160.6821
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 160.6845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 160.7845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 160.8845
-    length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 161.1465
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 161.4251
-    length: 0.7
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 7
-    line:
-    - -1
-  - timestamp: 162.4236
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-    - 1
-  - timestamp: 162.4236
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 163.09697
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 163.7471
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 164.0954
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 1
-  - timestamp: 165.09389
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 165.7673
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 165.7673
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 166.2549
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 166.25493
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 166.76576
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 167.7642
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 167.76422
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 168.79689
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 169.5985
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 170.4345
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 171.0614
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 171.5955
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 2
-  - timestamp: 172.1992
-    length: 0.9
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 9
-    line:
-    - 1
-  - timestamp: 174.08
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 2
-  - timestamp: 174.5212
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 175.42679
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 175.75186
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 176.4252
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 176.75027
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 177.4237
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 178.42216
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 178.4222
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 179.09554
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 179.58316
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 179.9082
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 180.094
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 180.9067
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 181.09245
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 181.76584
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 182.2534
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 182.25345
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 182.7643
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 183.2519
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-    - 1
-  - timestamp: 183.2519
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 183.7627
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 184.2503
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 2
-  - timestamp: 184.43607
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 184.92369
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 185.4213
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 185.4213
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 186.09468
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 186.6652
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 187.604
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 187.60405
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 188.1745
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 189.0801
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 189.59093
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 189.766
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 190.10178
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 190.5894
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 190.7519
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 191.75037
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 191.7504
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 192.4005
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 192.40053
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 192.9346
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -1
-    - 0
-    - 1
-    - 2
-  - timestamp: 193.59972
-    length: 1
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 10
-    line:
-    - -1
-  - timestamp: 195.0941
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 195.5817
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 195.9068
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 196.30559
-    length: 1
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 10
-    line:
-    - -1
-  - timestamp: 197.5786
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 198.08943
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 198.25197
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 198.57706
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 204.0802
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 204.0802
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 204.75357
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 205.4037
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 205.40373
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 206.07712
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 1
-  - timestamp: 206.7505
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 206.75053
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 207.4239
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - 2
-  - timestamp: 207.7489
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 0
-    - 2
-  - timestamp: 208.74736
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 209.4207
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-    - 1
-  - timestamp: 209.42075
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 210.09412
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 210.7443
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 210.7443
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 211.41768
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -1
-    - 0
-    - 1
-    - 2
-  - timestamp: 212.091
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 212.09105
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 212.76443
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 214.08795
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - -1
-    - 1
-    - 2
-  - timestamp: 214.7613
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-    - 1
-  - timestamp: 214.76134
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 215.41148
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -2
-    - 0
-    - 1
-    - 2
-  - timestamp: 216.2474
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 216.2474
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
-  - timestamp: 216.75824
-    length: 0
-    strength: 7
-    intensity: 0
-    ind: 7
-    elecSize: 0
-    line:
-    - -1
-    - 0
-    - 1
-    - 2
-  - timestamp: 217.4316
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - -2
-  - timestamp: 217.43163
-    length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 218.08179
-    length: 0
-    strength: 10
-    intensity: 0
-    ind: 10
-    elecSize: 0
-    line: []
-  - timestamp: 219.42856
-    length: 1.5
-    strength: 3
-    intensity: 0
-    ind: 3
-    elecSize: 15
-    line:
-    - -1
 --- !u!114 &-6194668738569403437
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4823,7 +1077,2105 @@ MonoBehaviour:
   - {fileID: 5553371681622587694}
   - {fileID: 6366666621417949483}
   - {fileID: 8149544335051704282}
-  - {fileID: -6332528683350461597}
+  - {fileID: 3384471882016566001}
+--- !u!114 &3384471882016566001
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4441c1fab3119af4bb6d18cb48a9c462, type: 3}
+  m_Name: Place
+  m_EditorClassIdentifier: 
+  _name: Place
+  _features:
+  - timestamp: 12.0976
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - 0
+    - 1
+    - 2
+  - timestamp: 13.76943
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - -2
+  - timestamp: 13.76943
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 14.76789
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 14.76789
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 16.41651
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -1
+    - 0
+    - 1
+    - 2
+  - timestamp: 17.41497
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 19.0868
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+    - 0
+    - 1
+    - 2
+  - timestamp: 20.08526
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - 0
+    - 1
+    - 2
+  - timestamp: 22.08218
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 22.75556
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 24.42739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 24.42739
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+    - 1
+  - timestamp: 24.52739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 24.62739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 24.72739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 24.82739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 24.92739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 25.02739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 25.12739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 25.22739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 25.32739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 25.42585
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 25.42739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 25.52739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 25.62739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 25.72739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 25.82739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 25.92739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 26.02739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 26.12739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 26.22739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 26.32739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 26.42739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 26.52739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 26.62739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 26.72739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 26.82739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 26.92739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 27.02739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 27.09769
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 27.09769
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -1
+  - timestamp: 27.12739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 27.22739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 27.32739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 27.42739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 27.52739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 27.62739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 27.72739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 27.82739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 27.92739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 28.02739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 28.09615
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 28.12739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 28.22739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 28.32739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 28.42739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 28.52739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 28.62739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 28.72739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 28.82739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 28.92739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 29.02739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 29.12739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 29.22739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 29.32739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 29.42739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 29.52739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 29.62739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 29.72739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 29.76798
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+  - timestamp: 29.82739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 29.92739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 30.02739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 30.12739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 30.22739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 30.32739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 30.42739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 30.52739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 30.62739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 30.72739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 30.76644
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - -2
+    - 1
+  - timestamp: 30.82739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 30.92739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 31.02739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 31.12739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 31.22739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 31.32739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 31.42739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 31.52739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 31.62739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 31.72739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 31.82739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 31.92739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 32.02739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 32.12739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 32.41506
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 1
+    - 2
+  - timestamp: 33.41351
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 35.08535
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - -2
+    - 1
+  - timestamp: 35.08535
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 36.08381
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 37.75565
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+    - 1
+  - timestamp: 38.7541
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - 0
+    - 2
+  - timestamp: 40.42594
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -1
+    - 1
+  - timestamp: 40.42594
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - 2
+  - timestamp: 41.4244
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 42.42286
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+    - 1
+  - timestamp: 43.09624
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 44.09469
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 49.50494
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - 0
+    - 1
+    - 2
+  - timestamp: 51.0839
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+  - timestamp: 52.08236
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 52.08236
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 53.7542
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 1
+    - 2
+  - timestamp: 54.75265
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 56.42449
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+    - 1
+  - timestamp: 57.42295
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 1
+    - 2
+  - timestamp: 59.09478
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - 0
+    - 2
+  - timestamp: 60.18612
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -1
+    - 0
+    - 1
+  - timestamp: 61.76508
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 61.76508
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 62.76354
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 64.43537
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - 2
+  - timestamp: 65.43383
+    length: 0.5
+    strength: 3
+    intensity: 0
+    ind: 12
+    elecSize: 2
+    line:
+    - -3
+  - timestamp: 65.43383
+    length: 0.5
+    strength: 3
+    intensity: 0
+    ind: 12
+    elecSize: 5
+    line:
+    - 4
+  - timestamp: 67.08245
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - 0
+    - 2
+  - timestamp: 67.08245
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+    - 1
+  - timestamp: 68.08091
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 69.75275
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 1
+    - 2
+  - timestamp: 70.75121
+    length: 0.7
+    strength: 3
+    intensity: 0
+    ind: 3
+    elecSize: 7
+    line:
+    - -1
+  - timestamp: 73.42149
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 2
+  - timestamp: 75.09333
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 1
+    - 2
+  - timestamp: 76.07458
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 76.07458
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - -1
+  - timestamp: 77.76363
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 78.74488
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 1
+  - timestamp: 80.43392
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 81.43238
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - -2
+    - 0
+  - timestamp: 81.43238
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 83.081
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 2
+  - timestamp: 84.07945
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - -1
+  - timestamp: 84.07945
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 85.75129
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 1
+  - timestamp: 86.65687
+    length: 1
+    strength: 3
+    intensity: 0
+    ind: 12
+    elecSize: 10
+    line:
+    - 4
+  - timestamp: 91.97446
+    length: 1.5
+    strength: 3
+    intensity: 0
+    ind: 12
+    elecSize: 15
+    line:
+    - 4
+  - timestamp: 95.57333
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 2
+  - timestamp: 97.57025
+    length: 1.8
+    strength: 3
+    intensity: 0
+    ind: 3
+    elecSize: 18
+    line:
+    - 0
+  - timestamp: 100.9604
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 1
+    - 2
+  - timestamp: 103.06739
+    length: 1.8
+    strength: 3
+    intensity: 0
+    ind: 3
+    elecSize: 18
+    line:
+    - -1
+  - timestamp: 105.465
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - 0
+    - 1
+    - 2
+  - timestamp: 108.2514
+    length: 1.5
+    strength: 3
+    intensity: 0
+    ind: 3
+    elecSize: 15
+    line:
+    - -2
+  - timestamp: 111.8273
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 112.7561
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 1
+    - 2
+  - timestamp: 113.4063
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 115.54851
+    length: 0.8
+    strength: 3
+    intensity: 0
+    ind: 3
+    elecSize: 8
+    line:
+    - 0
+  - timestamp: 117.7716
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 1
+    - 2
+  - timestamp: 118.7468
+    length: 0.7
+    strength: 3
+    intensity: 0
+    ind: 3
+    elecSize: 7
+    line:
+    - -1
+  - timestamp: 121.4404
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 0
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 2
+  - timestamp: 124.1107
+    length: 0.8
+    strength: 3
+    intensity: 0
+    ind: 3
+    elecSize: 8
+    line:
+    - 0
+  - timestamp: 126.5255
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 126.8506
+    length: 1.1
+    strength: 3
+    intensity: 0
+    ind: 12
+    elecSize: 11
+    line:
+    - 4
+  - timestamp: 129.7995
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 129.7995
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - -1
+  - timestamp: 131.7732
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 131.7732
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - -1
+  - timestamp: 133.1664
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 134.7686
+    length: 2.5
+    strength: 3
+    intensity: 0
+    ind: 12
+    elecSize: 25
+    line:
+    - 4
+  - timestamp: 145.4266
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 145.4266
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - -1
+  - timestamp: 146.1
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 1
+    - 2
+  - timestamp: 146.7501
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 2
+  - timestamp: 147.4235
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 1
+    - 2
+  - timestamp: 148.0969
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 149.4204
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - 1
+    - 2
+  - timestamp: 150.7672
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 151.4173
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 1
+    - 2
+  - timestamp: 152.0907
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - 0
+    - 1
+    - 2
+  - timestamp: 152.7641
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 1
+    - 2
+  - timestamp: 153.4375
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 153.4375
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - -2
+  - timestamp: 154.761
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -1
+    - 0
+    - 1
+    - 2
+  - timestamp: 156.131
+    length: 0.8
+    strength: 3
+    intensity: 0
+    ind: 12
+    elecSize: 8
+    line:
+    - -3
+  - timestamp: 158.7548
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 159.7827
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - 0
+    - 1
+    - 2
+  - timestamp: 161.1465
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+  - timestamp: 161.6109
+    length: 0.8
+    strength: 3
+    intensity: 0
+    ind: 3
+    elecSize: 8
+    line:
+    - -2
+  - timestamp: 163.422
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 163.422
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 165.0939
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 165.0939
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - -2
+  - timestamp: 166.7657
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 168.7626
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - 0
+    - 1
+    - 2
+  - timestamp: 170.0862
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - 0
+    - 1
+    - 2
+  - timestamp: 172.1992
+    length: 0.8
+    strength: 3
+    intensity: 0
+    ind: 3
+    elecSize: 8
+    line:
+    - -2
+  - timestamp: 174.08
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 1
+    - 2
+  - timestamp: 175.7518
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 175.7518
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - -2
+    - 1
+  - timestamp: 177.4933
+    length: 0.8
+    strength: 3
+    intensity: 0
+    ind: 3
+    elecSize: 8
+    line:
+    - -1
+  - timestamp: 179.4206
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 181.0924
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 2
+  - timestamp: 182.7643
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 2
+  - timestamp: 183.4144
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - -1
+  - timestamp: 183.4144
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 184.7612
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 185.4113
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 185.4113
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - -1
+  - timestamp: 186.433
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 2
+  - timestamp: 187.4082
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 188.755
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 190.1018
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 190.1018
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - -2
+  - timestamp: 191.4253
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 192.7488
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 4
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 1
+    - 2
+  - timestamp: 193.5615
+    length: 0.5
+    strength: 3
+    intensity: 0
+    ind: 3
+    elecSize: 5
+    line:
+    - -1
+  - timestamp: 195.4191
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 195.4191
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - -2
+    - 1
+  - timestamp: 196.0925
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - 0
+    - 2
+  - timestamp: 197.091
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -1
+    - 0
+    - 1
+  - timestamp: 198.0894
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - 0
+    - 2
+  - timestamp: 198.0894
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+  - timestamp: 199.413
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 199.7597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 199.8597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 199.9597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 200.0597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 200.1597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 200.2597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 200.3597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 200.4597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 200.5597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 200.6597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 200.7597
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - -2
+    - 1
+  - timestamp: 200.7597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 202.0833
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 203.4068
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -1
+    - 0
+    - 1
+  - timestamp: 204.7536
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 206.0771
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 206.0771
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 207.4239
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 208.7474
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - 0
+    - 2
+  - timestamp: 210.0941
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 211.4177
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 1
+    - 2
+  - timestamp: 212.7645
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 214.088
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 215.4115
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 216.7583
+    length: 0
+    strength: 7
+    intensity: 0
+    ind: 7
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 1
+    - 2
+  - timestamp: 218.0818
+    length: 0
+    strength: 10
+    intensity: 0
+    ind: 10
+    elecSize: 0
+    line: []
+  - timestamp: 219.4286
+    length: 1
+    strength: 3
+    intensity: 0
+    ind: 3
+    elecSize: 0
+    line:
+    - -1
 --- !u!114 &5553371681622587694
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6903,7 +5255,7 @@ MonoBehaviour:
     ind: 0
     elecSize: 0
     line: []
-  - timestamp: 91.90458
+  - timestamp: 91.934044
     length: 0
     strength: 1.7436693
     intensity: 0
@@ -8002,7 +6354,7 @@ MonoBehaviour:
     ind: 0
     elecSize: 0
     line: []
-  - timestamp: 159.75328
+  - timestamp: 159.78275
     length: 0
     strength: 4.146659
     intensity: 0
@@ -10630,10 +8982,10 @@ MonoBehaviour:
     note: 9
   - timestamp: 209.25822
     length: 0.18575963
-    note: 7
+    note: 8
   - timestamp: 209.25822
     length: 0.18575963
-    note: 8
+    note: 7
   - timestamp: 209.44398
     length: 0.18575963
     note: 6

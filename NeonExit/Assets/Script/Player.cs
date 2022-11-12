@@ -2,11 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Data.SqlClient;
+using System.Data;
 
 public class Player : MonoBehaviour
 {
-
-	public static Player instance;
+    [SerializeField] GameObject soundManager;
+    public static Player instance;
     public CapsuleCollider playerCol;
     //플레이어 콜라이더
     public GameObject player;
@@ -74,6 +76,32 @@ public class Player : MonoBehaviour
 		instance = this;
         canMove = true;
 
+        //db연결
+        //string strConn = "Data Source=192.168.0.68,1433;Initial Catalog=unity;User ID=User1;Password=1234";
+        string strConn = "Data Source=172.30.1.36,1433;Initial Catalog=unity;User ID=User2;Password=1234";
+        SqlConnection mssqlconn = new SqlConnection(strConn);
+        mssqlconn.Open();
+        SqlCommand cmd = new SqlCommand();
+        cmd.Connection = mssqlconn;
+
+        //select
+        cmd.CommandText = "SELECT * FROM score";
+        SqlDataReader rd = cmd.ExecuteReader();
+        Debug.Log("================================ 시작 ================================");
+        while (rd.Read())
+        {
+            Debug.Log(rd["name"].ToString() + " " + rd["score"].ToString());
+            score += int.Parse(rd["score"].ToString());
+        }
+        Debug.Log("================================ 끝 ================================");
+        rd.Close();
+
+        //insert
+        //cmd.CommandText = "INSERT INTO score(name,score) values('bbb',1000)";
+        //cmd.ExecuteNonQuery();
+
+        //db연결 해제
+        mssqlconn.Close();
 	}
  
     void Update()
@@ -296,7 +324,7 @@ public class Player : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.F)) //사망
         {
-
+            soundManager.GetComponent<Sound>().startSound("Dead");
 
             anim.SetBool("Dead", true);
 
@@ -501,7 +529,8 @@ public class Player : MonoBehaviour
 	{
 		if (_col.tag == "obstacle" && testMode==false)
 		{
-			anim.SetBool("Dead", true);
+            soundManager.GetComponent<Sound>().startSound("Dead");
+            anim.SetBool("Dead", true);
 			canMove = false;
 		}
 
@@ -519,7 +548,7 @@ public class Player : MonoBehaviour
 
 		if (_col.tag == "score")
 		{
-			score += _col.gameObject.GetComponent<Col>().score;
+            score += _col.gameObject.GetComponent<Col>().score;
             ScoreManager.instance.UpdateScore();
 		//	Debug.Log(score);
 		}

@@ -11,6 +11,7 @@ TagManager:
   - score
   - hammer
   - electro
+  - truck
   layers:
   - Default
   - TransparentFX

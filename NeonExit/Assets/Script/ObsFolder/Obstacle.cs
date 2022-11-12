@@ -19,6 +19,7 @@ public class Obstacle : MonoBehaviour
     private int poolCount = 100;
     public float arrivetime;
     GameObject temp;
+    [SerializeField] GameObject soundManager;
 
 
     // Start is called before the first frame update
@@ -36,6 +37,13 @@ public class Obstacle : MonoBehaviour
             //수정필요
             setObs(y);
         }
+
+//#if UNITY_ANDROID
+//        arrivetime = arrivetime;
+//#endif
+//#if UNITY_EDITOR
+//        arrivetime = arrivetime;
+//#endif
     }
 
     private void Awake()
@@ -114,7 +122,7 @@ public class Obstacle : MonoBehaviour
 
                 temp = obsDequeue(4);
                 temp.transform.position = new Vector3(place.line[0], 0.5f, player.transform.position.z + 50);
-                temp = temp.transform.GetChild(3).gameObject;
+                temp = temp.transform.GetChild(10).gameObject;
                 temp.transform.position = new Vector3(place.line[0], 0.5f, player.transform.position.z + 50 + elecSize-1);
                 //에디터 건드리는 코드 필요
 
@@ -248,6 +256,7 @@ public class Obstacle : MonoBehaviour
 
     public void obsEnqueue(int ind, GameObject _enqueueObs)
     {
+        if(ind == 7) { soundManager.GetComponent<Sound>().startSound("Rocket"); }
         _enqueueObs.SetActive(false);
         queue[ind].Enqueue(_enqueueObs);
     }

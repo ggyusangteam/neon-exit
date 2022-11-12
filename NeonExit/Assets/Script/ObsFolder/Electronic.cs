@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Electronic : MonoBehaviour
 {
+    [SerializeField] GameObject soundManager;
     public Obstacle obstacle;
     [SerializeField] int ind;
     [SerializeField] GameObject player;
@@ -32,5 +33,13 @@ public class Electronic : MonoBehaviour
         {
             obstacle.obsEnqueue(ind, gameObject);
         }
+
+        //if (player.transform.position.z - transform.position.z <= 0.3 && player.transform.position.z - transform.position.z >= 0 && ind == 3 )
+        //{
+        //    if(Input.GetKeyUp(KeyCode.E) || Input.GetKeyUp(KeyCode.Q) || Input.GetKeyUp(KeyCode.T))
+        //    { 
+        //        soundManager.GetComponent<Sound>().startSound("Pole");
+        //    }
+        //}
     }
 }

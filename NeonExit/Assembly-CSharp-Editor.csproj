@@ -59,7 +59,7 @@
     <Compile Include="Assets\RhythmTool\Editor\FeatureGUI.cs" />
     <Compile Include="Assets\RhythmTool\Editor\TimeRuler.cs" />
     <Compile Include="Assets\RhythmTool\Editor\FeatureSelection.cs" />
-    <Compile Include="Assets\LightningBolt\Editor\LightningBoltEditor.cs" />
+    <Compile Include="Assets\ObsAssets\LightningBolt\Editor\LightningBoltEditor.cs" />
     <Compile Include="Assets\ObsAssets\WireBuilder\Scripts\Editor\WireBuilderGUI.cs" />
     <Compile Include="Assets\RhythmTool\Editor\FeatureCreator.cs" />
     <Compile Include="Assets\RhythmTool\Editor\RhythmToolWindow.cs" />
@@ -317,6 +317,9 @@
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.CJK">
+      <HintPath>Assets\Plugins\I18N.CJK.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>

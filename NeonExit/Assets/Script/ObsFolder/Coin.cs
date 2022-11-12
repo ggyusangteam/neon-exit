@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
+    [SerializeField] GameObject soundManager;
     public Obstacle obstacle;
     [SerializeField] int ind;
     [SerializeField] GameObject player;
@@ -37,6 +38,7 @@ public class Coin : MonoBehaviour
 
     void OnTriggerEnter(Collider _col)
     {
+        soundManager.GetComponent<Sound>().startSound("Coin");
         obstacle.obsEnqueue(ind, gameObject);
     }
 }
