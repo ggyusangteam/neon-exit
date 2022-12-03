@@ -38,7 +38,7 @@ public class Coin : MonoBehaviour
 
     void OnTriggerEnter(Collider _col)
     {
-        soundManager.GetComponent<Sound>().startSound("Coin");
+        //soundManager.GetComponent<Sound>().startSound("Coin");
         obstacle.obsEnqueue(ind, gameObject);
     }
 }
