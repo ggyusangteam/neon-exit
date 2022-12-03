@@ -554,7 +554,7 @@ public class Player : MonoBehaviour
 		{
 			if (deadCnt == 3)
 			{
-				soundManager.GetComponent<Sound>().startSound("Dead");
+				//soundManager.GetComponent<Sound>().startSound("Dead");
 				anim.SetBool("Dead", true);
 				canMove = false;
 			}
@@ -568,7 +568,7 @@ public class Player : MonoBehaviour
 
 		if (_col.tag == "obstacle" && testMode == true)
 		{
-			soundManager.GetComponent<Sound>().startSound("Dead");
+			//soundManager.GetComponent<Sound>().startSound("Dead");
 			comboCnt = 0;
 			combo = 1;
 		}
