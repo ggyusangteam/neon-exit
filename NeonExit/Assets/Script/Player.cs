@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
 	public float combo = 1;
 	public int comboCnt = 0;
 	int deadCnt = 0;
+	[SerializeField]  GameObject[] life;
 
 	// 콜라이더 진입 여부 따라 입력 받기
 	bool isHammer = false;
@@ -548,11 +549,16 @@ public class Player : MonoBehaviour
 			_col.gameObject.transform.GetComponent<BoxCollider>().enabled = false;
 		}
 	}
+
+	void Invincible(){ testMode = false; }
 	void OnTriggerEnter(Collider _col)
 	{
 		if (_col.tag == "obstacle" && testMode == false)
 		{
-			if (deadCnt == 3)
+			testMode = true;
+			Invoke("Invincible", 3);
+			life[deadCnt].SetActive(false);
+			if (deadCnt == 2)
 			{
 				//soundManager.GetComponent<Sound>().startSound("Dead");
 				anim.SetBool("Dead", true);
@@ -566,12 +572,11 @@ public class Player : MonoBehaviour
 			}
 		}
 
-		if (_col.tag == "obstacle" && testMode == true)
-		{
-			//soundManager.GetComponent<Sound>().startSound("Dead");
-			comboCnt = 0;
-			combo = 1;
-		}
+		//if (_col.tag == "obstacle" && testMode == true)
+		//{
+		//	comboCnt = 0;
+		//	combo = 1;
+		//}
 
 		if (_col.tag == "hammer")
 		{
