@@ -1092,6 +1092,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Place
   _features:
+  - timestamp: 4.3558984
+    length: 0
+    strength: 6.229165
+    intensity: 0
+    ind: 3
+    elecSize: 15
+    line:
+    - 0
   - timestamp: 12.0976
     length: 0
     strength: 7

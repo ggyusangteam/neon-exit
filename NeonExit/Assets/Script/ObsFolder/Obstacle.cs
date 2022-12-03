@@ -63,17 +63,26 @@ public class Obstacle : MonoBehaviour
             int len = place.line.Length;
             //Debug.Log("Obs" + ind + " appear at " + time + "sec");
 
-            if(ind == 0 || ind == 5 || ind == 9)
+            if(ind == 0 || ind == 5)
             {
                 for (int x = 0; x < len; x++)
                 {
                     temp = obsDequeue(ind);
-                    temp.transform.position = new Vector3(place.line[x], 0f, player.transform.position.z + 50);
+                    temp.transform.position = new Vector3(place.line[x], 0f, player.transform.position.z + 100);
                 }
 
                 temp = obsDequeue(11);
-                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 50 + 0.5f);
+                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + 0.5f);
                 temp.tag = "score";
+            }
+
+            else if(ind == 9)
+            {
+                for (int x = 0; x < len; x++)
+                {
+                    temp = obsDequeue(ind);
+                    temp.transform.position = new Vector3(place.line[x], 0f, player.transform.position.z + 100);
+                }
             }
 
             else if(ind == 6)
@@ -82,36 +91,36 @@ public class Obstacle : MonoBehaviour
                 for (int x = 0; x < len; x++)
                 {
                     temp = obsDequeue(ind);
-                    temp.transform.position = new Vector3(place.line[x] + 0.5f, 0f, player.transform.position.z + 50);
+                    temp.transform.position = new Vector3(place.line[x] + 0.5f, 0f, player.transform.position.z + 100);
                 }
 
                 temp = obsDequeue(11);
-                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 50 + 0.5f);
+                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + 0.5f);
                 temp.tag = "score";
             }
 
             else if(ind == 2)
             {
                 temp = obsDequeue(ind);
-                temp.transform.position = new Vector3(0, 1.2f, player.transform.position.z + 50);
+                temp.transform.position = new Vector3(0, 1.2f, player.transform.position.z + 100);
 
                 temp = obsDequeue(11);
-                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 50 + 0.5f);
+                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + 0.5f);
                 temp.tag = "score";
             }
 
             else if(ind == 10)
             {
                 temp = obsDequeue(ind);
-                temp.transform.position = new Vector3(0, 0, player.transform.position.z + 50);
+                temp.transform.position = new Vector3(0.81577f, 0, player.transform.position.z + 100);
 
                 temp = obsDequeue(11);
-                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 50);
+                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100);
                 temp.transform.localScale = new Vector3(1, 1, 170);
                 temp.tag = "hammer";
 
                 temp = obsDequeue(11);
-                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 50 + 0.5f);
+                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + 0.5f);
                 temp.tag = "score";
             }
 
@@ -121,31 +130,36 @@ public class Obstacle : MonoBehaviour
                 int elecSize = place.elecSize;
 
                 temp = obsDequeue(4);
-                temp.transform.position = new Vector3(place.line[0], 0.5f, player.transform.position.z + 50);
+                temp.transform.position = new Vector3(place.line[0], 0.5f, player.transform.position.z + 100);
                 temp = temp.transform.GetChild(10).gameObject;
-                temp.transform.position = new Vector3(place.line[0], 0.5f, player.transform.position.z + 50 + elecSize-1);
+                temp.transform.position = new Vector3(place.line[0], 0.5f, player.transform.position.z + 100 + elecSize-1);
+
                 //에디터 건드리는 코드 필요
+                //temp = temp.transform.GetChild(6).gameObject;
+                //temp.transform.position = new Vector3(temp.transform.position.x, temp.transform.position.y, temp.transform.position.z);
 
                 for (int x = 1; x < elecSize-1; x++)
                 {
                     temp = obsDequeue(ind);
-                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 50 + x);
+                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 100 + x);
                     temp = obsDequeue(ind);
-                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 50 + x + 0.5f);
+                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 100 + x + 0.5f);
+
+                    temp = obsDequeue(11);
+                    temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + x);
+                    temp.tag = "score";
+                    temp.GetComponent<Col>().score = 10;
                 }
 
-                temp = obsDequeue(11);
-                temp.transform.position = new Vector3(place.line[0]-1, 2, player.transform.position.z + 50 + ((elecSize-1) / 2));
-                temp.transform.localScale = new Vector3(1/7f, 1, (elecSize+14)*10);
-                temp.tag = "electro";
 				temp = obsDequeue(11);
-				temp.transform.position = new Vector3(place.line[0] + 1, 2, player.transform.position.z + 50 + ((elecSize - 1) / 2));
+				temp.transform.position = new Vector3(place.line[0] + 1, 2, player.transform.position.z + 100 + ((elecSize - 1) / 2));
 				temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize + 14) * 10);
 				temp.tag = "electro";
 
-				temp = obsDequeue(11);
-                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 50.5f + elecSize - 1);
+                temp = obsDequeue(11);
+                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + elecSize);
                 temp.tag = "score";
+                temp.GetComponent<Col>().score = 200;
             }
 
             else if(ind == 7)
@@ -153,13 +167,13 @@ public class Obstacle : MonoBehaviour
                 for (int x = 0; x < len; x++)
                 {
                     temp = obsDequeue(ind);
-                    temp.transform.position = new Vector3(place.line[x], 50f, player.transform.position.z + 50);
+                    temp.transform.position = new Vector3(place.line[x], 50f, player.transform.position.z + 100);
                     temp = obsDequeue(8);
-                    temp.transform.position = new Vector3(place.line[x], 0.1f, player.transform.position.z + 50);
+                    temp.transform.position = new Vector3(place.line[x], 0.1f, player.transform.position.z + 100);
                 }
 
                 temp = obsDequeue(11);
-                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 50 + 0.5f);
+                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + 0.5f);
                 temp.tag = "score";
             }
 
@@ -171,28 +185,40 @@ public class Obstacle : MonoBehaviour
                 else xloc -= 0.3f;
 
                 temp = obsDequeue(ind);
-                temp.transform.position = new Vector3(xloc, 0, player.transform.position.z + 47.5f);
+                temp.transform.position = new Vector3(xloc, 0, player.transform.position.z + 97.5f);
 
                 for (int x = 0; x < elecSize/3 + 1; x++)
                 {
                     temp = obsDequeue(13);
-                    temp.transform.position = new Vector3(xloc, 0.75f, player.transform.position.z + 50 + (x * 3));
+                    temp.transform.position = new Vector3(xloc, 0.75f, player.transform.position.z + 100 + (x * 3));
                 }
 
                 for (int x = 0; x < elecSize; x++)
                 {
                     temp = obsDequeue(3);
-                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 50 + x);
+                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 100 + x);
                     temp = obsDequeue(3);
-                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 50 + x + 0.5f);
+                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 100 + x + 0.5f);
+
+                    temp = obsDequeue(11);
+                    temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + x);
+                    temp.tag = "score";
                 }
 
-                if (xloc == 3.3f) xloc = 2;
-                else xloc = -2;
-                temp = obsDequeue(11);
-                temp.transform.position = new Vector3(xloc, 2, player.transform.position.z + 50 + ((elecSize - 1) / 2));
-                temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize + 14) * 10);
-                temp.tag = "truck";
+                if (xloc == 3.3f)
+                {
+                    temp = obsDequeue(11);
+                    temp.transform.position = new Vector3(2, 2, player.transform.position.z + 100 + ((elecSize - 1) / 2));
+                    temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize + 14) * 10);
+                    temp.tag = "rtruck";
+                }
+                else
+                {
+                    temp = obsDequeue(11);
+                    temp.transform.position = new Vector3(-2, 2, player.transform.position.z + 100 + ((elecSize - 1) / 2));
+                    temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize + 14) * 10);
+                    temp.tag = "ltruck";
+                }
             }
 
             else
@@ -200,12 +226,9 @@ public class Obstacle : MonoBehaviour
                 for (int x = 0; x < len; x++)
                 {
                     temp = obsDequeue(ind);
-                    temp.transform.position = new Vector3(place.line[x], 0.5f, player.transform.position.z + 50);
+                    temp.transform.position = new Vector3(place.line[x], 0.5f, player.transform.position.z + 100);
 
-                    temp = obsDequeue(11);
-                    temp.transform.position = new Vector3(place.line[x], 0.5f, player.transform.position.z + 50);
-                    temp.transform.localScale = new Vector3(0.1f, 0.1f, 1);
-                    temp.tag = "score";
+
                 }
 
         

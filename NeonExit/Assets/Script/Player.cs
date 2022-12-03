@@ -17,8 +17,11 @@ public class Player : MonoBehaviour
 
 	public float slideTime;
 	//슬라이드 후 이동 가능 시간
-	public  int score = 0;
-	bool isHammer = false;
+	public int score = 0;
+	public float combo = 1;
+	public int comboCnt = 0;
+    int deadCnt = 0;
+    bool isHammer = false;
 	bool isElec = false;
 
 	Vector3 currentColTransform;
@@ -76,9 +79,10 @@ public class Player : MonoBehaviour
 		instance = this;
         canMove = true;
 
+        /*
         //db연결
-        //string strConn = "Data Source=192.168.0.68,1433;Initial Catalog=unity;User ID=User1;Password=1234";
-        string strConn = "Data Source=172.30.1.36,1433;Initial Catalog=unity;User ID=User2;Password=1234";
+        string strConn = "Data Source=192.168.0.68,1433;Initial Catalog=unity;User ID=User1;Password=1234";
+        //string strConn = "Data Source=172.30.1.36,1433;Initial Catalog=unity;User ID=User2;Password=1234";
         SqlConnection mssqlconn = new SqlConnection(strConn);
         mssqlconn.Open();
         SqlCommand cmd = new SqlCommand();
@@ -102,6 +106,7 @@ public class Player : MonoBehaviour
 
         //db연결 해제
         mssqlconn.Close();
+        */
 	}
  
     void Update()
@@ -529,12 +534,28 @@ public class Player : MonoBehaviour
 	{
 		if (_col.tag == "obstacle" && testMode==false)
 		{
-            soundManager.GetComponent<Sound>().startSound("Dead");
-            anim.SetBool("Dead", true);
-			canMove = false;
+            if(deadCnt == 3)
+            {
+                //soundManager.GetComponent<Sound>().startSound("Dead");
+                anim.SetBool("Dead", true);
+                canMove = false;
+            }
+            else
+            {
+                deadCnt++;
+                comboCnt = 0;
+                combo = 1;
+            }
 		}
 
-		if (_col.tag == "hammer")
+        if (_col.tag == "obstacle" && testMode == true)
+        {
+            //soundManager.GetComponent<Sound>().startSound("Dead");
+            comboCnt = 0;
+            combo = 1;
+        }
+
+        if (_col.tag == "hammer")
 		{
 			isHammer = true;
 			//Debug.Log(isHammer);
@@ -548,11 +569,24 @@ public class Player : MonoBehaviour
 
 		if (_col.tag == "score")
 		{
-            score += _col.gameObject.GetComponent<Col>().score;
+            comboCnt++;
+            if(comboCnt % 50 == 0)
+            {
+                combo += 0.1f;
+            }
+
+            float sc = _col.gameObject.GetComponent<Col>().score * combo;
+            score += (int)sc;
             ScoreManager.instance.UpdateScore();
 		//	Debug.Log(score);
 		}
-	}
+
+        if (_col.tag == "coin")
+        {
+            score += 500;
+            ScoreManager.instance.UpdateScore();
+        }
+    }
 
 	void OnTriggerExit(Collider _col)
 	{

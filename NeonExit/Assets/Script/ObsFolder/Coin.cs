@@ -8,7 +8,7 @@ public class Coin : MonoBehaviour
     public Obstacle obstacle;
     [SerializeField] int ind;
     [SerializeField] GameObject player;
-    public int score = 100;
+    public int score = 500;
     //float activeTime = 5.0f;
     //float activeTimeRate = 5.0f;
 
@@ -38,7 +38,7 @@ public class Coin : MonoBehaviour
 
     void OnTriggerEnter(Collider _col)
     {
-        soundManager.GetComponent<Sound>().startSound("Coin");
+        //soundManager.GetComponent<Sound>().startSound("Coin");
         obstacle.obsEnqueue(ind, gameObject);
     }
 }
