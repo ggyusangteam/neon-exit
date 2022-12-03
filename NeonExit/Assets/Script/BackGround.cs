@@ -19,11 +19,12 @@ public class BackGround : MonoBehaviour
     {
         for (int i = 0; i < max_BackGround; i++) 
         {
-            GameObject clone_Note = Instantiate(backGround_Prefab);
+		     
+            GameObject clone_Back = Instantiate(backGround_Prefab);
+			clone_Back.gameObject.SetActive(true);
+			clone_Back.transform.SetParent(backGroundParent.transform);
 
-            clone_Note.transform.SetParent(backGroundParent.transform);
-
-            InsertQueue(clone_Note);
+            InsertQueue(clone_Back);
             
         }
       //backGround_Prefab.SetActive(false);
