@@ -13,6 +13,8 @@ TagManager:
   - electro
   - truck
   - coin
+  - ltruck
+  - rtruck
   layers:
   - Default
   - TransparentFX
