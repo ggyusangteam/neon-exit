@@ -279,7 +279,7 @@ public class Obstacle : MonoBehaviour
 
     public void obsEnqueue(int ind, GameObject _enqueueObs)
     {
-        if(ind == 7) { soundManager.GetComponent<Sound>().startSound("Rocket"); }
+        //if(ind == 7) { soundManager.GetComponent<Sound>().startSound("Rocket"); }
         _enqueueObs.SetActive(false);
         queue[ind].Enqueue(_enqueueObs);
     }
