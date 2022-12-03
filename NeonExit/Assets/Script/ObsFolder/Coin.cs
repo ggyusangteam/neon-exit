@@ -8,7 +8,7 @@ public class Coin : MonoBehaviour
     public Obstacle obstacle;
     [SerializeField] int ind;
     [SerializeField] GameObject player;
-    public int score = 100;
+    public int score = 500;
     //float activeTime = 5.0f;
     //float activeTimeRate = 5.0f;
 
