@@ -112,7 +112,7 @@ public class Obstacle : MonoBehaviour
             else if(ind == 10)
             {
                 temp = obsDequeue(ind);
-                temp.transform.position = new Vector3(0, 0, player.transform.position.z + 50);
+                temp.transform.position = new Vector3(0.81577f, 0, player.transform.position.z + 50);
 
                 temp = obsDequeue(11);
                 temp.transform.position = new Vector3(0, 2, player.transform.position.z + 50);

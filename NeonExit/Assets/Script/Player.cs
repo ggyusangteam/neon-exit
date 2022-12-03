@@ -20,7 +20,8 @@ public class Player : MonoBehaviour
 	public int score = 0;
 	public float combo = 1;
 	public int comboCnt = 0;
-	bool isHammer = false;
+    int deadCnt = 0;
+    bool isHammer = false;
 	bool isElec = false;
 
 	Vector3 currentColTransform;
@@ -533,9 +534,18 @@ public class Player : MonoBehaviour
 	{
 		if (_col.tag == "obstacle" && testMode==false)
 		{
-            soundManager.GetComponent<Sound>().startSound("Dead");
-            anim.SetBool("Dead", true);
-			canMove = false;
+            if(deadCnt == 3)
+            {
+                soundManager.GetComponent<Sound>().startSound("Dead");
+                anim.SetBool("Dead", true);
+                canMove = false;
+            }
+            else
+            {
+                deadCnt++;
+                comboCnt = 0;
+                combo = 1;
+            }
 		}
 
         if (_col.tag == "obstacle" && testMode == true)
@@ -575,7 +585,6 @@ public class Player : MonoBehaviour
         {
             score += 500;
             ScoreManager.instance.UpdateScore();
-            Debug.Log(score);
         }
     }
 
