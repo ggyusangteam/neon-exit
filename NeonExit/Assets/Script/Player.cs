@@ -195,11 +195,13 @@ public class Player : MonoBehaviour
 				if (isLeftTruck == true && canMove == true)
 				{
 					anim.SetBool("WallWalk_Left", true);
+					canMove = false;
 
 				}
 				if (isRightTruck == true && canMove == true)
 				{
 					anim.SetBool("WallWalk_Right", true);
+					canMove = false;
 
 				}
 
@@ -215,13 +217,39 @@ public class Player : MonoBehaviour
 					canMove = false;
 
 				}
+				if (isLeftTruck == true && canMove == true)
+				{
+					anim.SetBool("WallWalk_Left", true);
+					canMove = false;
+
+				}
+				if (isRightTruck == true && canMove == true)
+				{
+					anim.SetBool("WallWalk_Right", true);
+					canMove = false;
+
+				}
+
+
 			}
+
 			if (Input.GetMouseButtonUp(0))
 
 			{
 				if (anim.GetBool("PoleJump") == true)
 				{
 					anim.SetBool("PoleJump", false);
+					canMove = true;
+				}
+				if (anim.GetBool("WallWalk_Left") == true)
+				{
+					anim.SetBool("WallWalk_Left", false);
+					canMove = true;
+				}
+
+				if (anim.GetBool("WallWalk_Right")==true)
+				{
+					anim.SetBool("WallWalk_Right", false);
 					canMove = true;
 				}
 
@@ -276,6 +304,38 @@ public class Player : MonoBehaviour
 			playerCol.center = currentColTransform;
 
 		}
+
+		if (anim.GetCurrentAnimatorStateInfo(0).IsName("wallwalk_left_1"))
+		{
+
+			playerCol.center = new Vector3(currentColTransform.x, currentColTransform.y + 3, currentColTransform.z);
+
+		}
+		if (anim.GetCurrentAnimatorStateInfo(0).IsName("wallwalk_right_1"))
+		{
+
+			playerCol.center = new Vector3(currentColTransform.x, currentColTransform.y + 3, currentColTransform.z);
+
+		}
+
+		if (anim.GetCurrentAnimatorStateInfo(0).IsName("wallwalk_left_3"))
+		{
+
+			playerCol.center = currentColTransform;
+
+		}
+		if (anim.GetCurrentAnimatorStateInfo(0).IsName("wallwalk_right_3"))
+		{
+
+			playerCol.center = currentColTransform;
+
+		}
+
+
+
+
+
+
 		if (anim.GetCurrentAnimatorStateInfo(0).IsName("Slide") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= slideTime)
 		{
 

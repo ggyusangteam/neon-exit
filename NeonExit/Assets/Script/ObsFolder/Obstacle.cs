@@ -181,7 +181,7 @@ public class Obstacle : MonoBehaviour
             {
                 int elecSize = place.elecSize;
                 float xloc = place.line[0];
-                if (xloc == 3) xloc += 0.3f;
+                if (xloc == 4) xloc = 3.3f;
                 else xloc -= 0.3f;
 
                 temp = obsDequeue(ind);
