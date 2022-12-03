@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class SceneManagerScript : MonoBehaviour
 {
 
-     void Start()
+    void Start()
     {
         //시작 시 이벤트를 등록해 줍니다.
         SceneManager.sceneLoaded += LoadedsceneEvent;

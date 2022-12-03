@@ -12,6 +12,7 @@ TagManager:
   - hammer
   - electro
   - truck
+  - coin
   layers:
   - Default
   - TransparentFX
