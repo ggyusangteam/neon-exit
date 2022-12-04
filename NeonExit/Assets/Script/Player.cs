@@ -544,13 +544,9 @@ public class Player : MonoBehaviour
 		destinationPos = transform_param.position.x + dir;
 		Debug.DrawRay(transform.position, new Vector3(a, 0, 0), Color.white, 1f);
 		// Debug.DrawRay(transform.position, transform.forward * 1.5f, Color.blue, 0.5f);
-		if (Physics.Raycast(transform.position, new Vector3(a, 0, 0), out Hit, 1))
+		if (Physics.Raycast(transform.position, new Vector3(a, 0, 0), out Hit, 1)&&Hit.collider.CompareTag("Wall"))
 		{
-			if (Hit.collider.CompareTag("Wall"))
-			{
-
-			}
-
+			
 		}
 		else
 		{
@@ -576,7 +572,7 @@ public class Player : MonoBehaviour
 
 		Debug.DrawRay(transform.position, new Vector3(a, 0, 0), Color.white, 1f);
 		// Debug.DrawRay(transform.position, transform.forward * 1.5f, Color.blue, 0.5f);
-		if (Physics.Raycast(transform.position, new Vector3(a, 0, 0), out Hit, 1))
+		if (Physics.Raycast(transform.position, new Vector3(a, 0, 0), out Hit, 1) && Hit.collider.CompareTag("Wall"))
 		{
 			if (Hit.collider.CompareTag("Wall"))
 			{

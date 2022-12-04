@@ -658,6 +658,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3d058bbfd16b5a44ad811d4da6c2226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &380141881 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5717805113153414936, guid: 604b750e69576ae4b872a51a4aade31d, type: 3}
+  m_PrefabInstance: {fileID: 1355808952}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &424459261
 GameObject:
   m_ObjectHideFlags: 0
@@ -866,10 +871,14 @@ MonoBehaviour:
   score: 0
   combo: 1
   comboCnt: 0
+  life:
+  - {fileID: 2050351926}
+  - {fileID: 380141881}
+  - {fileID: 693393126}
   slideColRotateTime: 0.2
   hammer: {fileID: 970256114}
   slideColMov: 1.5
-  playerSpeed: 22
+  playerSpeed: 20
   sideSpeed: 12
   jumpSpeed: 6
   downSpeed: 6
@@ -921,6 +930,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &693393126 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7651756198167498969, guid: 604b750e69576ae4b872a51a4aade31d, type: 3}
+  m_PrefabInstance: {fileID: 1355808952}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2478,6 +2492,7 @@ MonoBehaviour:
   buildingMaterialFirst: {fileID: 2100000, guid: c734d4f97c61b2b43b8515e5ea40494b, type: 2}
   buildingMaterialSecond: {fileID: 2100000, guid: 1dfc502c788377c4282d104b5bfb2d19, type: 2}
   GlassMaterial: {fileID: 2100000, guid: 7dbf9d670f243b34a9d58e8eb753f71b, type: 2}
+  isOptimize: 0
   lerpTime: 1.5
   buildingR: 1
   buildingG: 1
@@ -3378,6 +3393,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &2050351926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 798693676088173492, guid: 604b750e69576ae4b872a51a4aade31d, type: 3}
+  m_PrefabInstance: {fileID: 1355808952}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2129261497
 GameObject:
   m_ObjectHideFlags: 0
@@ -7740,7 +7760,7 @@ BoxCollider:
   m_GameObject: {fileID: 7873482471615017659}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.6, z: 5}
   m_Center: {x: 0, y: 0, z: 0}
