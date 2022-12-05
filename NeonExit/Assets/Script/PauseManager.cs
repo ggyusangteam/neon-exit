@@ -22,6 +22,7 @@ public class PauseManager : MonoBehaviour
      
     }
 
+
     public void Pause()
     {
         if (paused == false)
@@ -56,5 +57,6 @@ public class PauseManager : MonoBehaviour
                 Pause();
             }
         }
+
     }
 }

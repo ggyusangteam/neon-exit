@@ -231,8 +231,26 @@ public class Player : MonoBehaviour
 
 				}
 
+				if(isElec==false&& anim.GetBool("PoleJump") == true)
+				{
+					anim.SetBool("PoleJump", false);
+					canMove = true;
+				}
+				if (isLeftTruck == false&& anim.GetBool("WallWalk_Left") == true)
+				{
+					anim.SetBool("WallWalk_Left", false);
+					canMove = true;
+				}
+				if (isRightTruck == false&& anim.GetBool("WallWalk_Right") == true)
+				{
+					anim.SetBool("WallWalk_Right", false);
+					canMove = true;
+				}
+
 
 			}
+			
+			
 
 			if (Input.GetMouseButtonUp(0))
 
