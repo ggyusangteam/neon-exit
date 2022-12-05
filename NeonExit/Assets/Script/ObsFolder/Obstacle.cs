@@ -115,9 +115,14 @@ public class Obstacle : MonoBehaviour
                 temp.transform.position = new Vector3(0.81577f, 0, player.transform.position.z + 100);
 
                 temp = obsDequeue(11);
-                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100);
-                temp.transform.localScale = new Vector3(1, 1, 170);
+                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 96);
+                temp.transform.localScale = new Vector3(1, 1, 85);
                 temp.tag = "hammer";
+
+                temp = obsDequeue(11);
+                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 99.8f);
+                temp.transform.localScale = new Vector3(1, 1, 1);
+                temp.tag = "obstacle";
 
                 temp = obsDequeue(11);
                 temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + 0.5f);
@@ -151,9 +156,10 @@ public class Obstacle : MonoBehaviour
                     temp.GetComponent<Col>().score = 10;
                 }
 
+                float half = elecSize / 2;
                 temp = obsDequeue(11);
-                temp.transform.position = new Vector3(place.line[0] + 1, 2, player.transform.position.z + 100 + ((elecSize - 1) / 2));
-                temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize + 14) * 10);
+                temp.transform.position = new Vector3(place.line[0] + 1, 2, player.transform.position.z + 97 + half);
+                temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize * 10)+20);
                 temp.tag = "electro";
 
                 temp = obsDequeue(11);
@@ -205,18 +211,19 @@ public class Obstacle : MonoBehaviour
                     temp.tag = "score";
                 }
 
+                float half = elecSize / 2;
                 if (xloc == 3.3f)
                 {
                     temp = obsDequeue(11);
-                    temp.transform.position = new Vector3(2, 2, player.transform.position.z + 100 + ((elecSize - 1) / 2));
-                    temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize + 14) * 10);
+                    temp.transform.position = new Vector3(2, 2, player.transform.position.z + 98 + half);
+                    temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize * 10) + 30);
                     temp.tag = "rtruck";
                 }
                 else
                 {
                     temp = obsDequeue(11);
-                    temp.transform.position = new Vector3(-2, 2, player.transform.position.z + 100 + ((elecSize - 1) / 2));
-                    temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize + 14) * 10);
+                    temp.transform.position = new Vector3(-2, 2, player.transform.position.z + 98 + half);
+                    temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize * 10) + 30);
                     temp.tag = "ltruck";
                 }
             }
