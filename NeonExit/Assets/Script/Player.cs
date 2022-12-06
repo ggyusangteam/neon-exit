@@ -621,6 +621,12 @@ public class Player : MonoBehaviour
 
 			_col.gameObject.transform.GetComponent<Animator>().SetBool("WallBreak", true);
 			_col.gameObject.transform.GetComponent<BoxCollider>().enabled = false;
+			if(!testMode)
+			{
+				testMode = true;
+				Invoke("Invincible", 0.5f);
+			}
+	
 		}
 	}
 

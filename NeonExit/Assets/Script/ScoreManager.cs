@@ -7,6 +7,9 @@ public class ScoreManager : MonoBehaviour
 	public static ScoreManager instance;
 //	public static ScoreManager instance;
 	public TextMesh score;
+	public TextMesh combo;
+
+	private int maxCombo = 0;
 	
 	// Start is called before the first frame update
 	void Start()
@@ -22,6 +25,24 @@ public class ScoreManager : MonoBehaviour
 	public void UpdateScore()
 	{
 		score.text = Player.instance.score.ToString();
+	
+
+
+		///ÄÞº¸
+		if (Player.instance.comboCnt>100)
+		{
+			combo.color = Color.red;
+		}
+		else
+		{
+			combo.color = Color.white;
+		}
+		combo.text = $"{Player.instance.comboCnt.ToString()}";
+
+		if (maxCombo<Player.instance.comboCnt)
+		{
+			maxCombo = Player.instance.comboCnt;
+		}
 	}
 
 }
