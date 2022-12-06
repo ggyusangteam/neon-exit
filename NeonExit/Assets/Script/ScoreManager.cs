@@ -9,7 +9,7 @@ public class ScoreManager : MonoBehaviour
 	public TextMesh score;
 	public TextMesh combo;
 
-	private int maxCombo = 0;
+	public int maxCombo = 0;
 	
 	// Start is called before the first frame update
 	void Start()

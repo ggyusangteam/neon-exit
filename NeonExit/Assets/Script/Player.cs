@@ -7,6 +7,7 @@ using System.Data;
 
 public class Player : MonoBehaviour
 {
+	[SerializeField] AudioSource audioSource = null;
 	[SerializeField] GameObject soundManager;
 	public static Player instance;
 	public CapsuleCollider playerCol;
@@ -105,7 +106,7 @@ public class Player : MonoBehaviour
         }
         Debug.Log("================================ 끝 ================================");
         rd.Close();
-
+		
         //insert
         //cmd.CommandText = "INSERT INTO score(name,score) values('bbb',1000)";
         //cmd.ExecuteNonQuery();
@@ -359,21 +360,21 @@ public class Player : MonoBehaviour
 		{
 
 			canMove = true;
-			//   Debug.Log(anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
+	
 			Invoke("OriginColCen", slideColRotateTime);
 		}
 		if (anim.GetCurrentAnimatorStateInfo(0).IsName("Slide") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 2f)
 		{
 
 
-			//   Debug.Log(anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
+		
 			Invoke("OriginColCen", slideColRotateTime);
 		}
 
 		if (anim.GetCurrentAnimatorStateInfo(0).IsName("Hammer_1") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.8f)
 		{
 			anim.SetBool("Hammer_1", false);
-			//	Debug.Log(anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
+
 			hammer.SetActive(false);
 
 		}
@@ -381,16 +382,6 @@ public class Player : MonoBehaviour
 
 
 
-		/*
-        if(Input.touchCount>=1)
-        {
-                var touch = Input.GetTouch(0);
-                Vector2 touchposition = Camera.main.ScreenToWorldPoint(touch.position);
-
-
-
-        }
-        */
 
 
 
@@ -400,8 +391,7 @@ public class Player : MonoBehaviour
 
 
 
-
-
+		/*  키보드 입력
 		if (Input.GetKeyDown(KeyCode.A) && canMove == true) //좌로 이동
 		{
 			StartCoroutine(LeftMoveCo(player.transform, -1));
@@ -517,7 +507,11 @@ public class Player : MonoBehaviour
 
 
 		}
-
+		*/
+		if (audioSource.time == audioSource.clip.length)
+		{
+			this.EndGame();
+		}
 	}
 
 	void OriginColCen()
@@ -630,19 +624,22 @@ public class Player : MonoBehaviour
 		}
 	}
 
+
+
 	void Invincible(){ testMode = false; }
 	void OnTriggerEnter(Collider _col)
 	{
 		if (_col.tag == "obstacle" && testMode == false)
 		{
 			testMode = true;
-			Invoke("Invincible", 3);
+			Invoke("Invincible", 1.5f);
 			life[deadCnt].SetActive(false);
 			if (deadCnt == 2)
 			{
 				//soundManager.GetComponent<Sound>().startSound("Dead");
 				anim.SetBool("Dead", true);
 				canMove = false;
+				Invoke("Dead", 2);
 			}
 			else
 			{
@@ -724,5 +721,18 @@ public class Player : MonoBehaviour
 			//Debug.Log(isElec);
 		}
 	}
+
+	public void Dead()
+	{
+		PauseManager.instance.DeadPause();
+	}
+
+	public void EndGame()
+	{
+		PauseManager.instance.EndPause(this.score, ScoreManager.instance.maxCombo);
+	  
+	
+	}
+
 }
 

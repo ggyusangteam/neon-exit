@@ -5,8 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagerScript : MonoBehaviour
 {
+	public static SceneManagerScript instance;
 
-    void Start()
+	private void Awake()
+	{
+		instance = this;
+	}
+
+	void Start()
     {
         //시작 시 이벤트를 등록해 줍니다.
         SceneManager.sceneLoaded += LoadedsceneEvent;

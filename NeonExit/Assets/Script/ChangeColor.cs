@@ -41,9 +41,14 @@ public class ChangeColor : SubBassInteraction
 	// Start is called before the first frame update
 	void Start()
 	{
+		// 머티리얼 초깃값 set
+		this.buildingMaterial.SetColor("_Color", Color.black);
+		this.buildingMaterialFirst.SetColor("_Color", Color.black);
+		this.buildingMaterialSecond.SetColor("_Color", Color.black);
+		this.GlassMaterial.SetColor("_Color", Color.black);
 		// 머티리얼 초깃값 get
 
-			buildingMatFirst = buildingMaterialFirst.GetColor("_Color");
+		buildingMatFirst = buildingMaterialFirst.GetColor("_Color");
 			buildingMatSecond = buildingMaterialSecond.GetColor("_Color");
 		
 

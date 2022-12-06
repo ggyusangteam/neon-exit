@@ -1111,7 +1111,7 @@ MonoBehaviour:
     elecSize: 0
     line:
     - -2
-  - timestamp: 13.86943
+  - timestamp: 13.90943
     length: 0
     strength: 6
     intensity: 0
@@ -1119,7 +1119,7 @@ MonoBehaviour:
     elecSize: 0
     line:
     - -2
-  - timestamp: 13.86943
+  - timestamp: 13.90943
     length: 0
     strength: 5
     intensity: 0
@@ -1127,14 +1127,14 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 1
-  - timestamp: 14.81789
+  - timestamp: 14.92289
     length: 0
     strength: 2
     intensity: 0
     ind: 2
     elecSize: 0
     line: []
-  - timestamp: 14.81789
+  - timestamp: 14.92289
     length: 0
     strength: 6
     intensity: 0
@@ -1150,7 +1150,7 @@ MonoBehaviour:
     elecSize: 0
     line:
     - -1
-  - timestamp: 16.46651
+  - timestamp: 16.54651
     length: 0
     strength: 6
     intensity: 0
@@ -1158,7 +1158,7 @@ MonoBehaviour:
     elecSize: 0
     line:
     - -2
-  - timestamp: 16.46651
+  - timestamp: 16.54651
     length: 0
     strength: 5
     intensity: 0
@@ -1182,6 +1182,15 @@ MonoBehaviour:
     line:
     - -2
   - timestamp: 19.0868
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+    - 0
+  - timestamp: 19.41188
     length: 0
     strength: 1
     intensity: 0
@@ -1224,13 +1233,6 @@ MonoBehaviour:
     line:
     - -2
     - -1
-  - timestamp: 21.4588
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
   - timestamp: 22.13218
     length: 0
     strength: 10
@@ -1282,14 +1284,6 @@ MonoBehaviour:
     - 0
   - timestamp: 24.42739
     length: 0
-    strength: 9
-    intensity: 0
-    ind: 9
-    elecSize: 0
-    line:
-    - 0
-  - timestamp: 24.42739
-    length: 0
     strength: 1
     intensity: 0
     ind: 1
@@ -1297,6 +1291,14 @@ MonoBehaviour:
     line:
     - -1
     - 1
+  - timestamp: 24.42739
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
   - timestamp: 24.52739
     length: 0
     strength: 9
@@ -1321,6 +1323,15 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 0
+  - timestamp: 24.75247
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+    - 2
   - timestamp: 24.82739
     length: 0
     strength: 9
@@ -1378,13 +1389,6 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 0
-  - timestamp: 25.42585
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
   - timestamp: 25.42739
     length: 0
     strength: 9
@@ -1401,6 +1405,13 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 0
+  - timestamp: 25.59585
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
   - timestamp: 25.62739
     length: 0
     strength: 9
@@ -1521,15 +1532,7 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 0
-  - timestamp: 27.08769
-    length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 27.08769
+  - timestamp: 27.11769
     length: 0
     strength: 7
     intensity: 0
@@ -1545,6 +1548,14 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 0
+  - timestamp: 27.18769
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - 1
   - timestamp: 27.22739
     length: 0
     strength: 9
@@ -1625,7 +1636,7 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 0
-  - timestamp: 28.14615
+  - timestamp: 28.20615
     length: 0
     strength: 2
     intensity: 0
@@ -1804,6 +1815,15 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 0
+  - timestamp: 30.09306
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+    - 1
   - timestamp: 30.12739
     length: 0
     strength: 9
@@ -1827,6 +1847,7 @@ MonoBehaviour:
     ind: 1
     elecSize: 0
     line:
+    - -1
     - 1
   - timestamp: 30.32739
     length: 0
@@ -1912,6 +1933,14 @@ MonoBehaviour:
     - 1
   - timestamp: 32.06676
     length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 32.41506
+    length: 0
     strength: 7
     intensity: 0
     ind: 7
@@ -1921,15 +1950,6 @@ MonoBehaviour:
     - -1
     - 1
     - 2
-  - timestamp: 32.41506
-    length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-    - 0
   - timestamp: 32.76336
     length: 0
     strength: 1
@@ -1978,7 +1998,15 @@ MonoBehaviour:
     line:
     - -2
     - 1
-  - timestamp: 35.59619
+  - timestamp: 35.41608
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 35.60184
     length: 0
     strength: 1
     intensity: 0
@@ -2001,7 +2029,7 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 0
-  - timestamp: 37.43057
+  - timestamp: 37.75565
     length: 0
     strength: 1
     intensity: 0
@@ -2048,7 +2076,15 @@ MonoBehaviour:
     line:
     - -1
     - 1
-  - timestamp: 40.08764
+  - timestamp: 40.45594
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 40.45594
     length: 0
     strength: 7
     intensity: 0
@@ -2058,23 +2094,24 @@ MonoBehaviour:
     - -2
     - 0
     - 2
-  - timestamp: 40.08764
+  - timestamp: 40.75102
     length: 0
     strength: 1
     intensity: 0
     ind: 1
     elecSize: 0
     line:
-    - 1
-  - timestamp: 40.76102
+    - -1
+    - 0
+  - timestamp: 40.93678
     length: 0
-    strength: 7
+    strength: 1
     intensity: 0
-    ind: 7
+    ind: 1
     elecSize: 0
     line:
     - -1
-    - 1
+    - 0
   - timestamp: 41.4744
     length: 0
     strength: 10
@@ -2092,7 +2129,7 @@ MonoBehaviour:
     - -1
     - 0
     - 1
-  - timestamp: 42.79794
+  - timestamp: 42.47286
     length: 0
     strength: 7
     intensity: 0
@@ -2100,6 +2137,16 @@ MonoBehaviour:
     elecSize: 0
     line:
     - -2
+    - 2
+  - timestamp: 43.09624
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - -1
     - 0
     - 1
     - 2
@@ -2144,6 +2191,14 @@ MonoBehaviour:
     elecSize: 0
     line:
     - -1
+  - timestamp: 51.40898
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
   - timestamp: 51.59474
     length: 0
     strength: 1
@@ -2154,19 +2209,19 @@ MonoBehaviour:
     - -1
   - timestamp: 52.13236
     length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 52.13236
+    length: 0
     strength: 5
     intensity: 0
     ind: 5
     elecSize: 0
     line:
     - 1
-  - timestamp: 52.13236
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
   - timestamp: 52.75574
     length: 0
     strength: 1
@@ -2176,7 +2231,7 @@ MonoBehaviour:
     line:
     - -2
     - -1
-  - timestamp: 53.7642
+  - timestamp: 53.7142
     length: 0
     strength: 7
     intensity: 0
@@ -2187,7 +2242,15 @@ MonoBehaviour:
     - -1
     - 1
     - 2
-  - timestamp: 54.26503
+  - timestamp: 54.07927
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 54.25503
     length: 0
     strength: 1
     intensity: 0
@@ -2211,6 +2274,15 @@ MonoBehaviour:
     line:
     - 0
   - timestamp: 56.42449
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+    - 1
+  - timestamp: 56.74957
     length: 0
     strength: 1
     intensity: 0
@@ -2247,7 +2319,7 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 0
-  - timestamp: 59.10478
+  - timestamp: 59.15444
     length: 0
     strength: 7
     intensity: 0
@@ -2257,6 +2329,15 @@ MonoBehaviour:
     - -2
     - 0
     - 2
+  - timestamp: 59.41986
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+    - 1
   - timestamp: 59.58241
     length: 0
     strength: 1
@@ -2266,7 +2347,7 @@ MonoBehaviour:
     line:
     - -1
     - 1
-  - timestamp: 60.19612
+  - timestamp: 60.18612
     length: 0
     strength: 7
     intensity: 0
@@ -2285,7 +2366,14 @@ MonoBehaviour:
     line:
     - -2
     - 2
-  - timestamp: 61.81508
+  - timestamp: 61.82008
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 61.82008
     length: 0
     strength: 5
     intensity: 0
@@ -2293,13 +2381,6 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 0
-  - timestamp: 61.81508
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
   - timestamp: 62.2527
     length: 0
     strength: 1
@@ -2325,6 +2406,14 @@ MonoBehaviour:
     line:
     - -2
     - 2
+  - timestamp: 64.76045
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 2
   - timestamp: 64.93287
     length: 0
     strength: 1
@@ -2340,7 +2429,7 @@ MonoBehaviour:
     ind: 12
     elecSize: 5
     line:
-    - -3
+    - 4
   - timestamp: 65.49383
     length: 0.5
     strength: 3
@@ -2348,7 +2437,7 @@ MonoBehaviour:
     ind: 12
     elecSize: 5
     line:
-    - 4
+    - -3
   - timestamp: 66.43229
     length: 0
     strength: 1
@@ -2360,15 +2449,6 @@ MonoBehaviour:
     - 2
   - timestamp: 67.13245
     length: 0
-    strength: 1
-    intensity: 0
-    ind: 1
-    elecSize: 0
-    line:
-    - -1
-    - 1
-  - timestamp: 67.13245
-    length: 0
     strength: 7
     intensity: 0
     ind: 7
@@ -2377,7 +2457,16 @@ MonoBehaviour:
     - -2
     - 0
     - 2
-  - timestamp: 67.59328
+  - timestamp: 67.13245
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
+    - 1
+  - timestamp: 67.43075
     length: 0
     strength: 1
     intensity: 0
@@ -2389,7 +2478,7 @@ MonoBehaviour:
     - 0
     - 1
     - 2
-  - timestamp: 68.08091
+  - timestamp: 68.18091
     length: 0
     strength: 2
     intensity: 0
@@ -2416,6 +2505,14 @@ MonoBehaviour:
     - -1
     - 1
     - 2
+  - timestamp: 70.07782
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
   - timestamp: 70.26358
     length: 0
     strength: 1
@@ -2441,6 +2538,14 @@ MonoBehaviour:
     line:
     - -1
     - 1
+  - timestamp: 72.74812
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
   - timestamp: 72.93388
     length: 0
     strength: 1
@@ -2477,7 +2582,7 @@ MonoBehaviour:
     line:
     - 1
     - 2
-  - timestamp: 75.58096
+  - timestamp: 75.41841
     length: 0
     strength: 1
     intensity: 0
@@ -2485,11 +2590,19 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 1
-  - timestamp: 76.12458
+  - timestamp: 75.57096
     length: 0
-    strength: 6
+    strength: 1
     intensity: 0
-    ind: 6
+    ind: 1
+    elecSize: 0
+    line:
+    - 1
+  - timestamp: 75.81315
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
     elecSize: 0
     line:
     - 1
@@ -2501,6 +2614,14 @@ MonoBehaviour:
     elecSize: 0
     line:
     - -1
+  - timestamp: 76.12458
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - 1
   - timestamp: 76.72475
     length: 0
     strength: 1
@@ -2516,6 +2637,15 @@ MonoBehaviour:
     ind: 10
     elecSize: 0
     line: []
+  - timestamp: 78.0715
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 1
+    - 2
   - timestamp: 78.25124
     length: 0
     strength: 1
@@ -2524,6 +2654,16 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 1
+    - 2
+  - timestamp: 78.48344
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 1
+    - 2
   - timestamp: 78.75488
     length: 0
     strength: 7
@@ -2534,7 +2674,6 @@ MonoBehaviour:
     - -2
     - -1
     - 0
-    - 1
   - timestamp: 79.41826
     length: 0
     strength: 1
@@ -2550,6 +2689,15 @@ MonoBehaviour:
     ind: 10
     elecSize: 0
     line: []
+  - timestamp: 80.759
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 1
+    - 2
   - timestamp: 80.93827
     length: 0
     strength: 1
@@ -2559,7 +2707,23 @@ MonoBehaviour:
     line:
     - 1
     - 2
-  - timestamp: 81.48238
+  - timestamp: 81.13052
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 1
+    - 2
+  - timestamp: 81.58238
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
+  - timestamp: 81.58238
     length: 0
     strength: 5
     intensity: 0
@@ -2567,14 +2731,15 @@ MonoBehaviour:
     elecSize: 0
     line:
     - -1
-  - timestamp: 81.48238
-    length: 0
-    strength: 2
-    intensity: 0
-    ind: 2
-    elecSize: 0
-    line: []
   - timestamp: 82.08254
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 82.40762
     length: 0
     strength: 1
     intensity: 0
@@ -2593,6 +2758,14 @@ MonoBehaviour:
     - -1
     - 0
     - 2
+  - timestamp: 83.4293
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 1
   - timestamp: 83.59184
     length: 0
     strength: 1
@@ -2636,7 +2809,23 @@ MonoBehaviour:
     - -1
     - 0
     - 1
+  - timestamp: 86.09959
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 2
   - timestamp: 86.26213
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 2
+  - timestamp: 86.47111
     length: 0
     strength: 1
     intensity: 0
@@ -2668,7 +2857,7 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 1
-  - timestamp: 94.64454
+  - timestamp: 94.55166
     length: 0
     strength: 1
     intensity: 0
@@ -2687,7 +2876,7 @@ MonoBehaviour:
     - -1
     - 0
     - 2
-  - timestamp: 97.57025
+  - timestamp: 97.43093
     length: 1.8
     strength: 3
     intensity: 0
@@ -2730,7 +2919,7 @@ MonoBehaviour:
     elecSize: 0
     line:
     - -1
-  - timestamp: 105.6115
+  - timestamp: 105.8901
     length: 0
     strength: 7
     intensity: 0
@@ -2823,7 +3012,7 @@ MonoBehaviour:
     elecSize: 8
     line:
     - -2
-  - timestamp: 117.7816
+  - timestamp: 117.8745
     length: 0
     strength: 7
     intensity: 0
@@ -2869,7 +3058,7 @@ MonoBehaviour:
     - -1
     - 0
     - 2
-  - timestamp: 122.0209
+  - timestamp: 121.7654
     length: 0
     strength: 1
     intensity: 0
@@ -2998,14 +3187,14 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 2
-  - timestamp: 133.2164
+  - timestamp: 133.4951
     length: 0
     strength: 10
     intensity: 0
     ind: 10
     elecSize: 0
     line: []
-  - timestamp: 134.3042
+  - timestamp: 134.1185
     length: 0
     strength: 1
     intensity: 0
@@ -3023,20 +3212,20 @@ MonoBehaviour:
     - 4
   - timestamp: 145.4766
     length: 0
-    strength: 5
-    intensity: 0
-    ind: 5
-    elecSize: 0
-    line:
-    - -1
-  - timestamp: 145.4766
-    length: 0
     strength: 6
     intensity: 0
     ind: 6
     elecSize: 0
     line:
     - 1
+  - timestamp: 145.4766
+    length: 0
+    strength: 5
+    intensity: 0
+    ind: 5
+    elecSize: 0
+    line:
+    - -1
   - timestamp: 146.1
     length: 0
     strength: 1
@@ -3192,6 +3381,30 @@ MonoBehaviour:
     - 0
     - 1
     - 2
+  - timestamp: 155.4808
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+  - timestamp: 155.5737
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+  - timestamp: 155.7595
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
   - timestamp: 156.131
     length: 0.8
     strength: 3
@@ -3200,7 +3413,31 @@ MonoBehaviour:
     elecSize: 8
     line:
     - -3
+  - timestamp: 156.99835
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
   - timestamp: 157.083
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+  - timestamp: 157.6171
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+  - timestamp: 157.7564
     length: 0
     strength: 1
     intensity: 0
@@ -3243,6 +3480,16 @@ MonoBehaviour:
     elecSize: 0
     line:
     - -2
+    - 0
+  - timestamp: 160.7517
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - -1
     - 0
   - timestamp: 160.9143
     length: 0
@@ -3308,6 +3555,14 @@ MonoBehaviour:
     line:
     - -1
     - -2
+  - timestamp: 166.0923
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
   - timestamp: 166.2549
     length: 0
     strength: 1
@@ -3358,7 +3613,7 @@ MonoBehaviour:
     - 0
     - 1
     - 2
-  - timestamp: 169.5985
+  - timestamp: 169.4128
     length: 0
     strength: 1
     intensity: 0
@@ -3394,6 +3649,14 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 0
+  - timestamp: 171.4097
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -1
   - timestamp: 171.5955
     length: 0
     strength: 1
@@ -3402,7 +3665,7 @@ MonoBehaviour:
     elecSize: 0
     line:
     - -1
-  - timestamp: 172.27205
+  - timestamp: 172.27757
     length: 0.8
     strength: 3
     intensity: 0
@@ -3410,6 +3673,22 @@ MonoBehaviour:
     elecSize: 8
     line:
     - -2
+  - timestamp: 173.5924
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 173.7781
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
   - timestamp: 174.09
     length: 0
     strength: 7
@@ -3429,13 +3708,14 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 0
-  - timestamp: 175.8018
+  - timestamp: 175.4268
     length: 0
-    strength: 2
+    strength: 1
     intensity: 0
-    ind: 2
+    ind: 1
     elecSize: 0
-    line: []
+    line:
+    - 0
   - timestamp: 175.8018
     length: 0
     strength: 6
@@ -3445,6 +3725,13 @@ MonoBehaviour:
     line:
     - -2
     - 1
+  - timestamp: 175.8018
+    length: 0
+    strength: 2
+    intensity: 0
+    ind: 2
+    elecSize: 0
+    line: []
   - timestamp: 176.7503
     length: 0
     strength: 1
@@ -3457,7 +3744,7 @@ MonoBehaviour:
     - 0
     - 1
     - 2
-  - timestamp: 177.4933
+  - timestamp: 177.49944
     length: 0.8
     strength: 3
     intensity: 0
@@ -3465,6 +3752,14 @@ MonoBehaviour:
     elecSize: 8
     line:
     - -1
+  - timestamp: 178.4221
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
   - timestamp: 178.87494
     length: 0
     strength: 1
@@ -3497,6 +3792,14 @@ MonoBehaviour:
     line:
     - 0
     - 1
+  - timestamp: 180.7441
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
   - timestamp: 181.1024
     length: 0
     strength: 7
@@ -3518,20 +3821,20 @@ MonoBehaviour:
     - 1
   - timestamp: 182.3034
     length: 0
-    strength: 6
-    intensity: 0
-    ind: 6
-    elecSize: 0
-    line:
-    - 1
-  - timestamp: 182.3034
-    length: 0
     strength: 5
     intensity: 0
     ind: 5
     elecSize: 0
     line:
     - -1
+  - timestamp: 182.3034
+    length: 0
+    strength: 6
+    intensity: 0
+    ind: 6
+    elecSize: 0
+    line:
+    - 1
   - timestamp: 182.7643
     length: 0
     strength: 1
@@ -3556,6 +3859,15 @@ MonoBehaviour:
     elecSize: 0
     line:
     - -1
+  - timestamp: 183.7627
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 1
+    - 2
   - timestamp: 184.2503
     length: 0
     strength: 1
@@ -3605,6 +3917,14 @@ MonoBehaviour:
     elecSize: 0
     line:
     - 0
+  - timestamp: 187.594
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
   - timestamp: 188.1745
     length: 0
     strength: 1
@@ -3624,6 +3944,18 @@ MonoBehaviour:
     ind: 10
     elecSize: 0
     line: []
+  - timestamp: 189.0801
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 1
+    - 2
   - timestamp: 189.5909
     length: 0
     strength: 1
@@ -3782,6 +4114,110 @@ MonoBehaviour:
     - -2
     - 0
     - 2
+  - timestamp: 198.2597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 198.3597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 198.4597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 198.5597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 198.6597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 198.7597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 198.8597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 198.9597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 199.0597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 199.1597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 199.2597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 199.3597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 199.4597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
   - timestamp: 199.463
     length: 0
     strength: 10
@@ -3789,6 +4225,22 @@ MonoBehaviour:
     ind: 10
     elecSize: 0
     line: []
+  - timestamp: 199.5597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
+  - timestamp: 199.6597
+    length: 0
+    strength: 9
+    intensity: 0
+    ind: 9
+    elecSize: 0
+    line:
+    - 0
   - timestamp: 199.7597
     length: 0
     strength: 9
@@ -3932,7 +4384,28 @@ MonoBehaviour:
     ind: 10
     elecSize: 0
     line: []
-  - timestamp: 205.4037
+  - timestamp: 205.1019
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 1
+    - 2
+  - timestamp: 205.6359
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - 2
+  - timestamp: 205.8217
     length: 0
     strength: 1
     intensity: 0
@@ -3972,6 +4445,27 @@ MonoBehaviour:
     ind: 10
     elecSize: 0
     line: []
+  - timestamp: 207.7489
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - -1
+    - 0
+    - 1
+    - 2
+  - timestamp: 208.3991
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - 2
   - timestamp: 208.7574
     length: 0
     strength: 7
@@ -4001,6 +4495,15 @@ MonoBehaviour:
     ind: 10
     elecSize: 0
     line: []
+  - timestamp: 210.4192
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - -2
+    - 2
   - timestamp: 210.9068
     length: 0
     strength: 1
@@ -4121,6 +4624,14 @@ MonoBehaviour:
     - 0
     - 1
     - 2
+  - timestamp: 219.20168
+    length: 0
+    strength: 1
+    intensity: 0
+    ind: 1
+    elecSize: 0
+    line:
+    - 0
   - timestamp: 219.4286
     length: 1
     strength: 3

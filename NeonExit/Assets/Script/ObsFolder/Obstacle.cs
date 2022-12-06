@@ -198,20 +198,18 @@ public class Obstacle : MonoBehaviour
                     temp = obsDequeue(13);
                     temp.transform.position = new Vector3(xloc, 0.75f, player.transform.position.z + 100 + (x * 3));
                 }
+				for (int x = 1; x < elecSize; x++)
+				{
+					temp = obsDequeue(3);
+					temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 100 + x);
+					temp = obsDequeue(3);
+					temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 100 + x + 0.5f);
 
-                for (int x = 0; x < elecSize; x++)
-                {
-                    temp = obsDequeue(3);
-                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 100 + x);
-                    temp = obsDequeue(3);
-                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 100 + x + 0.5f);
-
-                    temp = obsDequeue(11);
-                    temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + x);
-                    temp.tag = "score";
-                }
-
-                float half = elecSize / 2;
+					temp = obsDequeue(11);
+					temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + x);
+					temp.tag = "score";
+				}
+				float half = elecSize / 2;
                 if (xloc == 3.3f)
                 {
                     temp = obsDequeue(11);
