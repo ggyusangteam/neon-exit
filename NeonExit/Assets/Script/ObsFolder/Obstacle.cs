@@ -215,17 +215,22 @@ public class Obstacle : MonoBehaviour
                 if (xloc == 3.3f)
                 {
                     temp = obsDequeue(11);
-                    temp.transform.position = new Vector3(2, 2, player.transform.position.z + 98 + half);
-                    temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize * 10) + 30);
+                    temp.transform.position = new Vector3(2, 2, player.transform.position.z + 96 + half);
+                    temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize * 10) + 40);
                     temp.tag = "rtruck";
                 }
                 else
                 {
                     temp = obsDequeue(11);
-                    temp.transform.position = new Vector3(-2, 2, player.transform.position.z + 98 + half);
-                    temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize * 10) + 30);
+                    temp.transform.position = new Vector3(-2, 2, player.transform.position.z + 96 + half);
+                    temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize * 10) + 40);
                     temp.tag = "ltruck";
                 }
+
+                temp = obsDequeue(11);
+                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + elecSize);
+                temp.tag = "score";
+                temp.GetComponent<Col>().score = 200;
             }
 
             else
