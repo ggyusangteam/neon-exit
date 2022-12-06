@@ -15,6 +15,7 @@ TagManager:
   - coin
   - ltruck
   - rtruck
+  - check
   layers:
   - Default
   - TransparentFX
