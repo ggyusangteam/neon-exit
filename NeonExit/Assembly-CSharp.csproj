@@ -53,16 +53,21 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\ObsFolder\Sign.cs" />
+    <Compile Include="Assets\Script\tutorial\bar.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\RhythmData.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\Track.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\DebugDrawer.cs" />
+    <Compile Include="Assets\RankCell.cs" />
+    <Compile Include="Assets\Script\tutorial\roc.cs" />
     <Compile Include="Assets\ObsAssets\WireBuilder\Scripts\Wire.cs" />
+    <Compile Include="Assets\TimeScaler.cs" />
     <Compile Include="Assets\ObsAssets\ARPG Effects\Scripts\ARPGFXRotation.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\RhythmPlayer.cs" />
+    <Compile Include="Assets\Script\tutorial\TPlayer.cs" />
     <Compile Include="Assets\Script\DataManager.cs" />
     <Compile Include="Assets\ObsAssets\WireBuilder\Scripts\WireGenerator.cs" />
     <Compile Include="Assets\Script\ScoreManager.cs" />
@@ -71,6 +76,7 @@
     <Compile Include="Assets\RhythmTool\Scripts\Chromagram.cs" />
     <Compile Include="Assets\Script\SubBassInteraction.cs" />
     <Compile Include="Assets\Script\CameraMove.cs" />
+    <Compile Include="Assets\Script\NickName.cs" />
     <Compile Include="Assets\RhythmTool\Examples\Scripts\Line.cs" />
     <Compile Include="Assets\Script\ObsFolder\Truck.cs" />
     <Compile Include="Assets\Script\ObsFolder\Electronic.cs" />
@@ -79,16 +85,20 @@
     <Compile Include="Assets\Script\ObsFolder\Rocket.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\Bindings.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\Util.cs" />
+    <Compile Include="Assets\Script\tutorial\coin.cs" />
     <Compile Include="Assets\Script\Audio.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\BeatTrack.cs" />
+    <Compile Include="Assets\GameOverPanel.cs" />
     <Compile Include="Assets\ObsAssets\ARPG Effects\Demo\Scripts\ARPGFXLoopScript.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\OnsetTrack.cs" />
     <Compile Include="Assets\Script\ProgressBar.cs" />
     <Compile Include="Assets\Script\ObsFolder\DestRoc.cs" />
+    <Compile Include="Assets\UIManager.cs" />
     <Compile Include="Assets\ObsAssets\WireBuilder\Scripts\WireConnectorGroup.cs" />
     <Compile Include="Assets\Script\ObsFolder\Coin.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\ChromaTrack.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\BeatTracker.cs" />
+    <Compile Include="Assets\Script\tutorial\tutorial.cs" />
     <Compile Include="Assets\ObsAssets\Sci-Fi Holographic Signs\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Script\ObsFolder\Barricade.cs" />
     <Compile Include="Assets\Script\LineManager.cs" />
@@ -102,6 +112,7 @@
     <Compile Include="Assets\Script\ObsFolder\Obstacle.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\RhythmAnalyzer.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\RhythmEventProvider.cs" />
+    <Compile Include="Assets\Script\tutorial\col.cs" />
     <Compile Include="Assets\ObsAssets\WireBuilder\Scripts\WireConnector.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\LomontFFT.cs" />
     <Compile Include="Assets\RhythmTool\Examples\Scripts\AudioClipSelector.cs" />
@@ -110,6 +121,7 @@
     <Compile Include="Assets\RhythmTool\Scripts\OnsetDetector.cs" />
     <Compile Include="Assets\ObsAssets\ARPG Effects\Demo\Scripts\ARPGSceneSelect.cs" />
     <Compile Include="Assets\Script\ObsFolder\Col.cs" />
+    <Compile Include="Assets\ResultPanel.cs" />
     <Compile Include="Assets\ObsAssets\ARPG Effects\Scripts\ARPGFXPortalScript.cs" />
     <Compile Include="Assets\ObsAssets\WireBuilder\Scripts\WireType.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\VolumeSampler.cs" />
@@ -122,7 +134,8 @@
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\RhythmTool\Examples\Scripts\Visualizer.cs" />
     <Compile Include="Assets\Script\ObsFolder\DestroyedCar.cs" />
-    <Compile Include="Assets\Script\NickName.cs" />
+    <Compile Include="Assets\Script\tutorial\elec.cs" />
+    <Compile Include="Assets\Script\GridLayout.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ObsAssets\LightningBolt\Readme.txt" />
@@ -353,15 +366,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -711,56 +715,44 @@
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{A28E0280-65F5-9F46-114F-116F2ABAB62C}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{B8F42E06-2AD9-2BC7-2B23-6A653D1EC849}</Project>
-      <Name>Unity.Postprocessing.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{B9E5AF14-7278-973E-A361-692E448896E7}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{08312D71-A875-8F9B-573B-BB75A80E15B7}</Project>
-      <Name>Unity.VisualStudio.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{23D51E4A-3D7A-9084-D899-914D9A9E1C3D}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{3866EF2E-4DF3-78B7-35CA-9AC7D452FB67}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{9EB89334-3E00-521F-7EA7-D15BB5E50B33}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{B2F6603B-E259-33A4-540B-A3E7A216B9F2}</Project>
-      <Name>Unity.Postprocessing.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{AA29C35C-E772-C055-25AA-D90364211874}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{BD2F0BA2-2D60-B666-D6C4-8E4ED08E71AD}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{DBF376B5-7138-4397-3747-25389639EA6A}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C0B72CC8-D7E0-0EC1-A858-6ECF52BCB83C}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
