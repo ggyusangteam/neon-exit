@@ -508,7 +508,7 @@ public class Player : MonoBehaviour
 
 		}
 		*/
-		if (audioSource.time == audioSource.clip.length)
+		if (audioSource.time > 1)
 		{
 			this.EndGame();
 		}
@@ -730,8 +730,21 @@ public class Player : MonoBehaviour
 	public void EndGame()
 	{
 		PauseManager.instance.EndPause(this.score, ScoreManager.instance.maxCombo);
-	  
-	
+
+
+		////db¿¬°á
+		////string strConn = "Data Source=192.168.0.68,1433;Initial Catalog=unity;User ID=User1;Password=1234";
+		//string strConn = "Data Source=172.30.1.14,1433;Initial Catalog=unity;User ID=User2;Password=1234";
+		//SqlConnection mssqlconn = new SqlConnection(strConn);
+		//mssqlconn.Open();
+		//SqlCommand cmd = new SqlCommand();
+		//cmd.Connection = mssqlconn;
+
+		////insert
+		//cmd.CommandText = "INSERT INTO score(name,score) values(" + PlayerPrefs.GetInt("NickName").ToString() + ","+ score +")";
+		//cmd.ExecuteNonQuery();
+
+		//mssqlconn.Close();
 	}
 
 }
