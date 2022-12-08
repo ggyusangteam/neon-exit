@@ -1155,7 +1155,7 @@ MonoBehaviour:
   downSpeed: 6
   jumpHeight: 0.3
   anim: {fileID: 1476810353}
-  sensitivity: 1
+  sensitivity: 0.3
 --- !u!54 &492154933
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4533,9 +4533,9 @@ CapsuleCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.2
-  m_Height: 1
+  m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.5, z: 0}
 --- !u!1 &673259889470205108
 GameObject:
   m_ObjectHideFlags: 0

@@ -39,7 +39,7 @@ public class Obstacle : MonoBehaviour
         }
 
 //#if UNITY_ANDROID
-//        arrivetime = arrivetime;
+//        arrivetime = 5;
 //#endif
 //#if UNITY_EDITOR
 //        arrivetime = arrivetime;
@@ -68,11 +68,11 @@ public class Obstacle : MonoBehaviour
                 for (int x = 0; x < len; x++)
                 {
                     temp = obsDequeue(ind);
-                    temp.transform.position = new Vector3(place.line[x], 0f, player.transform.position.z + 100);
+                    temp.transform.position = new Vector3(place.line[x], 0f, player.transform.position.z + 102);
                 }
 
                 temp = obsDequeue(11);
-                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + 0.5f);
+                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 102 + 0.5f);
                 temp.tag = "score";
             }
 
@@ -91,21 +91,21 @@ public class Obstacle : MonoBehaviour
                 for (int x = 0; x < len; x++)
                 {
                     temp = obsDequeue(ind);
-                    temp.transform.position = new Vector3(place.line[x] + 0.5f, 0f, player.transform.position.z + 100);
+                    temp.transform.position = new Vector3(place.line[x] + 0.5f, 0f, player.transform.position.z + 102);
                 }
 
                 temp = obsDequeue(11);
-                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + 0.5f);
+                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 102 + 0.5f);
                 temp.tag = "score";
             }
 
             else if (ind == 2)
             {
                 temp = obsDequeue(ind);
-                temp.transform.position = new Vector3(0, 1.2f, player.transform.position.z + 100);
+                temp.transform.position = new Vector3(0, 1.2f, player.transform.position.z + 102);
 
                 temp = obsDequeue(11);
-                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + 0.5f);
+                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 102 + 0.5f);
                 temp.tag = "score";
             }
 
@@ -135,9 +135,9 @@ public class Obstacle : MonoBehaviour
                 int elecSize = place.elecSize;
 
                 temp = obsDequeue(4);
-                temp.transform.position = new Vector3(place.line[0], 0.5f, player.transform.position.z + 100);
+                temp.transform.position = new Vector3(place.line[0], 0.5f, player.transform.position.z + 104);
                 temp = temp.transform.GetChild(10).gameObject;
-                temp.transform.position = new Vector3(place.line[0], 0.5f, player.transform.position.z + 100 + elecSize - 1);
+                temp.transform.position = new Vector3(place.line[0], 0.5f, player.transform.position.z + 104 + elecSize - 1);
 
                 //에디터 건드리는 코드 필요
                 //temp = temp.transform.GetChild(6).gameObject;
@@ -146,24 +146,24 @@ public class Obstacle : MonoBehaviour
                 for (int x = 1; x < elecSize - 1; x++)
                 {
                     temp = obsDequeue(ind);
-                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 100 + x);
+                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 104 + x);
                     temp = obsDequeue(ind);
-                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 100 + x + 0.5f);
+                    temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 104 + x + 0.5f);
 
                     temp = obsDequeue(11);
-                    temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + x);
+                    temp.transform.position = new Vector3(0, 2, player.transform.position.z + 104 + x);
                     temp.tag = "score";
                     temp.GetComponent<Col>().score = 10;
                 }
 
                 float half = elecSize / 2;
                 temp = obsDequeue(11);
-                temp.transform.position = new Vector3(place.line[0] + 1, 2, player.transform.position.z + 97 + half);
+                temp.transform.position = new Vector3(place.line[0] + 1, 2, player.transform.position.z + 101 + half);
                 temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize * 10)+20);
                 temp.tag = "electro";
 
                 temp = obsDequeue(11);
-                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + elecSize);
+                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 104 + elecSize);
                 temp.tag = "score";
                 temp.GetComponent<Col>().score = 200;
             }
@@ -191,42 +191,42 @@ public class Obstacle : MonoBehaviour
                 else xloc -= 0.3f;
 
                 temp = obsDequeue(ind);
-                temp.transform.position = new Vector3(xloc, 0, player.transform.position.z + 97.5f);
+                temp.transform.position = new Vector3(xloc, 0, player.transform.position.z + 102.5f);
 
                 for (int x = 0; x < elecSize / 3 + 1; x++)
                 {
                     temp = obsDequeue(13);
-                    temp.transform.position = new Vector3(xloc, 0.75f, player.transform.position.z + 100 + (x * 3));
+                    temp.transform.position = new Vector3(xloc, 0.75f, player.transform.position.z + 105 + (x * 3));
                 }
 				for (int x = 1; x < elecSize; x++)
 				{
 					temp = obsDequeue(3);
-					temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 100 + x);
+					temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 105 + x);
 					temp = obsDequeue(3);
-					temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 100 + x + 0.5f);
+					temp.transform.position = new Vector3(0, 0.5f, player.transform.position.z + 105 + x + 0.5f);
 
 					temp = obsDequeue(11);
-					temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + x);
+					temp.transform.position = new Vector3(0, 2, player.transform.position.z + 105 + x);
 					temp.tag = "score";
 				}
 				float half = elecSize / 2;
                 if (xloc == 3.3f)
                 {
                     temp = obsDequeue(11);
-                    temp.transform.position = new Vector3(2, 2, player.transform.position.z + 96 + half);
+                    temp.transform.position = new Vector3(2, 2, player.transform.position.z + 101 + half);
                     temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize * 10) + 40);
                     temp.tag = "rtruck";
                 }
                 else
                 {
                     temp = obsDequeue(11);
-                    temp.transform.position = new Vector3(-2, 2, player.transform.position.z + 96 + half);
+                    temp.transform.position = new Vector3(-2, 2, player.transform.position.z + 101 + half);
                     temp.transform.localScale = new Vector3(1 / 7f, 1, (elecSize * 10) + 40);
                     temp.tag = "ltruck";
                 }
 
                 temp = obsDequeue(11);
-                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 100 + elecSize);
+                temp.transform.position = new Vector3(0, 2, player.transform.position.z + 105 + elecSize);
                 temp.tag = "score";
                 temp.GetComponent<Col>().score = 200;
             }

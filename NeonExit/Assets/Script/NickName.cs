@@ -13,12 +13,14 @@ public class NickName : MonoBehaviour
     void Start()
     {
         //PlayerPrefs.DeleteKey("NickName");
-		/*
+		
+        /*
         if (PlayerPrefs.HasKey("NickName"))
         {
             startBtn.SetActive(true);
             inputNickName.SetActive(false);
-        }*/
+        }
+        */
     }
 
     // Update is called once per frame
