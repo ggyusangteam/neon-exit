@@ -131,11 +131,11 @@
     <Compile Include="Assets\ObsAssets\ARPG Effects\Demo\Scripts\ARPGFXCycler.cs" />
     <Compile Include="Assets\RhythmTool\Scripts\RhythmTarget.cs" />
     <Compile Include="Assets\Script\Sound.cs" />
+    <Compile Include="Assets\Script\GridLayout.cs" />
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\RhythmTool\Examples\Scripts\Visualizer.cs" />
     <Compile Include="Assets\Script\ObsFolder\DestroyedCar.cs" />
     <Compile Include="Assets\Script\tutorial\elec.cs" />
-    <Compile Include="Assets\Script\GridLayout.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ObsAssets\LightningBolt\Readme.txt" />
@@ -361,8 +361,23 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="I18N.Other">
+      <HintPath>Assets\Plugins\I18N.Other.dll</HintPath>
+    </Reference>
     <Reference Include="I18N.CJK">
       <HintPath>Assets\Plugins\I18N.CJK.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.West">
+      <HintPath>Assets\Plugins\I18N.West.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N">
+      <HintPath>Assets\Plugins\I18N.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.Rare">
+      <HintPath>Assets\Plugins\I18N.Rare.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.MidEast">
+      <HintPath>Assets\Plugins\I18N.MidEast.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
@@ -726,6 +741,9 @@
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>

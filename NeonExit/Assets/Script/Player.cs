@@ -7,6 +7,7 @@ using System.Data;
 
 public class Player : MonoBehaviour
 {
+	bool flag = false;
 	[SerializeField] AudioSource audioSource = null;
 	[SerializeField] GameObject soundManager;
 	public static Player instance;
@@ -85,35 +86,6 @@ public class Player : MonoBehaviour
 		currentColTransform = playerCol.center;
 		instance = this;
 		canMove = true;
-
-		/*
-        //db연결
-        string strConn = "Data Source=192.168.0.68,1433;Initial Catalog=unity;User ID=User1;Password=1234";
-        //string strConn = "Data Source=172.30.1.36,1433;Initial Catalog=unity;User ID=User2;Password=1234";
-        SqlConnection mssqlconn = new SqlConnection(strConn);
-        mssqlconn.Open();
-        SqlCommand cmd = new SqlCommand();
-        cmd.Connection = mssqlconn;
-
-        //select
-        cmd.CommandText = "SELECT * FROM score";
-        SqlDataReader rd = cmd.ExecuteReader();
-        Debug.Log("================================ 시작 ================================");
-        while (rd.Read())
-        {
-            Debug.Log(rd["name"].ToString() + " " + rd["score"].ToString());
-            score += int.Parse(rd["score"].ToString());
-        }
-        Debug.Log("================================ 끝 ================================");
-        rd.Close();
-		
-        //insert
-        //cmd.CommandText = "INSERT INTO score(name,score) values('bbb',1000)";
-        //cmd.ExecuteNonQuery();
-
-        //db연결 해제
-        mssqlconn.Close();
-        */
 	}
 
 	void Update()
@@ -508,8 +480,10 @@ public class Player : MonoBehaviour
 
 		}
 		*/
-		if (audioSource.time > 1)
+		//audioSource.clip.length - 5
+		if (audioSource.time > audioSource.clip.length - 5 && flag == false)
 		{
+			flag = true;
 			this.EndGame();
 		}
 	}
@@ -730,21 +704,6 @@ public class Player : MonoBehaviour
 	public void EndGame()
 	{
 		PauseManager.instance.EndPause(this.score, ScoreManager.instance.maxCombo);
-
-
-		////db연결
-		////string strConn = "Data Source=192.168.0.68,1433;Initial Catalog=unity;User ID=User1;Password=1234";
-		//string strConn = "Data Source=172.30.1.14,1433;Initial Catalog=unity;User ID=User2;Password=1234";
-		//SqlConnection mssqlconn = new SqlConnection(strConn);
-		//mssqlconn.Open();
-		//SqlCommand cmd = new SqlCommand();
-		//cmd.Connection = mssqlconn;
-
-		////insert
-		//cmd.CommandText = "INSERT INTO score(name,score) values(" + PlayerPrefs.GetInt("NickName").ToString() + ","+ score +")";
-		//cmd.ExecuteNonQuery();
-
-		//mssqlconn.Close();
 	}
 
 }
