@@ -8,8 +8,10 @@ public class GridLayout : MonoBehaviour
 {
     [SerializeField] GameObject rankCell;
     bool flag = false;
-    private int[] bestScore = new int[5];
-    private string[] bestName = new string[5];
+    bool getFlag = false;
+    private int[] bestScore = new int[100];
+    private string[] bestName = new string[100];
+
 
     // Start is called before the first frame update
     void Start()
@@ -32,65 +34,69 @@ public class GridLayout : MonoBehaviour
         //PlayerPrefs.SetInt(2 + "BestScore", 99436);
         //PlayerPrefs.SetString("2BestName", "hi");
 
-
-        if (flag == false)
+        if (getFlag == false)
         {
-            flag = true;
+            getFlag = true;
 
-            int currentScore = Player.instance.score;
-            string currentName = PlayerPrefs.GetString("NickName");
-
-            PlayerPrefs.SetString("CurrentPlayerName", currentName);
-            PlayerPrefs.SetInt("CurrentPlayerScore", currentScore);
-
-            int tempScore = 0;
-            string tempName = "";
-
-            for(int x = 0;x<5; x++)
+            if (flag == false)
             {
-                bestScore[x] = PlayerPrefs.GetInt(x + "BestScore");
-                bestName[x] = PlayerPrefs.GetString(x + "BestName");
+                flag = true;
 
-                while(bestScore[x] < currentScore)
+                int currentScore = Player.instance.score;
+                string currentName = PlayerPrefs.GetString("NickName");
+
+                PlayerPrefs.SetString("CurrentPlayerName", currentName);
+                PlayerPrefs.SetInt("CurrentPlayerScore", currentScore);
+
+                int tempScore = 0;
+                string tempName = "";
+
+                for (int x = 0; x < 100; x++)
                 {
-                    tempScore = bestScore[x];
-                    tempName = bestName[x];
-                    bestScore[x] = currentScore;
-                    bestName[x] = currentName;
+                    bestScore[x] = PlayerPrefs.GetInt(x + "BestScore");
+                    bestName[x] = PlayerPrefs.GetString(x + "BestName");
 
-                    PlayerPrefs.SetInt(x + "BestScore", currentScore);
-                    PlayerPrefs.SetString(x.ToString() + "BestName", currentName);
+                    while (bestScore[x] < currentScore)
+                    {
+                        tempScore = bestScore[x];
+                        tempName = bestName[x];
+                        bestScore[x] = currentScore;
+                        bestName[x] = currentName;
 
-                    currentScore = tempScore;
-                    currentName = tempName;
+                        PlayerPrefs.SetInt(x + "BestScore", currentScore);
+                        PlayerPrefs.SetString(x.ToString() + "BestName", currentName);
+
+                        currentScore = tempScore;
+                        currentName = tempName;
+                    }
+                }
+
+                for (int x = 0; x < 100; x++)
+                {
+                    PlayerPrefs.SetInt(x + "BestScore", bestScore[x]);
+                    PlayerPrefs.SetString(x.ToString() + "BestName", bestName[x]);
                 }
             }
+            if (flag == true)
+            {
+                GameObject inst = Instantiate(rankCell, this.transform);
+                GameObject t1 = inst.transform.GetChild(0).gameObject;
+                t1.GetComponent<UnityEngine.UI.Text>().text = "Me";
+                GameObject t2 = inst.transform.GetChild(1).gameObject;
+                t2.GetComponent<UnityEngine.UI.Text>().text = PlayerPrefs.GetString("CurrentPlayerName");
+                GameObject t3 = inst.transform.GetChild(2).gameObject;
+                t3.GetComponent<UnityEngine.UI.Text>().text = PlayerPrefs.GetInt("CurrentPlayerScore").ToString();
 
-            for(int x = 0;x<5; x++)
-            {
-                PlayerPrefs.SetInt(x + "BestScore", bestScore[x]);
-                PlayerPrefs.SetString(x.ToString() + "BestName", bestName[x]);
-            }
-        }
-        if(flag == true)
-        {
-            GameObject inst = Instantiate(rankCell, this.transform);
-            GameObject t1 = inst.transform.GetChild(0).gameObject;
-            t1.GetComponent<UnityEngine.UI.Text>().text = "Me";
-            GameObject t2 = inst.transform.GetChild(1).gameObject;
-            t2.GetComponent<UnityEngine.UI.Text>().text = PlayerPrefs.GetString("CurrentPlayerName");
-            GameObject t3 = inst.transform.GetChild(2).gameObject;
-            t3.GetComponent<UnityEngine.UI.Text>().text = PlayerPrefs.GetInt("CurrentPlayerScore").ToString();
-       
-            for(int x = 0;x<5; x++)
-            {
-                inst = Instantiate(rankCell, this.transform);
-                t1 = inst.transform.GetChild(0).gameObject;
-                t1.GetComponent<UnityEngine.UI.Text>().text = (x+1).ToString();
-                t2 = inst.transform.GetChild(1).gameObject;
-                t2.GetComponent<UnityEngine.UI.Text>().text = PlayerPrefs.GetString(x.ToString() + "BestName");
-                t3 = inst.transform.GetChild(2).gameObject;
-                t3.GetComponent<UnityEngine.UI.Text>().text = PlayerPrefs.GetInt(x+"BestScore").ToString();
+                for (int x = 0; x < 100; x++)
+                {
+                    inst = Instantiate(rankCell, this.transform);
+                    t1 = inst.transform.GetChild(0).gameObject;
+                    t1.GetComponent<UnityEngine.UI.Text>().text = (x + 1).ToString();
+                    t2 = inst.transform.GetChild(1).gameObject;
+                    t2.GetComponent<UnityEngine.UI.Text>().text = PlayerPrefs.GetString(x.ToString() + "BestName");
+                    t3 = inst.transform.GetChild(2).gameObject;
+                    t3.GetComponent<UnityEngine.UI.Text>().text = PlayerPrefs.GetInt(x + "BestScore").ToString();
+                }
             }
         }
 
@@ -98,7 +104,7 @@ public class GridLayout : MonoBehaviour
 
 
         ////db¿¬°á
-        //string strConn = "Data Source=125.142.26.54,9896;Initial Catalog=unity;User ID=neon;Password=exit";
+        //string strConn = "Data Source=;Initial Catalog=unity;User ID=neon;Password=exit";
         //SqlConnection mssqlconn = new SqlConnection(strConn);
         //mssqlconn.Open();
         //SqlCommand cmd = new SqlCommand();
