@@ -1,1 +1,1 @@
-This is a rhythm learning action game
+This is a rhythm running action game
